@@ -283,7 +283,7 @@ var bookmarks = {
 			4: ["围棋学研", "http://www.weiqiok.com/asp/Chinese.asp"],
 			5: ["煎蛋小组", "http://g.jandan.net/"],
 			6: ["虎嗅", "http://www.huxiu.com/"],
-			7: ["小木虫论坛", "http://muchong.com/bbs/index.php"],,
+			7: ["小木虫论坛", "http://muchong.com/bbs/index.php"],
 			8: ["学乐酷论坛", "http://bbs.xueleku.com"],
 			9: ["WaitButWhy", "http://waitbutwhy.com/"],
 			10: ["SonicBBS", "http://www.sonicbbs.com.cn/"],
@@ -571,7 +571,7 @@ var bookmarks = {
 			11: ["说文解字吧", "http://tieba.baidu.com/f?ie=utf-8&kw=说文解字"],
 			12: ["书法吧", "http://tieba.baidu.com/f?ie=utf-8&kw=书法"],
 			13: ["瘦金体吧", "http://tieba.baidu.com/f?ie=utf-8&kw=瘦金体"]
-		}
+		},
 		"Language": {
 			0: ["Google Translate", "http://translate.google.cn/"],
 			1: ["有道翻译", "http://fanyi.youdao.com/"],
