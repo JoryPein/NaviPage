@@ -1,0 +1,36 @@
+div.qrcode{}
+div.qrcode textarea#qrcodeTextArea{	
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	height: 258px;
+	width: 760px;
+	resize: none;
+	font-size: 20px;
+	font-family: YaHei;
+	outline: none;
+}
+div.qrcode button{
+	position: absolute;
+	width: 80px;
+	height: 40px;
+	left: 770px;
+	border-radius: 10px;
+	border: 1px;
+	outline: none;
+	cursor: pointer;
+}
+div.qrcode button#bt_md5encode{
+	top: 10px;
+}
+div.qrcode button#bt_b64encode{
+	top: 60px;
+}
+div.qrcode button#bt_b64decode{
+	top: 110px;
+}
+div.qrcode button#bt_urlencode{
+	top: 160px;
+}
+div.qrcode button#bt_urldecode{
+	top: 210px;
+}

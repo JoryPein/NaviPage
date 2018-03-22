@@ -1,0 +1,70 @@
+div.weather_panel {
+    position: relative;
+    top: 20px;
+    left: 50px;
+    margin-left: 20px;
+    height: 150px;
+    width: 600px;
+}
+span#wea_title {
+	color: white;
+}
+
+#city {    
+    color: red;
+}
+
+#temperature p {
+    position: relative;
+    width: 130px;
+    margin-top: 12px;;
+    color: white;
+}
+
+span#wind p {
+    position: relative;
+    width: 130px;
+    top: 0;
+    color: white;
+}
+
+div.date {
+    color: white;
+    height: 25px;
+    width: 250px;
+}
+div.pic {    
+    position: relative;
+    margin-top: -27px;
+    margin-left: 252px;
+    height: 30px;
+    width: 110px;
+}
+div.pic img {
+    width: 50px;
+}
+div.we {    
+    position: relative;
+    color: white;
+    height: 25px;
+    width: 90px;
+    margin-top: -27px;
+    margin-left: 365px;
+}
+
+div.xsecond {
+    position: relative;
+    height: 40px;
+    width: 130px;
+    margin-top: -40px;
+    margin-left: 480px;
+}
+div.lv1 {
+    margin-top: 10px;
+}
+div.lv2 {
+    margin-top: 20px;
+}
+div.lv3 {
+    margin-top: 20px;
+}

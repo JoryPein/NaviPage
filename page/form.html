@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<link href="img/googleg_lodp.ico" rel="shortcut icon">
+	<title>form</title>
+	<link href="../CSS/form.css" rel="stylesheet" type="text/css">
+	<link href="../CSS/waves.min.css" rel="stylesheet" type="text/css">
+	<link href="../CSS/panel1.css" rel="stylesheet" type="text/css">
+	<link href="../CSS/panel2.css" rel="stylesheet" type="text/css">
+	<link href="../CSS/panel3.css" rel="stylesheet" type="text/css">
+	<script src="../JavaScript/jquery-1.12.3.min.js"></script>
+	<script src="../JavaScript/qrcode.min.js"></script><!-- https://github.com/davidshimjs/qrcodejs -->
+	<script src="../JavaScript/base64.min.js"></script><!-- https://gitee.com/loonhxl/jbase64 -->
+	<script src="../JavaScript/md5.js"></script><!-- http://www.cnblogs.com/xinyueBlog/p/6179172.html -->
+	<script src="../JavaScript/waves.min.js"></script>
+	<script src="../JavaScript/bookmarks.js"></script>
+	<script src="../JavaScript/countbookmarks.js"></script>
+	<script src="../JavaScript/searchform.js"></script>
+	<script src="../JavaScript/search.js"></script>
+	<script src="../JavaScript/wea.js"></script>
+</head>
+<body>
+	<div class="form">
+		<div class="sbox">
+			<ul id="sboxu"></ul>
+		</div>
+		<div class="search_box">
+			<input class="kw" id="search_box" type="text" value="" name="q">
+		</div>
+		<div class="sbody"></div>
+		<div class="button">
+			<button id="button1"></button>
+			<button id="button2"></button>
+			<button id="button3"></button>
+		</div>
+		<div class="panel">
+			<div id="panel1" class="pl">		
+				<div class="weather_panel">			
+					<div class="zero">
+						<span id="wea_title" style="font-size: 15px;">[<span id="city"></span>]</span>
+					</div>
+					<div class="level">
+						<div class="lv1">
+							<div class="xfirst">
+								<div class="date">
+									<span id="date"></span>
+								</div>
+								<div class="pic">
+									<span id="day"></span>
+									<span id="night"></span>
+								</div>
+								<div class="we">
+									<span id="weather"></span>
+								</div>
+							</div>
+							<div class="xsecond">
+								<span id="temperature"><p></p></span>
+								<span id="wind"><p></p></span>
+							</div>
+						</div>
+						<div class="lv2">
+							<div class="xfirst">
+								<div class="date">
+									<span id="date"></span>
+								</div>
+								<div class="pic">
+									<span id="day"></span>
+									<span id="night"></span>
+								</div>
+								<div class="we">
+									<span id="weather"></span>
+								</div>
+							</div>
+							<div class="xsecond">
+								<span id="temperature"><p></p></span>
+								<span id="wind"><p></p></span>
+							</div>
+						</div>
+						<div class="lv3">
+							<div class="xfirst">
+								<div class="date">
+									<span id="date"></span>
+								</div>
+								<div class="pic">
+									<span id="day"></span>
+									<span id="night"></span>
+								</div>
+								<div class="we">
+									<span id="weather"></span>
+								</div>
+							</div>
+							<div class="xsecond">
+								<span id="temperature"><p></p></span>
+								<span id="wind"><p></p></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="panel2" class="pl">
+				<div class="qrcode">
+					<textarea id="qrcodeTextArea"></textarea>
+					<button id="bt_md5encode">md5encode</button>
+					<button id="bt_b64encode">b64encode</button>
+					<button id="bt_b64decode">b64decode</button>
+					<button id="bt_urlencode">urlencode</button>
+					<button id="bt_urldecode">urldecode</button>
+				</div>
+				<div id="qrcodepics">
+				</div>
+			</div>
+			<div id="panel3" class="pl">3</div>
+		</div>
+	</div>
+</body>
+</html>
