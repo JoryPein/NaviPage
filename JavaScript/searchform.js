@@ -14,6 +14,7 @@ var search_form = {
 		"GitHub": ["github","81d364","https://github.com/search?q="],
 		"StackOverflow": ["stackoverflow","f48024","http://stackoverflow.com/search?q="],
 		"SegmentFault": ["segmentfault","009a61","https://segmentfault.com/search?q="],
+		"SourceForge": ["sourceforge", "ff6600", "https://sourceforge.net/directory/?q="],
 		"OutOfMemory": ["outofmemory","244eb1","http://outofmemory.cn/search?q="],
 		"ADevelopers": ["AndroidDevelopers","6ab344","https://developer.android.com/index.html#q="],
 		"PHP": ["phpnet","8892BF","http://php.net/manual-lookup.php?pattern="],
