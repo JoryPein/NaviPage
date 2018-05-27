@@ -329,9 +329,9 @@ var bookmarks = {
 			5: ["虫部落", "http://www.chongbuluo.com/"],
 			6: ["设计师网址导航", "http://hao.uisdc.com/"],
 			7: ["程序导航", "http://google.59note.com/"],
-			8: ["鱼C工作室", "http://www.fishc.com/"],
-			9: ["福利档网址导航", "http://123.fulidang.com/"],
-			10: ["有趣网址之家", "http://youquhome.com/"]
+			8: ["福利档网址导航", "http://123.fulidang.com/"],
+			9: ["有趣网址之家", "http://youquhome.com/"],
+			10: ["安全圈", "https://www.anquanquan.info/"],
 		},
 		"Course": {
 			0: ["TED", "http://www.ted.com/"],
