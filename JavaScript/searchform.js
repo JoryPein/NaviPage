@@ -1,6 +1,6 @@
 var search_form = {
 	"Main": {
-		"Google": ["google", "4285f4", "https://www.google.com.tw/search?q=", "&safe=off"],
+		"Google": ["google", "4285f4", "https://www.google.com/search?q=", "&safe=off"],
 		"Duck2Go": ["duckduckgo", "de5833", "https://duckduckgo.com/?q="],
 		"Bing": ["bing", "ffb300", "https://cn.bing.com/search?q="],
 		"百度": ["baidu", "3388ff", "https://www.baidu.com/s?wd="],
