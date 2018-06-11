@@ -62,7 +62,7 @@ var search_form = {
 		"Webster": ["merriam-webster","2D5F7C","https://www.merriam-webster.com/dictionary/"],
 		"UrbanDict": ["UrbanDict","1d2439","http://www.urbandictionary.com/define.php?term="],
 		"BingDict": ["bingdict","0078d7","https://www.bing.com/dict/search?q="],
-		"Eudic": ["Eudic","64B5FF","http://dict.eudic.net/dicts/en/?kw="],
+		"Eudic": ["Eudic","64B5FF","http://dict.eudic.net/dicts/en/"],
 		"海词": ["SeaDict","2fb8cb","http://dict.cn/"],
 		"有道": ["YoudaoDict","e31435","http://dict.youdao.com/w/eng/"],
 		"爱词霸": ["Iciba","1596f5","http://www.iciba.com/?kw="],
