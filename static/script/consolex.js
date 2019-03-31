@@ -35,9 +35,9 @@ $(function(){
 	"                              ;9H#@@@@@@@@#H9;                             \n"+
 	"";
 	var url = "https://www.github.com/jorypein";
-	var ver = "1.7.7";
-	var date = "2017/09/21";
-	var athr = "JoryPein";
+	var ver = "1.08.00";
+	var date = "2019/03/31";
+	var athr = "Pion";
 	console.log(string);
 	console.log("Version: " + ver);
 	console.log("Date: " + date);

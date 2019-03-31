@@ -13,7 +13,7 @@ function seaBtn(name) {
 	lista.removeClass('clr1');
 	$('#'+name).addClass("clr1");
 	var content = "";
-	var i = " <i class=\"btn float-buttons waves-input-wrapper waves-effect waves-button waves-float\" style=\"color: rgb(255, 255, 255);\">";
+	var i = " <i class=\"btn float-buttons waves-input-wrapper waves-effect waves-float\" style=\"color: rgb(255, 255, 255);\">";
 	for (var j in search_form[name]) {
 		var btn_value = j;
 		var btn_id = search_form[name][j][0];
@@ -23,6 +23,13 @@ function seaBtn(name) {
 	};
 	$('body div.form div.sbody').html(content);
 };
+
+function process_keyword(keyword){
+	keyword = keyword.replace(/#/g, "%23");
+	keyword = keyword.replace(/\+/g, "%2B");
+	return keyword;
+}
+
 function ss(btn_id) {
 	var keyword = $("#search_box").val();
 	for (var i in search_form) {
@@ -33,6 +40,7 @@ function ss(btn_id) {
 				if(url2 == undefined){
 					url2 = "";
 				}
+				keyword = process_keyword(keyword);
 				window.open(url + keyword + url2);
 			}
 		}
@@ -45,6 +53,7 @@ $(document).ready(function(){
 		if(event.which==13){
 			var keyword = $(this).val();
 			var url = "https://www.baidu.com/s?wd=";
+			keyword = process_keyword(keyword);
 			window.open(url+keyword);
 		};
 	});

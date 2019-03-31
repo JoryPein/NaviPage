@@ -43,8 +43,8 @@ body {
 	position:fixed;
 	z-index:4;
 	margin:0;
-	background-color:#326698;
-	border-bottom: 1px #326698 solid;
+	background-color: #000000;
+	border-bottom: 1px #000 solid;
 }
 
 .nav .list a {
@@ -59,12 +59,11 @@ body {
 }
 
 .nav .list a:hover {
-	color:#FFA304;
+	color:#ff0;
 }
 
 .nav .list a:hover,.nav .list .now {
-	color:red;
-	background:#326698
+	color:#ff0;
 }
 
 .nav .list a#time {
@@ -73,7 +72,7 @@ body {
 	margin-left:-5px;
 	margin-top: 2px;
 	text-align:center;
-	font:bold 15px/36px å®‹ä½“;
+	font:bold 15px/36px;
 	display:inline-block;
 	text-decoration:none;
 	padding:0 16px;
@@ -83,90 +82,22 @@ body {
 	color:#1b95e0;
 }
 
-.nav .list ul li a#listIT {
-	color: #00f;
-}
-
-.nav .list ul li a#listIT:hover {
-	background-color: #00f;
-	color: #fff;
-}
-
-.nav .list ul li a#listNEWS {
-	color: #0ee;
-}
-
-.nav .list ul li a#listNEWS:hover {
-	background-color: #0ee;
-	color: #fff;
-}
-
-.nav .list ul li a#listArticle {
-	color: #000;
-}
-
-.nav .list ul li a#listArticle:hover {
-	background-color: #000;
-	color: #fff;
-}
-.nav .list ul li a#listClass {
-	color: #ccc;
-}
-
-.nav .list ul li a#listClass:hover {
-	background-color: #ccc;
-	color: #fff;
-}
-.nav .list ul li a#listMedia {
-	color: #f0f;
-}
-
-.nav .list ul li a#listMedia:hover {
-	background-color: #f0f;
-	color: #fff;
-}
-.nav .list ul li a#listCulture {
-	color: #f00;
-}
-
-.nav .list ul li a#listCulture:hover {
-	background-color: #f00;
-	color: #fff;
-}
-.nav .list ul li a#listEntertm {
-	color: #ee0;
-}
-
-.nav .list ul li a#listEntertm:hover {
-	background-color: #ee0;
-	color: #fff;
-}
-.nav .list ul li a#listLife {
-	color: #0f0;
-}
-
-.nav .list ul li a#listLife:hover {
-	background-color: #0f0;
-	color: #fff;
-}
 .nav .box
 {
 	position:absolute;
 	left:227px;
 	top:42px;
 	width:1000px;
-	background-color: #326698;
 	overflow:hidden;
 	height:0;
 	filter:alpha(opacity=0);
 	opacity:0;
-	border-bottom:2px solid #074c52;
 }
 
 .nav .cont {
 	position:relative;
 	padding:25px 0 0 24px;
-	background-color: #326698;
+	background-color: #000000;
 }
 
 .sublist li {
@@ -200,7 +131,7 @@ body {
 }
 
 .sublist li p.mcate-item-bd a:hover {
-	color:#000;
+	color:#ff0;
 }
 
 div.all {
@@ -210,10 +141,8 @@ div.all {
 }
 
 div.footer {
-	background:rgba(0,0,0,.2);
-	border-top:1px solid #e1e1e1;
-	box-shadow:0 60px 0 #fff, 0 120px 0 #fff, 0 180px 0 #fff, 0 240px 0 #fff, 0 270px 60px #fff;
-	color:#999;
+	background: url("../../static/image/stripe.jpg");
+	color:#ff0;
 	position:relative;
 	width:100%;
 	min-height:20px;
@@ -231,20 +160,15 @@ li.tools {
 	text-decoration:none;
 	margin-top:10px;
 	margin-left:20px;
-	background-color: #fff;
 }
 
 a.tool {
 	-moz-transition:background-color .7s ease;
 	color:#4078c0;
-	text-decoration:none;
-	box-shadow:5px 5px 5px #888;
-	border-radius:5px;
 }
 
 a.tool:hover {
-	color:#fff;
-	background:#a6a6a6;
+	color:#ff0;
 }
 
 div.copyright {
@@ -267,6 +191,7 @@ img#backtop {
 	height:45px;
 	width:45px;
 	z-index:20;
+	border-radius: 100%;
 }
 
 .nav .list li,.sbox ul li {
@@ -284,4 +209,3 @@ div.arck {
 }
 div.arck iframe {
 	border: 0;
-}

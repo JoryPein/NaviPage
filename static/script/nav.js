@@ -79,9 +79,9 @@ $(function(){
 		return false;  
 	});
 	$(backtop).hover(function() {
-		$(backtop).attr("src","./img/backtop-1.png");
+		$(backtop).attr("src","static/image/backtop-1.png");
 	}, function() {
 		/* Stuff to do when the mouse leaves the element */
-		$(backtop).attr("src","./img/backtop-0.png");
+		$(backtop).attr("src","static/image/backtop-0.png");
 	});
 });
