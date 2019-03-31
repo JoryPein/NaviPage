@@ -142,6 +142,9 @@ div.all {
 
 div.footer {
 	background: url("../../static/image/stripe.jpg");
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
 	color:#ff0;
 	position:relative;
 	width:100%;
