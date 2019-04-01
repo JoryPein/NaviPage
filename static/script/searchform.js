@@ -28,6 +28,7 @@ var search_form = {
 		"Shodan": ["Shodan","c61612","https://www.shodan.io/search?query="],
 		"Zoomeye": ["Zoomeye","01acfe","https://www.zoomeye.org/search?q="],
 		"Censys": ["censys","4688F1","https://censys.io/domain?q="],
+        "Pypi": ["pypi","0073B7","https://pypi.org/search/?q="],
         "MozillaDev": ["MozillaDev","000","https://developer.mozilla.org/en-US/search?q="],
 
 
