@@ -30,7 +30,7 @@ var search_form = {
 		"Censys": ["censys","4688F1","https://censys.io/domain?q="],
         "Pypi": ["pypi","0073B7","https://pypi.org/search/?q="],
         "MozillaDev": ["MozillaDev","000","https://developer.mozilla.org/en-US/search?q="],
-
+        "TorRelay": ["TorRelay", "7C4597", "https://metrics.torproject.org/rs.html#search/"]
 
 	},
 	"Community": {
