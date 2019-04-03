@@ -5,7 +5,7 @@ var search_form = {
 		"Bing": ["bing", "ffb300", "https://cn.bing.com/search?q="],
 		"百度": ["baidu", "3388ff", "https://www.baidu.com/s?wd="],
 		"Yahoo": ["yahoo","824dfe","https://search.yahoo.com/search?p="],
-		"YahooJP": ["yahoojp","824dfe","https://search.yahoo.co.jp/search?p="],
+		"YahooJapan": ["yahoojp","824dfe","https://search.yahoo.co.jp/search?p="],
 		"搜狗": ["sogou","fd6853","https://www.sogou.com/web?query="],
 		"SO360": ["sll","19b955","https://www.so.com/s?q="]
 	},
@@ -66,12 +66,13 @@ var search_form = {
 		"PDF": ["pdfSearchEngine","FA7575","http://pdf-downloads.net/", "-pdf.html"]
 	},
 	"Dictionary": {
+		"Google": ["googletranslate","000","https://translate.google.cn/#view=home&op=translate&sl=auto&tl=zh-CN&text="],
 		"Etymology": ["etymonline","700020","http://www.etymonline.com/index.php?search="],
 		"Dictionary": ["Dictc","3c7bbe","http://www.dictionary.com/browse/?kw="],
 		"FreeDict": ["FreeDict","2eb398","http://www.thefreedictionary.com/?kw="],
 		"Webster": ["merriam-webster","2D5F7C","https://www.merriam-webster.com/dictionary/"],
-		"UrbanDict": ["UrbanDict","1d2439","http://www.urbandictionary.com/define.php?term="],
-		"BingDict": ["bingdict","0078d7","https://www.bing.com/dict/search?q="],
+		"Urban": ["UrbanDict","1d2439","http://www.urbandictionary.com/define.php?term="],
+		"Bing": ["bingdict","0078d7","https://www.bing.com/dict/search?q="],
 		"Eudic": ["Eudic","64B5FF","http://dict.eudic.net/dicts/en/?kw="],
 		"海词": ["SeaDict","2fb8cb","http://dict.cn/"],
 		"有道": ["YoudaoDict","e31435","http://dict.youdao.com/w/eng/"],
@@ -101,11 +102,11 @@ var search_form = {
 		"Coursera": ["coursera","428bca","https://www.coursera.org/courses?query="]
 	},
 	"Image": {
-		"GoImage": ["googleimage","000000","https://www.google.com.hk/search?q="],
+		"Google": ["googleimage","000000","https://www.google.com.hk/search?q="],
 		"Tumblr": ["tumblr","2f3d51","https://www.tumblr.com/search?q="],
 		"Pinterest": ["pinterest","bd081c","https://www.pinterest.com/search/?q="],
-		"百度图片": ["baiduimage","3388ff","https://image.baidu.com/search/index?tn=baiduimage&ipn=r&word="],
-		"搜狗图片": ["sougouimage","454251","http://pic.sogou.com/pics?query="],
+		"百度": ["baiduimage","3388ff","https://image.baidu.com/search/index?tn=baiduimage&ipn=r&word="],
+		"搜狗": ["sougouimage","454251","http://pic.sogou.com/pics?query="],
 		"花瓣": ["petal","D43636","http://huaban.com/search/?q="],
 		"Pixabay": ["Pixabay","333","https://pixabay.com/zh/photos/?q="],
 		"IconPng": ["iconpng","8CDE22","http://www.iconpng.com/search/tag="],
