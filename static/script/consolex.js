@@ -1,5 +1,5 @@
 $(function(){
-	var string = ""+
+	var flag = ""+
 	"                 59                                     .Gs                \n"+
 	"               ;95  .                                    ,S3,              \n"+
 	"             :XAi :&h                                  3X. 1H8.            \n"+
@@ -34,15 +34,10 @@ $(function(){
 	"                      ...   ;&@@@@@@@@@@@@@@@@&;   ..                      \n"+
 	"                              ;9H#@@@@@@@@#H9;                             \n"+
 	"";
-	var url = "https://www.github.com/jorypein";
-	var ver = "1.08.00";
-	var date = "2019/03/31";
-	var athr = "Pion";
-	console.log(string);
+	console.log(flag);
 	console.log("Version: " + ver);
 	console.log("Date: " + date);
 	console.log("Bookmark Number: " + bmCount);
 	console.log("Provider: " + athr);
 	console.log("Contact with me: "+ url);
-	console.log("emxpYi5kZWNvbXByZXNzKHic09aGgGg7O21tOxDLDiIApZAYKEw0DgYXiwBWIRyCOIXxSOCVIiCprW2DBnRj7SAApkBPV1dXz04XROqBuFBlYKAHAO2zOrwp")
 });

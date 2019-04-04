@@ -4,9 +4,10 @@ Release History
 ## 1.8.0 (2019-03-31)
 
 **Improvements**
-
 - beautify style and project structure
 - add bookmark and search items
+- translate Search selector's Title to Chinese
+- translate Bookmark selector's Title to Chinese
 
 ## 1.7.0 (2017-09-21)
 
@@ -45,9 +46,7 @@ Release History
 - fix some bugs
 
 **Improvements**
-
 - add bookmark and search items
-
 - add bookmark area item
 - change css
 - change search area position
@@ -139,7 +138,6 @@ Release History
 ## 0.1.0 (2016)
 
 **Improvements**
-
 - add bottom tool bar's shadow  
 - add navigator  
 - change navigator's layout as list

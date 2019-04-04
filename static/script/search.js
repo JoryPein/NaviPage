@@ -47,7 +47,7 @@ function ss(btn_id) {
 	}
 };
 $(document).ready(function(){
-	var name = "Main";
+	var name = "搜索";
 	seaBtn(name);
 	$("#search_box").keyup(function(){
 		if(event.which==13){

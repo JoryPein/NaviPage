@@ -665,7 +665,7 @@ var bookmarks = {
             }
         ]
     },
-    "NEWS": {
+    "新闻": {
         "International": [
             {
                 "name": "YahooNews",
@@ -873,7 +873,7 @@ var bookmarks = {
             }
         ]
     },
-    "Article": {
+    "阅读": {
         "Encyclopedia": [
             {
                 "name": "Wikipedia",
@@ -1135,7 +1135,7 @@ var bookmarks = {
             }
         ]
     },
-    "Class": {
+    "导航": {
         "Navigator": [
             {
                 "name": "神马导航",
@@ -1431,7 +1431,7 @@ var bookmarks = {
             }
         ]
     },
-    "Media": {
+    "社交": {
         "Social": [
             {
                 "name": "Facebook",
@@ -1735,7 +1735,7 @@ var bookmarks = {
             }
         ]
     },
-    "Culture": {
+    "文化": {
         "Book": [
             {
                 "name": "ProjectGutenberg",
@@ -2045,7 +2045,7 @@ var bookmarks = {
             }
         ]
     },
-    "Entertm": {
+    "娱乐": {
         "Usual": [
             {
                 "name": "PingWest",
@@ -2259,7 +2259,7 @@ var bookmarks = {
             }
         ]
     },
-    "Life": {
+    "生活": {
         "Market": [
             {
                 "name": "淘宝",
@@ -2355,7 +2355,7 @@ var bookmarks = {
             },
             {
                 "name": "Code-History",
-                "url": "https://jorypein.github.io/NaviPage/history.md"
+                "url": "./history.md"
             }
         ]
     }
