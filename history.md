@@ -4,7 +4,9 @@ Release History
 ## 1.8.0 (2019-03-31)
 
 **Improvements**
+
 - beautify style and project structure
+- add bookmark and search items
 
 ## 1.7.0 (2017-09-21)
 
@@ -30,12 +32,10 @@ Release History
 **Bugfixes**
 - fix bug
 - 
-**Improvements**
-- add color for search items, add search items
-- add bookmark items
+  **Improvements**
+- add color for search items
 - new bookmark bar item
-- add bookmark item
-- add search item
+- add bookmark and search items
 - adjust the seach item position
 - add search item colour 
 
@@ -45,8 +45,9 @@ Release History
 - fix some bugs
 
 **Improvements**
-- add bookmark items
-- add search items
+
+- add bookmark and search items
+
 - add bookmark area item
 - change css
 - change search area position

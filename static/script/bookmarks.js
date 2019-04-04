@@ -2350,8 +2350,12 @@ var bookmarks = {
                 "url": "https://myactivity.google.com/myactivity"
             },
             {
-                "name": "CodeDownload",
+                "name": "Code-Download",
                 "url": "https://codeload.github.com/JoryPein/NaviPage/zip/master"
+            },
+            {
+                "name": "Code-History",
+                "url": "https://jorypein.github.io/NaviPage/history.md"
             }
         ]
     }
