@@ -7,7 +7,7 @@ var search_form = {
         "Yahoo": ["yahoo","824dfe","https://search.yahoo.com/search?p="],
         "Yahoo Japan": ["yahoojp","824dfe","https://search.yahoo.co.jp/search?p="],
         "搜狗": ["sogou","fd6853","https://www.sogou.com/web?query="],
-        "SO360": ["sll","19b955","https://www.so.com/s?q="]
+        "搜索360": ["so360","19b955","https://www.so.com/s?q="]
     },
     "IT": {
         "GitHub": ["github","81d364","https://github.com/search?q="],
@@ -43,7 +43,7 @@ var search_form = {
         "贴吧": ["tieba","5b95f0","http://tieba.baidu.com/f?kw="],
         "微博": ["SinaWeibo","ff9b37","http://s.weibo.com/weibo/"],
         "微信": ["weixin","06b04f","http://weixin.sogou.com/weixin?type=2&query="],
-        "2CH": ["twoch","6e80aa","http://find.2ch.sc/?STR="],
+        "2ch": ["twoch","6e80aa","http://find.2ch.sc/?STR="],
         "CNKI": ["cnki","f48400","http://scholar.cnki.net/result.aspx?q="],
         "豆瓣": ["douban","228a31","https://www.douban.com/search?q="],
         "果壳": ["guokr","a5d92e","http://www.guokr.com/search/all/?wd="],
@@ -62,7 +62,6 @@ var search_form = {
         "GOT Wiki": ["GOTWiki","222222","http://gameofthrones.wikia.com/wiki/Special:Search?search="],
         "煮酒论史": ["tianya","0084c4","http://search.tianya.cn/bbs?q="],
         "殆知阁": ["fanren8","337ab7","http://122.200.75.13/result.php"],
-        "搜韵": ["souyun","b1ad7c","http://sou-yun.com/QueryPoem.aspx"],
         "搜神": ["soshen","359a34","http://m.soshen.cn/spring/soshen/search?canshu="],
         "PDF": ["pdfSearchEngine","FA7575","http://pdf-downloads.net/", "-pdf.html"]
     },
