@@ -1,7 +1,7 @@
 var search_form = {
 	"Main": {
 		"Google": ["google", "4285f4", "https://www.google.com/search?q=", "&safe=off"],
-		"Duck2Go": ["duckduckgo", "de5833", "https://duckduckgo.com/?q="],
+		"DuckDuckGo": ["duckduckgo", "de5833", "https://duckduckgo.com/?q="],
 		"Bing": ["bing", "ffb300", "https://cn.bing.com/search?q="],
 		"百度": ["baidu", "3388ff", "https://www.baidu.com/s?wd="],
 		"Yahoo": ["yahoo","824dfe","https://search.yahoo.com/search?p="],
@@ -28,10 +28,12 @@ var search_form = {
 		"Shodan": ["Shodan","c61612","https://www.shodan.io/search?query="],
 		"Zoomeye": ["Zoomeye","01acfe","https://www.zoomeye.org/search?q="],
 		"Censys": ["censys","4688F1","https://censys.io/domain?q="],
-        "Pypi": ["pypi","0073B7","https://pypi.org/search/?q="],
+        "PyDoc": ["python3documentation", "0073B7", "https://docs.python.org/3/search.html?q="],
+        "PyPi": ["pypi","0073B7","https://pypi.org/search/?q="],
         "MozillaDev": ["MozillaDev","000","https://developer.mozilla.org/en-US/search?q="],
         "TorRelay": ["TorRelay", "7C4597", "https://metrics.torproject.org/rs.html#search/"],
         "npm": ["npmjs", "FB3E44", "https://www.npmjs.com/search?q="],
+
 	},
 	"Community": {
 		"经验": ["jingyan","43bf0f","http://jingyan.baidu.com/search?word="],
@@ -126,12 +128,12 @@ var search_form = {
 		"喜马拉雅": ["ximalaya","ff4611","http://www.ximalaya.com/search/all/kw/"]
 	},
 	"Life": {
-		"Amazon": ["amazon","232f3e","https://www.amazon.com/s/ref=nb_sb_noss?field-keywords="],
 		"淘宝": ["taobao","ff4400","https://s.taobao.com/search?q="],
 		"天猫": ["tmall","dd2727","https://list.tmall.com/search_product.htm?q="],
 		"京东": ["jd","c91623","http://search.jd.com/Search?keyword=","&enc=utf-8"],
 		"1688": ["1688", "FF500B", "https://s.1688.com/selloffer/offer_search.htm?keywords="],
 		"当当": ["dandan","ff2832","http://search.dangdang.com/?key="],
+		"Amazon": ["amazon","232f3e","https://www.amazon.com/s/ref=nb_sb_noss?field-keywords="],
 		"闲鱼": ["xianyu","333","https://www.baidu.com/s?wd="," site:s.2.taobao.com"],
 		"GoogleMap": ["GoogleMap","679DF6","http://www.google.cn/maps/search/"],
 		"高德地图": ["gaodeditu","0093FD","http://ditu.amap.com/search?query="],

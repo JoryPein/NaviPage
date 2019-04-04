@@ -1,683 +1,2358 @@
 var bookmarks = {
-  "IT": {
-    "ITNEWS": {
-      0: ["HackerNews","https://news.ycombinator.com/"],
-      1: ["FreeBuf","http://www.freebuf.com/"],
-      2: ["开发者头条","https://toutiao.io/latest"],
-      3: ["掘金","http://gold.xitu.io/"],
-      4: ["极客公园","http://www.geekpark.net/"],
-      5: ["InfoQ","http://www.infoq.com/cn/"],
-      6: ["V2EX","http://v2ex.com/"],
-      7: ["程序师","http://www.techug.com/"],
-      8: ["酷壳","http://coolshell.cn/"],
-      9: ["推酷","http://www.tuicool.com/"],
-      10: ["互联网的那点事","http://www.alibuybuy.com/"],
-      11: ["36氪","http://36kr.com/"],
-      12: ["Next-36氪","http://next.36kr.com/posts"],
-      13: ["IT之家","http://www.ithome.com/"],
-      14: ["与非网","http://www.eefocus.com/"],
-      15: ["TechCrunch","https://techcrunch.com/"],
-      16: ["中关村在线","http://www.zol.com.cn/"],
-      17: ["51CTO","http://www.51cto.com/"],
-      18: ["WEB云端/研究所","https://www.yhspy.com/"],
-      19: ["NEWSBTC","http://www.newsbtc.com/"],
-      20: ["开源中文网","http://www.91linux.com/"]
+    "IT": {
+        "ITNEWS": [
+            {
+                "name": "HackerNews",
+                "url": "https://news.ycombinator.com/"
+            },
+            {
+                "name": "FreeBuf",
+                "url": "http://www.freebuf.com/"
+            },
+            {
+                "name": "开发者头条",
+                "url": "https://toutiao.io/latest"
+            },
+            {
+                "name": "掘金",
+                "url": "http://gold.xitu.io/"
+            },
+            {
+                "name": "极客公园",
+                "url": "http://www.geekpark.net/"
+            },
+            {
+                "name": "InfoQ",
+                "url": "http://www.infoq.com/cn/"
+            },
+            {
+                "name": "V2EX",
+                "url": "http://v2ex.com/"
+            },
+            {
+                "name": "程序师",
+                "url": "http://www.techug.com/"
+            },
+            {
+                "name": "酷壳",
+                "url": "http://coolshell.cn/"
+            },
+            {
+                "name": "推酷",
+                "url": "http://www.tuicool.com/"
+            },
+            {
+                "name": "互联网的那点事",
+                "url": "http://www.alibuybuy.com/"
+            },
+            {
+                "name": "36氪",
+                "url": "http://36kr.com/"
+            },
+            {
+                "name": "Next-36氪",
+                "url": "http://next.36kr.com/posts"
+            },
+            {
+                "name": "IT之家",
+                "url": "http://www.ithome.com/"
+            },
+            {
+                "name": "与非网",
+                "url": "http://www.eefocus.com/"
+            },
+            {
+                "name": "TechCrunch",
+                "url": "https://techcrunch.com/"
+            },
+            {
+                "name": "中关村在线",
+                "url": "http://www.zol.com.cn/"
+            },
+            {
+                "name": "51CTO",
+                "url": "http://www.51cto.com/"
+            },
+            {
+                "name": "WEB云端/研究所",
+                "url": "https://www.yhspy.com/"
+            },
+            {
+                "name": "NEWSBTC",
+                "url": "http://www.newsbtc.com/"
+            },
+            {
+                "name": "开源中文网",
+                "url": "http://www.91linux.com/"
+            }
+        ],
+        "Code": [
+            {
+                "name": "Github",
+                "url": "https://github.com"
+            },
+            {
+                "name": "StackOverflow",
+                "url": "http://stackoverflow.com/"
+            },
+            {
+                "name": "SegmentFault",
+                "url": "https://segmentfault.com/"
+            },
+            {
+                "name": "OutOfMemory",
+                "url": "http://outofmemory.cn/"
+            },
+            {
+                "name": "CODE",
+                "url": "https://code.csdn.net/explore/projects"
+            },
+            {
+                "name": "CTOLib",
+                "url": "http://www.ctolib.com/"
+            },
+            {
+                "name": "Github Trending",
+                "url": "https://github.com/trending"
+            },
+            {
+                "name": "Github New",
+                "url": "http://www.open-open.com/github/"
+            },
+            {
+                "name": "CodePlex",
+                "url": "http://www.codeplex.com/"
+            },
+            {
+                "name": "码云",
+                "url": "https://git.oschina.net/"
+            },
+            {
+                "name": "Google Developer",
+                "url": "https://developers.google.com/"
+            },
+            {
+                "name": "知识库",
+                "url": "http://lib.csdn.net/bases"
+            },
+            {
+                "name": "开源中国",
+                "url": "http://www.oschina.net/"
+            },
+            {
+                "name": "ACM之家",
+                "url": "http://www.acmerblog.com/"
+            },
+            {
+                "name": "Logic Guns",
+                "url": "http://www.logicguns.com/"
+            },
+            {
+                "name": "ProgramCreek",
+                "url": "http://www.programcreek.com/"
+            },
+            {
+                "name": "dll之家",
+                "url": "http://www.dllzj.com/index.html"
+            },
+            {
+                "name": "在线API文档",
+                "url": "http://tool.oschina.net/apidocs"
+            },
+            {
+                "name": "在线工具",
+                "url": "http://tool.oschina.net/"
+            },
+            {
+                "name": "鱼C工作室",
+                "url": "http://bbs.fishc.com/forum.php"
+            },
+            {
+                "name": "编程论坛",
+                "url": "https://bbs.bccn.net/"
+            }
+        ],
+        "Web": [
+            {
+                "name": "W3Schools",
+                "url": "http://www.w3schools.com/"
+            },
+            {
+                "name": "W3School中文",
+                "url": "http://www.w3school.com.cn/index.html"
+            },
+            {
+                "name": "BootCSS",
+                "url": "http://www.bootcss.com/"
+            },
+            {
+                "name": "jQuery Plugins",
+                "url": "http://jquery-plugins.net/"
+            },
+            {
+                "name": "Node.js API",
+                "url": "http://nodeapi.ucdok.com"
+            },
+            {
+                "name": "RubyChina",
+                "url": "https://ruby-china.org/"
+            },
+            {
+                "name": "PHP中文网",
+                "url": "http://www.uncletoo.com/"
+            },
+            {
+                "name": "Shodan",
+                "url": "https://www.shodan.io/"
+            },
+            {
+                "name": "ZoomEye",
+                "url": "http://www.zoomeye.org/"
+            },
+            {
+                "name": "WEB骇客",
+                "url": "http://www.webhek.com"
+            },
+            {
+                "name": "菜鸟教程",
+                "url": "http://www.runoob.com/"
+            },
+            {
+                "name": "爱我技术",
+                "url": "http://ourjs.com/"
+            },
+            {
+                "name": "BlueIdea",
+                "url": "http://www.blueidea.com/"
+            },
+            {
+                "name": "优设",
+                "url": "http://www.uisdc.com/"
+            },
+            {
+                "name": "素材中国",
+                "url": "http://sc.chinaz.com/"
+            },
+            {
+                "name": "网站模板",
+                "url": "http://www.cssmoban.com/"
+            },
+            {
+                "name": "9秒社团",
+                "url": "http://www.9miao.com/"
+            },
+            {
+                "name": "Wopus",
+                "url": "http://www.wopus.org/"
+            },
+            {
+                "name": "JSRUN在线代码编辑器",
+                "url": "http://jsrun.net/"
+            },
+            {
+                "name": "阿里云",
+                "url": "https://www.aliyun.com/"
+            },
+            {
+                "name": "百度云",
+                "url": "https://cloud.baidu.com/"
+            },
+            {
+                "name": "Wopus",
+                "url": "http://www.wopus.org/"
+            },
+            {
+                "name": "石墨文档",
+                "url": "https://shimo.im/"
+            }
+        ],
+        "Network": [
+            {
+                "name": "乌云",
+                "url": "http://www.wooyun.org/"
+            },
+            {
+                "name": "i春秋",
+                "url": "https://www.ichunqiu.com/"
+            },
+            {
+                "name": "CTF社区",
+                "url": "http://www.bugku.com/"
+            },
+            {
+                "name": "红客联盟",
+                "url": "http://www.cnhonkerarmy.com/portal.php"
+            },
+            {
+                "name": "红黑联盟",
+                "url": "http://www.2cto.com/"
+            },
+            {
+                "name": "黑基网",
+                "url": "http://www.hackbase.com/"
+            },
+            {
+                "name": "黑客技术",
+                "url": "http://www.hackdig.com/"
+            },
+            {
+                "name": "神刀安全网",
+                "url": "http://www.shellsec.com/"
+            },
+            {
+                "name": "CVE中文",
+                "url": "http://cve.scap.org.cn/"
+            },
+            {
+                "name": "安全维基",
+                "url": "https://sec-wiki.com/"
+            },
+            {
+                "name": "爱尖刀",
+                "url": "http://www.ijiandao.com/"
+            },
+            {
+                "name": "BuiltWith",
+                "url": "http://builtwith.com/"
+            },
+            {
+                "name": "嗅密码",
+                "url": "http://www.xiumima.com/"
+            },
+            {
+                "name": "BugMeNot",
+                "url": "http://bugmenot.com/"
+            },
+            {
+                "name": "HSIMP",
+                "url": "https://howsecureismypassword.net/"
+            },
+            {
+                "name": "OpenGPS",
+                "url": "https://www.opengps.cn/Data/IP/IPHighAccuracy.aspx"
+            },
+            {
+                "name": "20CN网络安全小组",
+                "url": "http://www.20cn.net/"
+            },
+            {
+                "name": "haoIP",
+                "url": "https://haoip.cn/"
+            },
+            {
+                "name": "Office_Converter",
+                "url": "http://www.office-converter.com/"
+            },
+            {
+                "name": "吾爱破解",
+                "url": "http://www.52pojie.cn/"
+            },
+            {
+                "name": "卡饭论坛",
+                "url": "http://bbs.kafan.cn/forum.php"
+            },
+            {
+                "name": "攻城狮论坛",
+                "url": "http://bbs.vlan5.com/"
+            },
+            {
+                "name": "PHPStudy",
+                "url": "http://www.daixiaorui.com/"
+            },
+            {
+                "name": "xmd5",
+                "url": "http://www.xmd5.org/"
+            },
+            {
+                "name": "小残博客",
+                "url": "https://www.exehack.net/"
+            },
+            {
+                "name": "安全脉搏",
+                "url": "https://www.secpulse.com/"
+            },
+            {
+                "name": "bugkuTools",
+                "url": "http://tool.bugku.com/"
+            }
+        ],
+        "Nix": [
+            {
+                "name": "Linux Kernel",
+                "url": "https://www.kernel.org/"
+            },
+            {
+                "name": "163 mirrors",
+                "url": "http://mirrors.163.com/"
+            },
+            {
+                "name": "Ali mirrors",
+                "url": "http://mirrors.aliyun.com/"
+            },
+            {
+                "name": "TUNA",
+                "url": "https://mirrors.tuna.tsinghua.edu.cn/"
+            },
+            {
+                "name": "Linux公社",
+                "url": "http://www.linuxidc.com"
+            },
+            {
+                "name": "Arch Linux",
+                "url": "https://www.archlinux.org/"
+            },
+            {
+                "name": "mirror.nus.edu.sg",
+                "url": "http://mirror.nus.edu.sg/"
+            },
+            {
+                "name": "上交mirrors",
+                "url": "http://ftp.sjtu.edu.cn/"
+            },
+            {
+                "name": "鸟哥的Linux私房菜",
+                "url": "http://cn.linux.vbird.org/linux_basic/linux_basic.php"
+            },
+            {
+                "name": "ChinaUnix",
+                "url": "http://www.chinaunix.net/"
+            },
+            {
+                "name": "Ubuntu中文Wiki",
+                "url": "http://wiki.ubuntu.org.cn/"
+            },
+            {
+                "name": "RFC Pages",
+                "url": "http://www.ietf.org/rfc.html"
+            },
+            {
+                "name": "RFC文档目录",
+                "url": "http://man.chinaunix.net/develop/rfc/default.htm"
+            },
+            {
+                "name": "文档手册中心",
+                "url": "http://man.chinaunix.net/"
+            }
+        ],
+        "ITBlog": [
+            {
+                "name": "CSDN",
+                "url": "http://www.csdn.net/"
+            },
+            {
+                "name": "博客园",
+                "url": "http://www.cnblogs.com/"
+            },
+            {
+                "name": "阮一峰的网络日志",
+                "url": "http://www.ruanyifeng.com/blog/"
+            },
+            {
+                "name": "独自等待信息安全博客",
+                "url": "http://www.waitalone.cn/"
+            },
+            {
+                "name": "Google Online Security Blog",
+                "url": "https://security.googleblog.com/"
+            },
+            {
+                "name": "羡辙杂俎",
+                "url": "http://zhangwenli.com/blog/"
+            },
+            {
+                "name": "看海的狐狸的后花园",
+                "url": "https://ccfox.info/"
+            }
+        ],
+        "Program": [
+            {
+                "name": "Android Developer",
+                "url": "https://developer.android.com/index.html"
+            },
+            {
+                "name": "Java开源大全",
+                "url": "http://www.open-open.com/lib/"
+            },
+            {
+                "name": "ITeye",
+                "url": "http://www.iteye.com/"
+            },
+            {
+                "name": "泡在网上的日子",
+                "url": "http://www.jcodecraeer.com/"
+            },
+            {
+                "name": "软件编程_jb51",
+                "url": "http://www.jb51.net/list/index_84.htm"
+            },
+            {
+                "name": "好例子",
+                "url": "http://www.haolizi.net/"
+            },
+            {
+                "name": "C语言",
+                "url": "http://c.biancheng.net/cpp/"
+            },
+            {
+                "name": "CPlusPlus",
+                "url": "http://www.cplusplus.com/"
+            },
+            {
+                "name": "源码爱好者",
+                "url": "http://www.codefans.net/"
+            },
+            {
+                "name": "草料二维码",
+                "url": "http://cli.im/"
+            },
+            {
+                "name": "ASCII Generator",
+                "url": "http://www.network-science.de/ascii/"
+            },
+            {
+                "name": "TAAG",
+                "url": "http://patorjk.com/software/taag/"
+            },
+            {
+                "name": "img2txt",
+                "url": "http://www.degraeve.com/img2txt.php"
+            },
+            {
+                "name": "字符画生成",
+                "url": "http://y.qq.com/m/demo/ctools/charimg.html"
+            }
+        ],
+        "Script": [
+            {
+                "name": "脚本之家",
+                "url": "http://www.jb51.net/"
+            },
+            {
+                "name": "DOS联盟",
+                "url": "http://cndos.fam.cx/forum/index.php"
+            },
+            {
+                "name": "python_jb51",
+                "url": "http://www.jb51.net/list/list_97_1.htm"
+            },
+            {
+                "name": "PythonTip",
+                "url": "http://www.pythontip.com/"
+            },
+            {
+                "name": "玩蛇网",
+                "url": "http://www.iplaypython.com/"
+            },
+            {
+                "name": "Python伯乐在线",
+                "url": "http://python.jobbole.com/"
+            },
+            {
+                "name": "Excel学习网",
+                "url": "http://www.excelcn.com/"
+            },
+            {
+                "name": "PythonPIP",
+                "url": "https://pypi.python.org/pypi/pip"
+            }
+        ],
+        "Windows": [
+            {
+                "name": "系统之家",
+                "url": "http://www.xitongzhijia.net/"
+            },
+            {
+                "name": "Win10系统之家",
+                "url": "http://www.ghost580.com/"
+            },
+            {
+                "name": "Win10之家",
+                "url": "http://win10.ithome.com/"
+            }
+        ],
+        "Feed": [
+            {
+                "name": "Feedly",
+                "url": "http://feedly.com/i/my"
+            },
+            {
+                "name": "Feedbin",
+                "url": "https://feedbin.com/"
+            },
+            {
+                "name": "Feed43",
+                "url": "http://feed43.com/"
+            }
+        ],
+        "SoftWare": [
+            {
+                "name": "Chrome Web Store",
+                "url": "https://chrome.google.com/webstore/category/apps"
+            },
+            {
+                "name": "SourceForge",
+                "url": "https://sourceforge.net/"
+            },
+            {
+                "name": "GooglePlay",
+                "url": "https://play.google.com/store"
+            },
+            {
+                "name": "酷安网",
+                "url": "http://www.coolapk.com/"
+            },
+            {
+                "name": "小众软件",
+                "url": "http://www.appinn.com/"
+            },
+            {
+                "name": "最火软件",
+                "url": "http://www.veryhuo.com/"
+            },
+            {
+                "name": "天空下载站",
+                "url": "http://www.skycn.com/"
+            },
+            {
+                "name": "zd423",
+                "url": "http://www.zdfans.com/"
+            },
+            {
+                "name": "Windows App Studio",
+                "url": "https://appstudio.windows.com"
+            },
+            {
+                "name": "Microsoft API and Reference Catalog",
+                "url": "https://msdn.microsoft.com/en-us/library/"
+            },
+            {
+                "name": "量产工具下载站",
+                "url": "http://www.liangchan.net/"
+            }
+        ],
+        "host": [
+            {
+                "name": "httpbin",
+                "url": "http://httpbin.org/"
+            },
+            {
+                "name": "风和日丽",
+                "url": "http://www.fengherili.cc/"
+            },
+            {
+                "name": "proxy360",
+                "url": "http://www.proxy360.cn/default.aspx"
+            },
+            {
+                "name": "西刺Proxy",
+                "url": "http://www.xicidaili.com/"
+            },
+            {
+                "name": "卡卡网",
+                "url": "http://www.webkaka.com/Ping.aspx"
+            },
+            {
+                "name": "17CE.COM",
+                "url": "https://www.17ce.com/"
+            },
+            {
+                "name": "Super-Ping",
+                "url": "http://www.super-ping.com/sc.html"
+            },
+            {
+                "name": "CA App Synthetic Monitor",
+                "url": "https://asm.ca.com/zh_cn/traceroute.php"
+            }
+        ]
     },
-    "Code": {
-      0: ["Github","https://github.com"],
-      1: ["StackOverflow","http://stackoverflow.com/"],
-      2: ["SegmentFault","https://segmentfault.com/"],
-      3: ["OutOfMemory","http://outofmemory.cn/"],
-      4: ["CODE","https://code.csdn.net/explore/projects"],
-      5: ["CTOLib","http://www.ctolib.com/"],
-      6: ["Github Trending","https://github.com/trending"],
-      7: ["Github New","http://www.open-open.com/github/"],
-      8: ["CodePlex","http://www.codeplex.com/"],
-      9: ["码云","https://git.oschina.net/"],
-      10: ["Google Developer","https://developers.google.com/"],
-      11: ["知识库","http://lib.csdn.net/bases"],
-      12: ["开源中国","http://www.oschina.net/"],
-      13: ["ACM之家","http://www.acmerblog.com/"],
-      14: ["Logic Guns","http://www.logicguns.com/"],
-      15: ["ProgramCreek","http://www.programcreek.com/"],
-      16: ["dll之家","http://www.dllzj.com/index.html"],
-      17: ["在线API文档","http://tool.oschina.net/apidocs"],
-      18: ["在线工具","http://tool.oschina.net/"],
-      19: ["鱼C工作室","http://bbs.fishc.com/forum.php"],
-      20: ["编程论坛","https://bbs.bccn.net/"]
+    "NEWS": {
+        "International": [
+            {
+                "name": "YahooNews",
+                "url": "http://news.yahoo.com/"
+            },
+            {
+                "name": "TheGuardian",
+                "url": "http://www.theguardian.com/us"
+            },
+            {
+                "name": "FoxNews",
+                "url": "http://www.foxnews.com/"
+            },
+            {
+                "name": "BBC",
+                "url": "http://www.bbc.com/"
+            },
+            {
+                "name": "CNN",
+                "url": "http://edition.cnn.com/"
+            },
+            {
+                "name": "NBCNews",
+                "url": "http://www.nbcnews.com/"
+            },
+            {
+                "name": "HuffingtonPost",
+                "url": "http://www.huffingtonpost.com/"
+            },
+            {
+                "name": "WashingtonPost",
+                "url": "https://www.washingtonpost.com/"
+            },
+            {
+                "name": "WallStreet",
+                "url": "http://www.wsj.com/"
+            },
+            {
+                "name": "LeFigaro",
+                "url": "http://www.lefigaro.fr/"
+            },
+            {
+                "name": "Al Jazeera",
+                "url": "http://www.aljazeera.com/"
+            },
+            {
+                "name": "EL MUNDO",
+                "url": "http://www.elmundo.es/"
+            },
+            {
+                "name": "The Sunday Times",
+                "url": "https://www.thetimes.co.uk"
+            },
+            {
+                "name": "NHK WORLD",
+                "url": "https://www3.nhk.or.jp/nhkworld/"
+            },
+            {
+                "name": "朝日新闻",
+                "url": "http://www.asahi.com/"
+            },
+            {
+                "name": "NHK News",
+                "url": "http://www3.nhk.or.jp/news/"
+            }
+        ],
+        "China": [
+            {
+                "name": "人民网",
+                "url": "http://www.people.com.cn/"
+            },
+            {
+                "name": "中国新闻网",
+                "url": "http://www.chinanews.com/"
+            },
+            {
+                "name": "新华网",
+                "url": "http://www.xinhuanet.com/"
+            },
+            {
+                "name": "光明网",
+                "url": "http://www.gmw.cn/"
+            },
+            {
+                "name": "澎湃新闻",
+                "url": "http://www.thepaper.cn/"
+            },
+            {
+                "name": "凤凰网",
+                "url": "http://www.ifeng.com/"
+            },
+            {
+                "name": "大公报",
+                "url": "http://www.takungpao.com/"
+            },
+            {
+                "name": "参考消息",
+                "url": "http://www.cankaoxiaoxi.com/"
+            },
+            {
+                "name": "南方网",
+                "url": "http://www.southcn.com/"
+            },
+            {
+                "name": "网易新闻",
+                "url": "http://news.163.com/"
+            },
+            {
+                "name": "新浪新闻",
+                "url": "http://news.sina.com.cn/"
+            },
+            {
+                "name": "搜狐新闻",
+                "url": "http://news.sohu.com/"
+            },
+            {
+                "name": "华尔街日报",
+                "url": "http://cn.wsj.com/gb/index.asp"
+            },
+            {
+                "name": "香港文匯網",
+                "url": "http://www.wenweipo.com/"
+            },
+            {
+                "name": "三联生活周刊",
+                "url": "http://www.lifeweek.com.cn/"
+            },
+            {
+                "name": "人民政协网",
+                "url": "http://www.rmzxb.com.cn/index.shtml"
+            },
+            {
+                "name": "外交部",
+                "url": "http://www.fmprc.gov.cn/web/"
+            },
+            {
+                "name": "南方周末",
+                "url": "http://www.infzm.com/"
+            }
+        ],
+        "TechNews": [
+            {
+                "name": "163_Tech",
+                "url": "http://tech.163.com/"
+            },
+            {
+                "name": "硅谷密探",
+                "url": "http://www.svinsight.com/"
+            },
+            {
+                "name": "腾讯科技_",
+                "url": "http://tech.qq.com/"
+            },
+            {
+                "name": "hao科技",
+                "url": "http://tuijian.hao123.com/?type=tech"
+            },
+            {
+                "name": "光明科技",
+                "url": "http://tech.gmw.cn/"
+            },
+            {
+                "name": "ChinaByte",
+                "url": "http://www.chinabyte.com/"
+            },
+            {
+                "name": "TechWeb",
+                "url": "www.techweb.com.cn"
+            },
+            {
+                "name": "电脑爱好者",
+                "url": "http://www.cfan.com.cn/"
+            },
+            {
+                "name": "环球科技",
+                "url": "http://tech.huanqiu.com/"
+            },
+            {
+                "name": "电子工程世界",
+                "url": "http://www.eeworld.com.cn/"
+            }
+        ],
+        "Infomation": [
+            {
+                "name": "凤凰资讯",
+                "url": "http://news.ifeng.com/"
+            },
+            {
+                "name": "hao123新闻",
+                "url": "http://news.hao123.com/"
+            },
+            {
+                "name": "腾讯新闻",
+                "url": "http://news.qq.com/"
+            }
+        ],
+        "Comment": [
+            {
+                "name": "BBS_Culture",
+                "url": "http://www.bbc.com/culture"
+            },
+            {
+                "name": "精选书摘",
+                "url": "http://www.wenming.cn/djw/ds/jtrds/jpsz/"
+            }
+        ]
     },
-    "Web": {
-      0: ["W3Schools","http://www.w3schools.com/"],
-      1: ["W3School中文","http://www.w3school.com.cn/index.html"],
-      2: ["BootCSS","http://www.bootcss.com/"],
-      3: ["jQuery Plugins","http://jquery-plugins.net/"],
-      4: ["Node.js API","http://nodeapi.ucdok.com"],
-      5: ["RubyChina","https://ruby-china.org/"],
-      6: ["PHP中文网","http://www.uncletoo.com/"],
-      7: ["Shodan","https://www.shodan.io/"],
-      8: ["ZoomEye","http://www.zoomeye.org/"],
-      9: ["WEB骇客","http://www.webhek.com"],
-      10: ["菜鸟教程","http://www.runoob.com/"],
-      11: ["爱我技术","http://ourjs.com/"],
-      12: ["BlueIdea","http://www.blueidea.com/"],
-      13: ["优设","http://www.uisdc.com/"],
-      14: ["素材中国","http://sc.chinaz.com/"],
-      15: ["网站模板","http://www.cssmoban.com/"],
-      16: ["9秒社团","http://www.9miao.com/"],
-      17: ["Wopus","http://www.wopus.org/"],
-      18: ["JSRUN在线代码编辑器","http://jsrun.net/"],
-      19: ["阿里云","https://www.aliyun.com/"],
-      20: ["百度云","https://cloud.baidu.com/"],
-      21: ["Wopus","http://www.wopus.org/"],
-      22: ["石墨文档","https://shimo.im/"]
+    "Article": {
+        "Encyclopedia": [
+            {
+                "name": "Wikipedia",
+                "url": "https://en.wikipedia.org/wiki/Main_Page"
+            },
+            {
+                "name": "维基百科",
+                "url": "https://zh.wikipedia.org/wiki/Wikipedia:%E9%A6%96%E9%A1%B5"
+            },
+            {
+                "name": "百度百科",
+                "url": "http://baike.baidu.com/"
+            },
+            {
+                "name": "MBA智库百科",
+                "url": "http://wiki.mbalib.com/wiki/%E9%A6%96%E9%A1%B5"
+            },
+            {
+                "name": "伪基百科",
+                "url": "http://cn.uncyclopedia.wikia.com/wiki/%E9%A6%96%E9%A1%B5"
+            },
+            {
+                "name": "萌娘百科",
+                "url": "https://zh.moegirl.org/Mainpage"
+            },
+            {
+                "name": "Wikia",
+                "url": "http://www.wikia.com/fandom"
+            },
+            {
+                "name": "WikiaCH-TW",
+                "url": "http://zh-tw.wikia.com/wiki/Wikia%E4%B8%AD%E6%96%87"
+            },
+            {
+                "name": "AnsaikuroPedia",
+                "url": "http://ansaikuropedia.org/wiki/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8"
+            },
+            {
+                "name": "冰与火之歌中文维基",
+                "url": "http://asoiaf.huiji.wiki/"
+            }
+        ],
+        "TechForum": [
+            {
+                "name": "NASA",
+                "url": "http://www.nasa.gov/"
+            },
+            {
+                "name": "Matrix67",
+                "url": "http://www.matrix67.com/blog/"
+            },
+            {
+                "name": "PlusMaths",
+                "url": "https://plus.maths.org/content/"
+            },
+            {
+                "name": "PhysicsForums",
+                "url": "https://www.physicsforums.com/"
+            },
+            {
+                "name": "Physics",
+                "url": "http://physics.aps.org/"
+            },
+            {
+                "name": "极客范",
+                "url": "http://www.geekfan.net/"
+            },
+            {
+                "name": "爱极客",
+                "url": "http://www.igeek.com.cn/"
+            },
+            {
+                "name": "极客工坊",
+                "url": "http://www.geek-workshop.com/forum.php"
+            },
+            {
+                "name": "科创论坛",
+                "url": "http://bbs.kechuang.org/"
+            },
+            {
+                "name": "生物谷",
+                "url": "http://www.bioon.com/"
+            },
+            {
+                "name": "自然志",
+                "url": "http://ziranzhi.com/"
+            },
+            {
+                "name": "Bustle",
+                "url": "https://www.bustle.com/"
+            },
+            {
+                "name": "KnewOne",
+                "url": "https://knewone.com/"
+            }
+        ],
+        "Forum": [
+            {
+                "name": "简书",
+                "url": "http://www.jianshu.com/"
+            },
+            {
+                "name": "豆瓣",
+                "url": "https://www.douban.com/"
+            },
+            {
+                "name": "果壳",
+                "url": "http://www.guokr.com/"
+            },
+            {
+                "name": "未完全侦探",
+                "url": "http://www.ictruth.net/"
+            },
+            {
+                "name": "围棋学研",
+                "url": "http://www.weiqiok.com/asp/Chinese.asp"
+            },
+            {
+                "name": "虎嗅",
+                "url": "http://www.huxiu.com/"
+            },
+            {
+                "name": "小木虫论坛",
+                "url": "http://muchong.com/bbs/index.php"
+            },
+            {
+                "name": "WaitButWhy",
+                "url": "http://waitbutwhy.com/"
+            },
+            {
+                "name": "SonicBBS",
+                "url": "http://www.sonicbbs.com.cn/"
+            },
+            {
+                "name": "福利吧",
+                "url": "http://fuliba.net/"
+            },
+            {
+                "name": "社区论坛",
+                "url": "http://hao.360.cn/shequluntan.html"
+            },
+            {
+                "name": "煮酒论史",
+                "url": "http://bbs.tianya.cn/list-no05-1.shtml"
+            },
+            {
+                "name": "铁血社区",
+                "url": "http://bbs.tiexue.net/default.htm"
+            },
+            {
+                "name": "技术宅社区",
+                "url": "https://www.gn00.com/"
+            },
+            {
+                "name": "虎扑体育社区",
+                "url": "https://bbs.hupu.com/"
+            },
+            {
+                "name": "煎蛋小组",
+                "url": "http://g.jandan.net/"
+            },
+            {
+                "name": "SonicBBS音速论坛",
+                "url": "http://www.sonicbbs.com.cn/"
+            },
+            {
+                "name": "学乐酷论坛",
+                "url": "http://bbs.xueleku.com"
+            }
+        ],
+        "Read": [
+            {
+                "name": "Digg",
+                "url": "http://digg.com/"
+            },
+            {
+                "name": "Quora Weekly Digest",
+                "url": "https://www.quora.com/topic/Quora-Weekly-Digest"
+            },
+            {
+                "name": "十五言",
+                "url": "http://www.15yan.com/"
+            },
+            {
+                "name": "Medium",
+                "url": "https://medium.com/"
+            },
+            {
+                "name": "腾讯大家",
+                "url": "http://dajia.qq.com/"
+            },
+            {
+                "name": "知乎日报",
+                "url": "http://daily.zhihu.com/"
+            },
+            {
+                "name": "第九阅览室",
+                "url": "http://9yls.net/"
+            },
+            {
+                "name": "科学网",
+                "url": "http://www.kexue.com/"
+            },
+            {
+                "name": "译言",
+                "url": "http://g.yeeyan.org/"
+            },
+            {
+                "name": "22Words",
+                "url": "http://twentytwowords.com/"
+            },
+            {
+                "name": "科学松鼠会",
+                "url": "http://songshuhui.net/"
+            },
+            {
+                "name": "短史记",
+                "url": "http://history.news.qq.com/"
+            },
+            {
+                "name": "趣历史网",
+                "url": "http://www.qulishi.com/"
+            },
+            {
+                "name": "凤凰历史",
+                "url": "http://news.ifeng.com/history/"
+            },
+            {
+                "name": "鲜果网",
+                "url": "http://xianguo.com/"
+            },
+            {
+                "name": "360doc个人图书馆",
+                "url": "http://www.360doc.com/index.html"
+            },
+            {
+                "name": "LiveDoor",
+                "url": "http://www.livedoor.com/"
+            },
+            {
+                "name": "读写人",
+                "url": "http://www.duxieren.com/"
+            },
+            {
+                "name": "ThoughtCo",
+                "url": "https://www.thoughtco.com/"
+            },
+            {
+                "name": "十万个为什么",
+                "url": "http://www.10why.net/"
+            },
+            {
+                "name": "Macmillan Dictionary Blog",
+                "url": "http://www.macmillandictionaryblog.com/"
+            },
+            {
+                "name": "THEOI GREEK MYTHOLOGY",
+                "url": "http://www.theoi.com/"
+            }
+        ]
     },
-    "Network": {
-      0: ["乌云","http://www.wooyun.org/"],
-      1: ["i春秋","https://www.ichunqiu.com/"],
-      2: ["CTF社区","http://www.bugku.com/"],
-      3: ["红客联盟","http://www.cnhonkerarmy.com/portal.php"],
-      4: ["红黑联盟","http://www.2cto.com/"],
-      5: ["黑基网","http://www.hackbase.com/"],
-      6: ["黑客技术","http://www.hackdig.com/"],
-      7: ["神刀安全网","http://www.shellsec.com/"],
-      8: ["CVE中文","http://cve.scap.org.cn/"],
-      9: ["安全维基","https://sec-wiki.com/"],
-      10: ["爱尖刀","http://www.ijiandao.com/"],
-      11: ["BuiltWith","http://builtwith.com/"],
-      12: ["嗅密码","http://www.xiumima.com/"],
-      13: ["BugMeNot","http://bugmenot.com/"],
-      14: ["HSIMP","https://howsecureismypassword.net/"],
-      15: ["OpenGPS","https://www.opengps.cn/Data/IP/IPHighAccuracy.aspx"],
-      16: ["20CN网络安全小组","http://www.20cn.net/"],
-      17: ["haoIP","https://haoip.cn/"],
-      18: ["Office_Converter","http://www.office-converter.com/"],
-      19: ["吾爱破解","http://www.52pojie.cn/"],
-      20: ["卡饭论坛","http://bbs.kafan.cn/forum.php"],
-      21: ["攻城狮论坛","http://bbs.vlan5.com/"],
-      22: ["PHPStudy","http://www.daixiaorui.com/"],
-      23: ["xmd5","http://www.xmd5.org/"],
-      24: ["小残博客","https://www.exehack.net/"],
-      25: ["安全脉搏","https://www.secpulse.com/"],
-      26: ["bugkuTools","http://tool.bugku.com/"]
+    "Class": {
+        "Navigator": [
+            {
+                "name": "神马导航",
+                "url": "http://sma.so/"
+            },
+            {
+                "name": "360导航",
+                "url": "https://hao.360.cn/"
+            },
+            {
+                "name": "hao123导航",
+                "url": "https://www.hao123.com/"
+            },
+            {
+                "name": "搜狗网址导航",
+                "url": "https://123.sogou.com/"
+            },
+            {
+                "name": "人人影视网址大全",
+                "url": "http://www.allyingshi.com/"
+            },
+            {
+                "name": "虫部落",
+                "url": "http://www.chongbuluo.com/"
+            },
+            {
+                "name": "设计师网址导航",
+                "url": "http://hao.uisdc.com/"
+            },
+            {
+                "name": "程序导航",
+                "url": "http://google.59note.com/"
+            },
+            {
+                "name": "安全圈",
+                "url": "https://www.anquanquan.info/"
+            },
+            {
+                "name": "看国外",
+                "url": "https://www.kanguowai.com/"
+            }
+        ],
+        "Course": [
+            {
+                "name": "TED",
+                "url": "http://www.ted.com/"
+            },
+            {
+                "name": "Coursera",
+                "url": "https://www.coursera.org/"
+            },
+            {
+                "name": "网易公开课",
+                "url": "http://open.163.com/"
+            },
+            {
+                "name": "网易云课堂",
+                "url": "http://study.163.com/"
+            },
+            {
+                "name": "学堂在线",
+                "url": "http://www.xuetangx.com/"
+            },
+            {
+                "name": "极客学院",
+                "url": "http://www.jikexueyuan.com/"
+            },
+            {
+                "name": "CSDN学院",
+                "url": "http://edu.csdn.net/courses"
+            },
+            {
+                "name": "CodeCademy",
+                "url": "https://www.codecademy.com/"
+            },
+            {
+                "name": "EDX",
+                "url": "https://www.edx.org/"
+            },
+            {
+                "name": "Udemy",
+                "url": "https://www.udemy.com/"
+            },
+            {
+                "name": "新浪公开课",
+                "url": "http://open.sina.com.cn/"
+            },
+            {
+                "name": "FreeBuf公开课",
+                "url": "http://open.freebuf.com/"
+            },
+            {
+                "name": "Oeasy",
+                "url": "http://oeasy.org/"
+            },
+            {
+                "name": "蓝墨云班课",
+                "url": "https://www.mosoteach.cn/"
+            }
+        ],
+        "Question": [
+            {
+                "name": "StackExchange",
+                "url": "http://stackexchange.com/"
+            },
+            {
+                "name": "Quora",
+                "url": "https://www.quora.com/"
+            },
+            {
+                "name": "知乎",
+                "url": "https://www.zhihu.com/"
+            },
+            {
+                "name": "百度知道",
+                "url": "https://zhidao.baidu.com/"
+            },
+            {
+                "name": "Yahoo!知恵袋",
+                "url": "http://chiebukuro.yahoo.co.jp/"
+            },
+            {
+                "name": "OKWAVE",
+                "url": "http://okwave.jp/"
+            },
+            {
+                "name": "有料道",
+                "url": "http://www.youliaodao.cn/"
+            },
+            {
+                "name": "About",
+                "url": "http://www.about.com/"
+            },
+            {
+                "name": "豆丁网",
+                "url": "http://www.docin.com/"
+            },
+            {
+                "name": "EnglishSE",
+                "url": "http://english.stackexchange.com/"
+            },
+            {
+                "name": "ChineseSE",
+                "url": "http://chinese.stackexchange.com/"
+            },
+            {
+                "name": "百度百科_个人中心",
+                "url": "https://baike.baidu.com/usercenter/"
+            },
+            {
+                "name": "知道商城",
+                "url": "https://zhidao.baidu.com/shop/lottery"
+            },
+            {
+                "name": "質問&回答",
+                "url": "https://oshiete.goo.ne.jp/"
+            }
+        ],
+        "Disk": [
+            {
+                "name": "OneDrive",
+                "url": "https://onedrive.live.com/"
+            },
+            {
+                "name": "百度云",
+                "url": "http://yun.baidu.com/"
+            },
+            {
+                "name": "360云盘",
+                "url": "https://c25.yunpan.360.cn/"
+            },
+            {
+                "name": "盘多多",
+                "url": "http://www.panduoduo.net/"
+            },
+            {
+                "name": "早准网盘",
+                "url": "http://www.zaozhun5.com/"
+            },
+            {
+                "name": "特百度网盘",
+                "url": "http://www.tebaidu.com/"
+            },
+            {
+                "name": "VeryCD电驴大全",
+                "url": "http://www.verycd.com/"
+            },
+            {
+                "name": "迅雷",
+                "url": "http://www.xunlei.com/"
+            },
+            {
+                "name": "迅雷账号分享",
+                "url": "http://www.xunlei6.com/"
+            },
+            {
+                "name": "DiggBT",
+                "url": "http://diggbt.co/"
+            },
+            {
+                "name": "BTAVMO",
+                "url": "http://www.btavmo.net/"
+            },
+            {
+                "name": "BT87",
+                "url": "http://bt2.bt87.cc/"
+            },
+            {
+                "name": "百度云盘",
+                "url": "http://www.baiduyunpan.net/"
+            },
+            {
+                "name": "胖次网盘",
+                "url": "http://www.panc.cc/"
+            },
+            {
+                "name": "盘搜搜",
+                "url": "http://www.pansoso.com/"
+            },
+            {
+                "name": "猪猪盘",
+                "url": "http://www.zhuzhupan.com/"
+            }
+        ],
+        "Email": [
+            {
+                "name": "GmailBox",
+                "url": "https://mail.google.com"
+            },
+            {
+                "name": "163邮箱",
+                "url": "http://mail.163.com/"
+            },
+            {
+                "name": "126邮箱",
+                "url": "http://mail.126.com/"
+            },
+            {
+                "name": "QQ邮箱",
+                "url": "https://mail.qq.com/"
+            },
+            {
+                "name": "新浪邮箱",
+                "url": "http://mail.sina.com.cn/"
+            },
+            {
+                "name": "邮箱大全",
+                "url": "http://hao.360.cn/mianfeiziyuan.html"
+            }
+        ],
+        "Search": [
+            {
+                "name": "Google",
+                "url": "https://www.google.com/hk"
+            },
+            {
+                "name": "Bing",
+                "url": "https://cn.bing.com"
+            },
+            {
+                "name": "百度",
+                "url": "https://www.baidu.com"
+            },
+            {
+                "name": "YahooJapan",
+                "url": "http://www.yahoo.co.jp/"
+            },
+            {
+                "name": "Free PDF Search Engine",
+                "url": "http://pdf-downloads.net/"
+            }
+        ],
+        "Others": [
+            {
+                "name": "Google学术",
+                "url": "https://scholar.google.com.hk/"
+            },
+            {
+                "name": "知网",
+                "url": "http://www.cnki.net/"
+            },
+            {
+                "name": "学术网站",
+                "url": "http://dir.cnki.net/"
+            },
+            {
+                "name": "台灣學術文獻數據庫",
+                "url": "http://www.airitilibrary.cn/Home/Index"
+            },
+            {
+                "name": "在线查询网",
+                "url": "http://www.supfree.net/"
+            }
+        ]
     },
-    "Nix": {
-      0: ["Linux Kernel","https://www.kernel.org/"],
-      1: ["163 mirrors","http://mirrors.163.com/"],
-      2: ["Ali mirrors","http://mirrors.aliyun.com/"],
-      3: ["TUNA","https://mirrors.tuna.tsinghua.edu.cn/"],
-      4: ["Linux公社","http://www.linuxidc.com"],
-      5: ["Arch Linux","https://www.archlinux.org/"],
-      6: ["mirror.nus.edu.sg","http://mirror.nus.edu.sg/"],
-      7: ["上交mirrors","http://ftp.sjtu.edu.cn/"],
-      8: ["鸟哥的Linux私房菜","http://cn.linux.vbird.org/linux_basic/linux_basic.php"],
-      9: ["ChinaUnix","http://www.chinaunix.net/"],
-      10: ["Ubuntu中文Wiki","http://wiki.ubuntu.org.cn/"],
-      11: ["RFC Pages","http://www.ietf.org/rfc.html"],
-      12: ["RFC文档目录","http://man.chinaunix.net/develop/rfc/default.htm"],
-      13: ["文档手册中心","http://man.chinaunix.net/"]
+    "Media": {
+        "Social": [
+            {
+                "name": "Facebook",
+                "url": "https://www.facebook.com/"
+            },
+            {
+                "name": "Twitter",
+                "url": "https://twitter.com/"
+            },
+            {
+                "name": "新浪微博",
+                "url": "https://weibo.com/"
+            },
+            {
+                "name": "腾讯微博",
+                "url": "http://t.qq.com/"
+            },
+            {
+                "name": "饭否",
+                "url": "http://fanfou.com/"
+            },
+            {
+                "name": "百度贴吧",
+                "url": "http://tieba.baidu.com/"
+            },
+            {
+                "name": "Reddit",
+                "url": "https://www.reddit.com/"
+            },
+            {
+                "name": "2ch",
+                "url": "http://www.2ch.sc/"
+            },
+            {
+                "name": "2ch中文网",
+                "url": "http://2chcn.com/"
+            },
+            {
+                "name": "糊涂虫网",
+                "url": "http://htc.2chcn.com/"
+            },
+            {
+                "name": "QQ安全中心",
+                "url": "https://aq.qq.com/cn2/index"
+            },
+            {
+                "name": "QQZone",
+                "url": "https://qzone.qq.com/"
+            },
+            {
+                "name": "QQ群",
+                "url": "http://qun.qq.com/"
+            },
+            {
+                "name": "微信公众平台",
+                "url": "https://mp.weixin.qq.com/"
+            },
+            {
+                "name": "WeChat for Web",
+                "url": "https://wx2.qq.com"
+            }
+        ],
+        "Photos": [
+            {
+                "name": "Instagram",
+                "url": "https://www.instagram.com/"
+            },
+            {
+                "name": "Tumblr",
+                "url": "https://www.tumblr.com/dashboard"
+            },
+            {
+                "name": "Lofter",
+                "url": "http://www.lofter.com/"
+            },
+            {
+                "name": "花瓣",
+                "url": "http://huaban.com/"
+            },
+            {
+                "name": "Imgur",
+                "url": "http://imgur.com/"
+            },
+            {
+                "name": "Pinterest",
+                "url": "https://www.pinterest.com/"
+            },
+            {
+                "name": "Bing Gallery",
+                "url": "http://www.bing.com/gallery"
+            },
+            {
+                "name": "Pixabay",
+                "url": "https://pixabay.com/"
+            },
+            {
+                "name": "365 awesome designers",
+                "url": "http://365awesomedesigners.com/"
+            },
+            {
+                "name": "Pexels",
+                "url": "https://www.pexels.com/"
+            },
+            {
+                "name": "GIRLY DROP",
+                "url": "http://girlydrop.com/"
+            },
+            {
+                "name": "Fotosearch",
+                "url": "http://www.fotosearch.cn/"
+            },
+            {
+                "name": "智图",
+                "url": "https://zhitu.isux.us/"
+            }
+        ],
+        "VideoX": [
+            {
+                "name": "YouTube",
+                "url": "https://www.youtube.com/"
+            },
+            {
+                "name": "腾讯视频",
+                "url": "http://v.qq.com/"
+            },
+            {
+                "name": "优酷",
+                "url": "http://www.youku.com/"
+            },
+            {
+                "name": "土豆",
+                "url": "http://www.tudou.com/"
+            },
+            {
+                "name": "爱奇艺",
+                "url": "http://www.iqiyi.com/"
+            },
+            {
+                "name": "乐视",
+                "url": "http://www.le.com/"
+            },
+            {
+                "name": "酷6网",
+                "url": "http://www.ku6.com/"
+            },
+            {
+                "name": "Acfun",
+                "url": "http://www.acfun.tv/"
+            },
+            {
+                "name": "bilibili",
+                "url": "http://www.bilibili.com/"
+            },
+            {
+                "name": "dilidili",
+                "url": "http://www.dilidili.com/"
+            },
+            {
+                "name": "niconico",
+                "url": "http://www.nicovideo.jp/"
+            },
+            {
+                "name": "Dorcel",
+                "url": "https://www.dorcel.com/en/"
+            },
+            {
+                "name": "DailyMotion",
+                "url": "http://www.dailymotion.com/cn"
+            },
+            {
+                "name": "56网",
+                "url": "http://www.56.com/"
+            },
+            {
+                "name": "妖道角",
+                "url": "http://www.yaodaojiao.com/forum.php"
+            },
+            {
+                "name": "MSN動画",
+                "url": "http://www.msn.com/ja-jp/video"
+            },
+            {
+                "name": "無料動画GYAO!",
+                "url": "http://gyao.yahoo.co.jp/"
+            },
+            {
+                "name": "吐槽弹幕网",
+                "url": "http://www.tucao.tv/"
+            },
+            {
+                "name": "范特西视频",
+                "url": "https://www.fantasy.tv/"
+            },
+            {
+                "name": "搜狗影视",
+                "url": "http://kan.sogou.com/"
+            }
+        ],
+        "VideoY": [
+            {
+                "name": "人人字幕组",
+                "url": "http://www.zimuzu.tv/"
+            },
+            {
+                "name": "诸神字幕组",
+                "url": "https://sub.kamigami.org/index.php"
+            },
+            {
+                "name": "电波字幕组",
+                "url": "http://dbfansub.com/"
+            },
+            {
+                "name": "B站排行",
+                "url": "http://www.bilibili.com/ranking"
+            },
+            {
+                "name": "隐社",
+                "url": "http://www.hideystudio.com/drama/"
+            },
+            {
+                "name": "蓝光电影网",
+                "url": "http://www.hd1080.cn/"
+            },
+            {
+                "name": "Talk Show",
+                "url": "http://www.talkshowcn.com/"
+            },
+            {
+                "name": "响巢看看",
+                "url": "http://www.kankan.com/"
+            },
+            {
+                "name": "80s手机电影网",
+                "url": "http://www.80s.tw/"
+            },
+            {
+                "name": "影视资源",
+                "url": "http://www.dysfz.net/movie8938.html"
+            },
+            {
+                "name": "豆瓣电影",
+                "url": "https://movie.douban.com/"
+            }
+        ],
+        "Music": [
+            {
+                "name": "Billboard",
+                "url": "http://www.billboard.com/"
+            },
+            {
+                "name": "网易云音乐",
+                "url": "http://music.163.com/"
+            },
+            {
+                "name": "豆瓣FM",
+                "url": "https://douban.fm/"
+            },
+            {
+                "name": "喜马拉雅",
+                "url": "http://www.ximalaya.com"
+            },
+            {
+                "name": "音悦Tai",
+                "url": "http://www.yinyuetai.com/"
+            }
+        ],
+        "TV": [
+            {
+                "name": "B站直播",
+                "url": "http://live.bilibili.com/"
+            },
+            {
+                "name": "熊猫",
+                "url": "http://www.panda.tv/"
+            },
+            {
+                "name": "斗鱼",
+                "url": "http://www.douyu.com/"
+            },
+            {
+                "name": "虎牙",
+                "url": "http://www.huya.com/"
+            },
+            {
+                "name": "龙珠",
+                "url": "http://longzhu.com/"
+            }
+        ],
+        "Sub": [
+            {
+                "name": "163Sub",
+                "url": "http://www.163sub.com/"
+            },
+            {
+                "name": "Sub HD",
+                "url": "http://subhd.com/"
+            },
+            {
+                "name": "字幕库",
+                "url": "http://www.zimuku.net/"
+            }
+        ]
     },
-    "ITBlog": {
-      0: ["CSDN","http://www.csdn.net/"],
-      1: ["博客园","http://www.cnblogs.com/"],
-      2: ["阮一峰的网络日志","http://www.ruanyifeng.com/blog/"],
-      3: ["独自等待信息安全博客","http://www.waitalone.cn/"],
-      4: ["Google Online Security Blog","https://security.googleblog.com/"],
-      5: ["羡辙杂俎","http://zhangwenli.com/blog/"],
-      6: ["看海的狐狸的后花园","https://ccfox.info/"]
+    "Culture": {
+        "Book": [
+            {
+                "name": "ProjectGutenberg",
+                "url": "http://www.gutenberg.org/wiki/Main_Page"
+            },
+            {
+                "name": "PDFSearchEngine",
+                "url": "http://pdfgive.net/"
+            },
+            {
+                "name": "中国哲学电子书计划",
+                "url": "http://ctext.org/zh"
+            },
+            {
+                "name": "青空文库",
+                "url": "http://www.aozora.gr.jp/"
+            },
+            {
+                "name": "书书网",
+                "url": "http://www.shushu8.com/"
+            },
+            {
+                "name": "eBooks-IT",
+                "url": "https://ebooks-it.org/"
+            },
+            {
+                "name": "劝学网",
+                "url": "http://www.quanxue.cn/index.htm"
+            },
+            {
+                "name": "语文新课程资源网",
+                "url": "http://www.eywedu.com/"
+            },
+            {
+                "name": "浩扬电子书城",
+                "url": "http://www.chnxp.com.cn/"
+            },
+            {
+                "name": "梦远书城",
+                "url": "http://my285.com/"
+            },
+            {
+                "name": "读国学网",
+                "url": "http://duguoxue.cn/"
+            },
+            {
+                "name": "百度文库",
+                "url": "https://wenku.baidu.com/"
+            },
+            {
+                "name": "三亿文库",
+                "url": "http://3y.uu456.com/"
+            },
+            {
+                "name": "习古堂",
+                "url": "http://www.xigutang.com/"
+            },
+            {
+                "name": "豆瓣读书",
+                "url": "https://book.douban.com/"
+            },
+            {
+                "name": "无忧书城",
+                "url": "http://www.51shucheng.net/"
+            },
+            {
+                "name": "书格",
+                "url": "https://shuge.org/"
+            },
+            {
+                "name": "FanFiction Mobile",
+                "url": "https://m.fanfiction.net/"
+            },
+            {
+                "name": "ManyBooks",
+                "url": "http://manybooks.net/"
+            },
+            {
+                "name": "mLook",
+                "url": "https://www.mlook.mobi/"
+            },
+            {
+                "name": "Book Depository",
+                "url": "https://www.bookdepository.com/"
+            },
+            {
+                "name": "Manning",
+                "url": "https://www.manning.com/"
+            },
+            {
+                "name": "Wuxiaworld",
+                "url": "http://www.wuxiaworld.com/"
+            },
+            {
+                "name": "e书联盟",
+                "url": "http://www.book118.com/"
+            },
+            {
+                "name": "书本网",
+                "url": "http://www.bookben.com/"
+            },
+            {
+                "name": "鸠摩搜书",
+                "url": "https://www.jiumodiary.com/"
+            },
+            {
+                "name": "NeatReader",
+                "url": "http://www.neat-reader.com/app"
+            }
+        ],
+        "Classic": [
+            {
+                "name": "搜神",
+                "url": "http://m.soshen.cn/soshen/"
+            },
+            {
+                "name": "搜韵",
+                "url": "http://sou-yun.com/index.aspx"
+            },
+            {
+                "name": "殆知阁",
+                "url": "http://wenxian.fanren8.com/"
+            },
+            {
+                "name": "汉典古籍",
+                "url": "http://gj.zdic.net/"
+            },
+            {
+                "name": "历史春秋",
+                "url": "http://guoxue.lishichunqiu.com/"
+            },
+            {
+                "name": "古诗文网",
+                "url": "http://www.gushiwen.org/"
+            },
+            {
+                "name": "古诗词网",
+                "url": "http://www.gushici5.com/"
+            },
+            {
+                "name": "中国古诗词鉴赏",
+                "url": "http://www.wjszx.com.cn/"
+            },
+            {
+                "name": "中华农历网",
+                "url": "http://www.nongli.com/"
+            },
+            {
+                "name": "文学360",
+                "url": "http://www.wenxue360.com/"
+            },
+            {
+                "name": "国学网",
+                "url": "http://www.guoxue.com/"
+            },
+            {
+                "name": "千千秀字",
+                "url": "http://www.qqxiuzi.cn/"
+            },
+            {
+                "name": "真经阁 ",
+                "url": "http://www.zhenjingge.com/"
+            }
+        ],
+        "EngDict": [
+            {
+                "name": "BingDict",
+                "url": "https://www.bing.com/dict"
+            },
+            {
+                "name": "Eudic",
+                "url": "http://dict.eudic.net/"
+            },
+            {
+                "name": "有道词典",
+                "url": "http://dict.youdao.com/"
+            },
+            {
+                "name": "UrbanDict",
+                "url": "http://www.urbandictionary.com/"
+            },
+            {
+                "name": "EtymologyDict",
+                "url": "http://www.etymonline.com/index.php"
+            },
+            {
+                "name": "TheFreeDict",
+                "url": "http://www.thefreedictionary.com/"
+            }
+        ],
+        "ZHDict": [
+            {
+                "name": "汉典",
+                "url": "http://www.zdic.net/"
+            },
+            {
+                "name": "字源",
+                "url": "http://www.chineseetymology.org/"
+            },
+            {
+                "name": "汉语方言发音字典",
+                "url": "http://cn.voicedic.com/"
+            },
+            {
+                "name": "和英辞典",
+                "url": "http://ejje.weblio.jp/"
+            },
+            {
+                "name": "查查日语",
+                "url": "http://www.ichacha.net/jp/"
+            },
+            {
+                "name": "goo辞書",
+                "url": "http://dictionary.goo.ne.jp/"
+            },
+            {
+                "name": "BitEx",
+                "url": "https://bitex-cn.com/"
+            },
+            {
+                "name": "东方语言学",
+                "url": "http://www.eastling.org/"
+            },
+            {
+                "name": "教育部異體字字典",
+                "url": "http://dict.variants.moe.edu.tw/"
+            }
+        ],
+        "汉字": [
+            {
+                "name": "簡帛網",
+                "url": "http://www.bsm.org.cn/"
+            },
+            {
+                "name": "简帛研究",
+                "url": "http://www.jianbo.org/index.asp"
+            },
+            {
+                "name": "出土文献",
+                "url": "http://www.gwz.fudan.edu.cn/"
+            },
+            {
+                "name": "简帛论坛",
+                "url": "http://www.bsm.org.cn/bbs/"
+            },
+            {
+                "name": "古文字吧",
+                "url": "http://tieba.baidu.com/f?ie=utf-8&kw=古文字"
+            },
+            {
+                "name": "甲骨文吧",
+                "url": "http://tieba.baidu.com/f?ie=utf-8&kw=甲骨文"
+            },
+            {
+                "name": "金文吧",
+                "url": "http://tieba.baidu.com/f?ie=utf-8&kw=金文"
+            },
+            {
+                "name": "篆体字吧",
+                "url": "http://tieba.baidu.com/f?ie=utf-8&kw=篆体字"
+            },
+            {
+                "name": "篆书吧",
+                "url": "http://tieba.baidu.com/f?ie=utf-8&kw=篆书"
+            },
+            {
+                "name": "大篆吧",
+                "url": "http://tieba.baidu.com/f?ie=utf-8&kw=大篆"
+            },
+            {
+                "name": "小篆吧",
+                "url": "http://tieba.baidu.com/f?ie=utf-8&kw=小篆"
+            },
+            {
+                "name": "说文解字吧",
+                "url": "http://tieba.baidu.com/f?ie=utf-8&kw=说文解字"
+            },
+            {
+                "name": "书法吧",
+                "url": "http://tieba.baidu.com/f?ie=utf-8&kw=书法"
+            },
+            {
+                "name": "瘦金体吧",
+                "url": "http://tieba.baidu.com/f?ie=utf-8&kw=瘦金体"
+            }
+        ],
+        "Language": [
+            {
+                "name": "Google Translate",
+                "url": "http://translate.google.cn/"
+            },
+            {
+                "name": "有道翻译",
+                "url": "http://fanyi.youdao.com/"
+            },
+            {
+                "name": "Quizlet",
+                "url": "http://quizlet.com/"
+            },
+            {
+                "name": "Test Your Vocabulary",
+                "url": "http://testyourvocab.com/"
+            },
+            {
+                "name": "日语学习网",
+                "url": "http://jp.tingroom.com/"
+            }
+        ]
     },
-    "Program": {
-      0: ["Android Developer","https://developer.android.com/index.html"],
-      1: ["Java开源大全","http://www.open-open.com/lib/"],
-      2: ["ITeye","http://www.iteye.com/"],
-      3: ["泡在网上的日子","http://www.jcodecraeer.com/"],
-      4: ["软件编程_jb51","http://www.jb51.net/list/index_84.htm"],
-      5: ["好例子","http://www.haolizi.net/"],
-      6: ["C语言","http://c.biancheng.net/cpp/"],
-      7: ["CPlusPlus","http://www.cplusplus.com/"],
-      8: ["源码爱好者","http://www.codefans.net/"],
-      9: ["草料二维码","http://cli.im/"],
-      10: ["ASCII Generator","http://www.network-science.de/ascii/"],
-      11: ["TAAG","http://patorjk.com/software/taag/"],
-      12: ["img2txt","http://www.degraeve.com/img2txt.php"],
-      13: ["字符画生成","http://y.qq.com/m/demo/ctools/charimg.html"]
+    "Entertm": {
+        "Usual": [
+            {
+                "name": "PingWest",
+                "url": "http://no.pingwest.com/"
+            },
+            {
+                "name": "9gag",
+                "url": "http://9gag.com/"
+            },
+            {
+                "name": "煎蛋",
+                "url": "http://jandan.net/"
+            },
+            {
+                "name": "煎蛋段子",
+                "url": "http://jandan.net/duan"
+            },
+            {
+                "name": "煎蛋ooxx",
+                "url": "http://jandan.net/ooxx"
+            },
+            {
+                "name": "4chan",
+                "url": "http://www.4chan.org"
+            },
+            {
+                "name": "蛋花儿",
+                "url": "http://danhuaer.com/"
+            },
+            {
+                "name": "草蛋",
+                "url": "http://www.caoegg.cn/"
+            },
+            {
+                "name": "糗事百科",
+                "url": "http://www.qiushibaike.com/"
+            },
+            {
+                "name": "抽屉",
+                "url": "http://dig.chouti.com/r/scoff/hot/1"
+            },
+            {
+                "name": "煎蛋段子",
+                "url": "http://jandan.net/duan/"
+            },
+            {
+                "name": "动弹",
+                "url": "https://www.oschina.net/tweets"
+            },
+            {
+                "name": "ShowerThoughts",
+                "url": "https://www.reddit.com/r/Showerthoughts/"
+            },
+            {
+                "name": "22words",
+                "url": "http://twentytwowords.com/"
+            }
+        ],
+        "Comic": [
+            {
+                "name": "xkcd",
+                "url": "http://xkcd.com/"
+            },
+            {
+                "name": "鼠绘漫画",
+                "url": "http://www.ishuhui.com/"
+            },
+            {
+                "name": "有妖气",
+                "url": "http://www.u17.com/"
+            },
+            {
+                "name": "Webtoons",
+                "url": "http://www.webtoons.com/zh-hans/"
+            },
+            {
+                "name": "动漫之家",
+                "url": "http://www.dmzj.com/"
+            },
+            {
+                "name": "腾讯动漫",
+                "url": "http://ac.qq.com/"
+            },
+            {
+                "name": "暴走漫画",
+                "url": "http://baozoumanhua.com/"
+            },
+            {
+                "name": "诸神动漫论坛",
+                "url": "http://www.kamigami.org/forum.php"
+            },
+            {
+                "name": "Marvel",
+                "url": "http://marvel.com/"
+            },
+            {
+                "name": "DC",
+                "url": "http://www.dccomics.com/"
+            },
+            {
+                "name": "OnePiece_ishuhui",
+                "url": "http://www.ishuhui.com/cartoon/book/1"
+            },
+            {
+                "name": "汐空动漫BT分享",
+                "url": "http://www.xkdmbt.com/"
+            },
+            {
+                "name": "精明眼",
+                "url": "http://www.iibq.com/"
+            },
+            {
+                "name": "精明眼第二站",
+                "url": "http://www.iieye.cc/"
+            },
+            {
+                "name": "精明眼 日文版",
+                "url": "http://www.iibq.com/class/51/"
+            },
+            {
+                "name": "OP_Wikia",
+                "url": "http://onepiece.wikia.com/wiki/Main_Page"
+            },
+            {
+                "name": "CC图库漫画",
+                "url": "http://www.tukucc.com/"
+            },
+            {
+                "name": "豆丁漫画",
+                "url": "http://manhua.docin.com"
+            }
+        ],
+        "Game": [
+            {
+                "name": "Steam",
+                "url": "http://store.steampowered.com/"
+            },
+            {
+                "name": "游民星空",
+                "url": "http://www.gamersky.com/"
+            },
+            {
+                "name": "腾讯游戏 ",
+                "url": "http://game.qq.com/"
+            },
+            {
+                "name": "4399小游戏",
+                "url": "http://www.4399.com/"
+            },
+            {
+                "name": "CodeCombat",
+                "url": "http://www.codecombat.cn/"
+            },
+            {
+                "name": "VimAdventures",
+                "url": "https://vim-adventures.com/"
+            },
+            {
+                "name": "Html5Game",
+                "url": "http://html5games.com/"
+            }
+        ],
+        "MC": [
+            {
+                "name": "BukkitWiki",
+                "url": "http://wiki.bukkit.org/Main_Page"
+            },
+            {
+                "name": "MCBBS",
+                "url": "http://www.mcbbs.net/forum.php"
+            },
+            {
+                "name": "Minecraft中文下载站",
+                "url": "http://www.minecraftxz.com/"
+            },
+            {
+                "name": "MCServerList_xz",
+                "url": "http://fwq.minecraftxz.com/servers"
+            },
+            {
+                "name": "MCServerList_zuimc",
+                "url": "http://list.zuimc.com/"
+            },
+            {
+                "name": "MC合成表",
+                "url": "http://www.minecraftxz.com/the-mc-synthesis-table-chinese-pictures-minecraft-craftting-guide/"
+            },
+            {
+                "name": "我的世界中文网",
+                "url": "http://www.mcmap.cc/"
+            },
+            {
+                "name": "MC ID List",
+                "url": "http://minecraft-ids.grahamedgecombe.com/"
+            },
+            {
+                "name": "Minecraft 1.11 Mods",
+                "url": "http://ogmcdownload.com/"
+            },
+            {
+                "name": "Bukkit Jenkins",
+                "url": "http://ci.mengcraft.com:8080/job/Bukkit/"
+            },
+            {
+                "name": "安游我的世界专区",
+                "url": "http://mc.ahgame.com/"
+            },
+            {
+                "name": "Mine Clone",
+                "url": "http://www.mineclone.net/"
+            }
+        ]
     },
-    "Script": {
-      0: ["脚本之家","http://www.jb51.net/"],
-      1: ["DOS联盟","http://cndos.fam.cx/forum/index.php"],
-      2: ["python_jb51","http://www.jb51.net/list/list_97_1.htm"],
-      3: ["PythonTip","http://www.pythontip.com/"],
-      4: ["玩蛇网","http://www.iplaypython.com/"],
-      5: ["Python伯乐在线","http://python.jobbole.com/"],
-      6: ["Excel学习网","http://www.excelcn.com/"],
-      7: ["PythonPIP","https://pypi.python.org/pypi/pip"]
-    },
-    "Windows": {
-      0: ["系统之家","http://www.xitongzhijia.net/"],
-      1: ["Win10系统之家","http://www.ghost580.com/"],
-      2: ["Win10之家","http://win10.ithome.com/"]
-    },
-    "Feed": {
-      0: ["Feedly","http://feedly.com/i/my"],
-      1: ["Feedbin","https://feedbin.com/"],
-      2: ["Feed43","http://feed43.com/"]
-    },
-    "SoftWare": {
-      0: ["Chrome Web Store","https://chrome.google.com/webstore/category/apps"],
-      1: ["SourceForge","https://sourceforge.net/"],
-      2: ["GooglePlay","https://play.google.com/store"],
-      3: ["酷安网","http://www.coolapk.com/"],
-      4: ["小众软件","http://www.appinn.com/"],
-      5: ["最火软件","http://www.veryhuo.com/"],
-      6: ["天空下载站","http://www.skycn.com/"],
-      7: ["zd423","http://www.zdfans.com/"],
-      8: ["Windows App Studio","https://appstudio.windows.com"],
-      9: ["Microsoft API and Reference Catalog","https://msdn.microsoft.com/en-us/library/"],
-      10: ["量产工具下载站","http://www.liangchan.net/"]
-    },
-    "host": {
-      0: ["httpbin","http://httpbin.org/"],
-      1: ["风和日丽","http://www.fengherili.cc/"],
-      2: ["proxy360","http://www.proxy360.cn/default.aspx"],
-      3: ["西刺Proxy","http://www.xicidaili.com/"],
-      4: ["卡卡网","http://www.webkaka.com/Ping.aspx"],
-      5: ["17CE.COM","https://www.17ce.com/"],
-      6: ["Super-Ping","http://www.super-ping.com/sc.html"],
-      7: ["CA App Synthetic Monitor","https://asm.ca.com/zh_cn/traceroute.php"]
+    "Life": {
+        "Market": [
+            {
+                "name": "淘宝",
+                "url": "http://www.taobao.com/"
+            },
+            {
+                "name": "天猫",
+                "url": "https://www.tmall.com/"
+            },
+            {
+                "name": "京东",
+                "url": "http://www.jd.com/"
+            },
+            {
+                "name": "Amazon",
+                "url": "https://www.amazon.com"
+            },
+            {
+                "name": "当当",
+                "url": "http://book.dangdang.com/"
+            },
+            {
+                "name": "收藏天下",
+                "url": "http://www.96567.com/"
+            },
+            {
+                "name": "阿里巴巴",
+                "url": "https://www.1688.com/"
+            }
+        ],
+        "Shop": [
+            {
+                "name": "麦田香香书店",
+                "url": "https://shop111311280.taobao.com/?spm=a1z10.1-c.0.0.MhhFqu"
+            },
+            {
+                "name": "文天电脑科技",
+                "url": "https://shop106102246.taobao.com/?spm=a1z10.1-c.0.0.E48kzy"
+            },
+            {
+                "name": "中华商务进口图书直营店",
+                "url": "http://mall.jd.com/index-53449.html"
+            }
+        ],
+        "Lifes": [
+            {
+                "name": "支付宝",
+                "url": "https://www.alipay.com/"
+            },
+            {
+                "name": "菜鸟裹裹",
+                "url": "http://www.guoguo-app.com/"
+            },
+            {
+                "name": "12306",
+                "url": "http://www.12306.cn/"
+            }
+        ],
+        "Map": [
+            {
+                "name": "高德地图",
+                "url": "http://ditu.amap.com/"
+            },
+            {
+                "name": "Google Map",
+                "url": "http://www.google.cn/maps"
+            },
+            {
+                "name": "百度地图",
+                "url": "http://map.baidu.com"
+            },
+            {
+                "name": "腾讯地图",
+                "url": "http://map.qq.com"
+            }
+        ],
+        "Help": [
+            {
+                "name": "PocketList",
+                "url": "https://getpocket.com/a/"
+            },
+            {
+                "name": "Draw",
+                "url": "./page/draw.html"
+            },
+            {
+                "name": "GoogleActivity",
+                "url": "https://myactivity.google.com/myactivity"
+            },
+            {
+                "name": "CodeDownload",
+                "url": "https://codeload.github.com/JoryPein/NaviPage/zip/master"
+            }
+        ]
     }
-  },
-  "NEWS": {
-    "International": {
-      0: ["YahooNews","http://news.yahoo.com/"],
-      1: ["TheGuardian","http://www.theguardian.com/us"],
-      2: ["FoxNews","http://www.foxnews.com/"],
-      3: ["BBC","http://www.bbc.com/"],
-      4: ["CNN","http://edition.cnn.com/"],
-      5: ["NBCNews","http://www.nbcnews.com/"],
-      6: ["HuffingtonPost","http://www.huffingtonpost.com/"],
-      7: ["WashingtonPost","https://www.washingtonpost.com/"],
-      8: ["WallStreet","http://www.wsj.com/"],
-      9: ["LeFigaro","http://www.lefigaro.fr/"],
-      10: ["Al Jazeera","http://www.aljazeera.com/"],
-      11: ["EL MUNDO","http://www.elmundo.es/"],
-      12: ["The Sunday Times","https://www.thetimes.co.uk"],
-      13: ["NHK WORLD","https://www3.nhk.or.jp/nhkworld/"],
-      14: ["朝日新闻","http://www.asahi.com/"],
-      15: ["NHK News","http://www3.nhk.or.jp/news/"]
-    },
-    "China": {
-      0: ["人民网","http://www.people.com.cn/"],
-      1: ["中国新闻网","http://www.chinanews.com/"],
-      2: ["新华网","http://www.xinhuanet.com/"],
-      3: ["光明网","http://www.gmw.cn/"],
-      4: ["澎湃新闻","http://www.thepaper.cn/"],
-      5: ["凤凰网","http://www.ifeng.com/"],
-      6: ["大公报","http://www.takungpao.com/"],
-      7: ["参考消息","http://www.cankaoxiaoxi.com/"],
-      8: ["南方网","http://www.southcn.com/"],
-      9: ["网易新闻","http://news.163.com/"],
-      10: ["新浪新闻","http://news.sina.com.cn/"],
-      11: ["搜狐新闻","http://news.sohu.com/"],
-      12: ["华尔街日报","http://cn.wsj.com/gb/index.asp"],
-      13: ["香港文匯網","http://www.wenweipo.com/"],
-      14: ["三联生活周刊","http://www.lifeweek.com.cn/"],
-      15: ["人民政协网","http://www.rmzxb.com.cn/index.shtml"],
-      16: ["外交部","http://www.fmprc.gov.cn/web/"],
-      17: ["南方周末","http://www.infzm.com/"]
-    },
-    "TechNews": {
-      0: ["163_Tech","http://tech.163.com/"],
-      1: ["硅谷密探","http://www.svinsight.com/"],
-      2: ["腾讯科技_","http://tech.qq.com/"],
-      3: ["hao科技","http://tuijian.hao123.com/?type=tech"],
-      4: ["光明科技","http://tech.gmw.cn/"],
-      5: ["ChinaByte","http://www.chinabyte.com/"],
-      6: ["TechWeb","www.techweb.com.cn"],
-      7: ["电脑爱好者","http://www.cfan.com.cn/"],
-      8: ["环球科技","http://tech.huanqiu.com/"],
-      9: ["电子工程世界","http://www.eeworld.com.cn/"]
-    },
-    "Infomation": {
-      0: ["凤凰资讯","http://news.ifeng.com/"],
-      1: ["hao123新闻","http://news.hao123.com/"],
-      2: ["腾讯新闻","http://news.qq.com/"]
-    },
-    "Comment": {
-      0: ["BBS_Culture","http://www.bbc.com/culture"],
-      1: ["精选书摘","http://www.wenming.cn/djw/ds/jtrds/jpsz/"]
-    }
-  },
-  "Article": {
-    "Encyclopedia": {
-      0: ["Wikipedia","https://en.wikipedia.org/wiki/Main_Page"],
-      1: ["维基百科","https://zh.wikipedia.org/wiki/Wikipedia:%E9%A6%96%E9%A1%B5"],
-      2: ["百度百科","http://baike.baidu.com/"],
-      3: ["MBA智库百科","http://wiki.mbalib.com/wiki/%E9%A6%96%E9%A1%B5"],
-      4: ["伪基百科","http://cn.uncyclopedia.wikia.com/wiki/%E9%A6%96%E9%A1%B5"],
-      5: ["萌娘百科","https://zh.moegirl.org/Mainpage"],
-      6: ["Wikia","http://www.wikia.com/fandom"],
-      7: ["WikiaCH-TW","http://zh-tw.wikia.com/wiki/Wikia%E4%B8%AD%E6%96%87"],
-      8: ["AnsaikuroPedia","http://ansaikuropedia.org/wiki/%E3%83%A1%E3%82%A4%E3%83%B3%E3%83%9A%E3%83%BC%E3%82%B8"],
-      9: ["冰与火之歌中文维基","http://asoiaf.huiji.wiki/"]
-    },
-    "TechForum": {
-      0: ["NASA","http://www.nasa.gov/"],
-      1: ["Matrix67","http://www.matrix67.com/blog/"],
-      2: ["PlusMaths","https://plus.maths.org/content/"],
-      3: ["PhysicsForums","https://www.physicsforums.com/"],
-      4: ["Physics","http://physics.aps.org/"],
-      5: ["极客范","http://www.geekfan.net/"],
-      6: ["爱极客","http://www.igeek.com.cn/"],
-      7: ["极客工坊","http://www.geek-workshop.com/forum.php"],
-      8: ["科创论坛","http://bbs.kechuang.org/"],
-      9: ["生物谷","http://www.bioon.com/"],
-      10: ["自然志","http://ziranzhi.com/"],
-      11: ["Bustle","https://www.bustle.com/"],
-      12: ["KnewOne","https://knewone.com/"]
-    },
-    "Forum": {
-      0: ["简书","http://www.jianshu.com/"],
-      1: ["豆瓣","https://www.douban.com/"],
-      2: ["果壳","http://www.guokr.com/"],
-      3: ["未完全侦探","http://www.ictruth.net/"],
-      4: ["围棋学研","http://www.weiqiok.com/asp/Chinese.asp"],
-      5: ["虎嗅","http://www.huxiu.com/"],
-      6: ["小木虫论坛","http://muchong.com/bbs/index.php"],
-      7: ["WaitButWhy","http://waitbutwhy.com/"],
-      8: ["SonicBBS","http://www.sonicbbs.com.cn/"],
-      9: ["福利吧","http://fuliba.net/"],
-      10: ["社区论坛","http://hao.360.cn/shequluntan.html"],
-      11: ["煮酒论史","http://bbs.tianya.cn/list-no05-1.shtml"],
-      12: ["铁血社区","http://bbs.tiexue.net/default.htm"],
-      13: ["技术宅社区","https://www.gn00.com/"],
-      14: ["虎扑体育社区","https://bbs.hupu.com/"],
-      15: ["煎蛋小组","http://g.jandan.net/"],
-      16: ["SonicBBS音速论坛","http://www.sonicbbs.com.cn/"],
-      17: ["学乐酷论坛","http://bbs.xueleku.com"]
-    },
-    "Read": {
-      0: ["Digg","http://digg.com/"],
-      1: ["Quora Weekly Digest","https://www.quora.com/topic/Quora-Weekly-Digest"],
-      2: ["十五言","http://www.15yan.com/"],
-      3: ["Medium","https://medium.com/"],
-      4: ["腾讯大家","http://dajia.qq.com/"],
-      5: ["知乎日报","http://daily.zhihu.com/"],
-      6: ["第九阅览室","http://9yls.net/"],
-      7: ["科学网","http://www.kexue.com/"],
-      8: ["译言","http://g.yeeyan.org/"],
-      9: ["22Words","http://twentytwowords.com/"],
-      10: ["科学松鼠会","http://songshuhui.net/"],
-      11: ["短史记","http://history.news.qq.com/"],
-      12: ["趣历史网","http://www.qulishi.com/"],
-      13: ["凤凰历史","http://news.ifeng.com/history/"],
-      14: ["鲜果网","http://xianguo.com/"],
-      15: ["360doc个人图书馆","http://www.360doc.com/index.html"],
-      16: ["LiveDoor","http://www.livedoor.com/"],
-      17: ["读写人","http://www.duxieren.com/"],
-      18: ["ThoughtCo","https://www.thoughtco.com/"],
-      19: ["十万个为什么","http://www.10why.net/"],
-      20: ["Macmillan Dictionary Blog","http://www.macmillandictionaryblog.com/"],
-      21: ["THEOI GREEK MYTHOLOGY","http://www.theoi.com/"]
-    }
-  },
-  "Class": {
-    "Navigator": {
-      0: ["任意门","http://gate.guokr.com/"],
-      1: ["360导航","https://hao.360.cn/"],
-      2: ["hao123导航","https://www.hao123.com/"],
-      3: ["搜狗网址导航","https://123.sogou.com/"],
-      4: ["人人影视网址大全","http://www.allyingshi.com/"],
-      5: ["虫部落","http://www.chongbuluo.com/"],
-      6: ["设计师网址导航","http://hao.uisdc.com/"],
-      7: ["程序导航","http://google.59note.com/"],
-      8: ["福利档网址导航","http://123.fulidang.com/"],
-      9: ["有趣网址之家","http://youquhome.com/"],
-      10: ["安全圈","https://www.anquanquan.info/"],
-      11: ["XssAvSafe 网址导航","http://www.xssav.com/"],
-      12: ["三维导航","https://sanv.org/"],
-      13: ["看国外","https://www.kanguowai.com/"],
-      14: ["神马导航","http://sma.so/"]
-    },
-    "Course": {
-      0: ["TED","http://www.ted.com/"],
-      1: ["Coursera","https://www.coursera.org/"],
-      2: ["网易公开课","http://open.163.com/"],
-      3: ["网易云课堂","http://study.163.com/"],
-      4: ["学堂在线","http://www.xuetangx.com/"],
-      5: ["极客学院","http://www.jikexueyuan.com/"],
-      6: ["CSDN学院","http://edu.csdn.net/courses"],
-      7: ["CodeCademy","https://www.codecademy.com/"],
-      8: ["EDX","https://www.edx.org/"],
-      9: ["Udemy","https://www.udemy.com/"],
-      10: ["新浪公开课","http://open.sina.com.cn/"],
-      11: ["FreeBuf公开课","http://open.freebuf.com/"],
-      12: ["Oeasy","http://oeasy.org/"],
-      13: ["蓝墨云班课","https://www.mosoteach.cn/"]
-    },
-    "Question": {
-      0: ["StackExchange","http://stackexchange.com/"],
-      1: ["Quora","https://www.quora.com/"],
-      2: ["知乎","https://www.zhihu.com/"],
-      3: ["百度知道","https://zhidao.baidu.com/"],
-      4: ["Yahoo!知恵袋","http://chiebukuro.yahoo.co.jp/"],
-      5: ["OKWAVE","http://okwave.jp/"],
-      6: ["有料道","http://www.youliaodao.cn/"],
-      7: ["About","http://www.about.com/"],
-      8: ["豆丁网","http://www.docin.com/"],
-      9: ["EnglishSE","http://english.stackexchange.com/"],
-      10: ["ChineseSE","http://chinese.stackexchange.com/"],
-      11: ["百度百科_个人中心","https://baike.baidu.com/usercenter/"],
-      12: ["知道商城","https://zhidao.baidu.com/shop/lottery"],
-      13: ["質問&回答","https://oshiete.goo.ne.jp/"]
-    },
-    "Disk": {
-      0: ["OneDrive","https://onedrive.live.com/"],
-      1: ["百度云","http://yun.baidu.com/"],
-      2: ["360云盘","https://c25.yunpan.360.cn/"],
-      3: ["盘多多","http://www.panduoduo.net/"],
-      4: ["早准网盘","http://www.zaozhun5.com/"],
-      5: ["特百度网盘","http://www.tebaidu.com/"],
-      6: ["VeryCD电驴大全","http://www.verycd.com/"],
-      7: ["迅雷","http://www.xunlei.com/"],
-      8: ["迅雷账号分享","http://www.xunlei6.com/"],
-      9: ["DiggBT","http://diggbt.co/"],
-      10: ["BTAVMO","http://www.btavmo.net/"],
-      11: ["BT87","http://bt2.bt87.cc/"],
-      12: ["百度云盘","http://www.baiduyunpan.net/"],
-      13: ["胖次网盘","http://www.panc.cc/"],
-      14: ["盘搜搜","http://www.pansoso.com/"],
-      15: ["猪猪盘","http://www.zhuzhupan.com/"]
-    },
-    "Email": {
-      0: ["GmailBox","https://mail.google.com"],
-      1: ["163邮箱","http://mail.163.com/"],
-      2: ["126邮箱","http://mail.126.com/"],
-      3: ["QQ邮箱","https://mail.qq.com/"],
-      4: ["新浪邮箱","http://mail.sina.com.cn/"],
-      5: ["邮箱大全","http://hao.360.cn/mianfeiziyuan.html"]
-    },
-    "Search": {
-      0: ["Google","https://www.google.com/hk"],
-      1: ["Bing","https://cn.bing.com"],
-      2: ["百度","https://www.baidu.com"],
-      3: ["YahooJapan","http://www.yahoo.co.jp/"],
-      4: ["Free PDF Search Engine","http://pdf-downloads.net/"]
-    },
-    "Others": {
-      0: ["Google学术","https://scholar.google.com.hk/"],
-      1: ["知网","http://www.cnki.net/"],
-      2: ["学术网站","http://dir.cnki.net/"],
-      3: ["台灣學術文獻數據庫","http://www.airitilibrary.cn/Home/Index"],
-      4: ["在线查询网","http://www.supfree.net/"]
-    }
-  },
-  "Media": {
-    "Social": {
-      0: ["Facebook","https://www.facebook.com/"],
-      1: ["Twitter","https://twitter.com/"],
-      2: ["新浪微博","https://weibo.com/"],
-      3: ["腾讯微博","http://t.qq.com/"],
-      4: ["饭否","http://fanfou.com/"],
-      5: ["百度贴吧","http://tieba.baidu.com/"],
-      6: ["Reddit","https://www.reddit.com/"],
-      7: ["2ch","http://www.2ch.sc/"],
-      8: ["2ch中文网","http://2chcn.com/"],
-      9: ["糊涂虫网","http://htc.2chcn.com/"],
-      10: ["QQ安全中心","https://aq.qq.com/cn2/index"],
-      11: ["QQZone","https://qzone.qq.com/"],
-      12: ["QQ群","http://qun.qq.com/"],
-      13: ["微信公众平台","https://mp.weixin.qq.com/"],
-      14: ["WeChat for Web","https://wx2.qq.com"]
-    },
-    "Photos": {
-      0: ["Instagram","https://www.instagram.com/"],
-      1: ["Tumblr","https://www.tumblr.com/dashboard"],
-      2: ["Lofter","http://www.lofter.com/"],
-      3: ["花瓣","http://huaban.com/"],
-      4: ["Imgur","http://imgur.com/"],
-      5: ["Pinterest","https://www.pinterest.com/"],
-      6: ["Bing Gallery","http://www.bing.com/gallery"],
-      7: ["Pixabay","https://pixabay.com/"],
-      8: ["365 awesome designers","http://365awesomedesigners.com/"],
-      9: ["Pexels","https://www.pexels.com/"],
-      10: ["GIRLY DROP","http://girlydrop.com/"],
-      11: ["Fotosearch","http://www.fotosearch.cn/"],
-      12: ["智图","https://zhitu.isux.us/"]
-    },
-    "VideoX": {
-      0: ["YouTube","https://www.youtube.com/"],
-      1: ["腾讯视频","http://v.qq.com/"],
-      2: ["优酷","http://www.youku.com/"],
-      3: ["土豆","http://www.tudou.com/"],
-      4: ["爱奇艺","http://www.iqiyi.com/"],
-      5: ["乐视","http://www.le.com/"],
-      6: ["酷6网","http://www.ku6.com/"],
-      7: ["Acfun","http://www.acfun.tv/"],
-      8: ["bilibili","http://www.bilibili.com/"],
-      9: ["dilidili","http://www.dilidili.com/"],
-      10: ["niconico","http://www.nicovideo.jp/"],
-      11: ["Dorcel","https://www.dorcel.com/en/"],
-      12: ["DailyMotion","http://www.dailymotion.com/cn"],
-      13: ["56网","http://www.56.com/"],
-      14: ["妖道角","http://www.yaodaojiao.com/forum.php"],
-      15: ["MSN動画","http://www.msn.com/ja-jp/video"],
-      16: ["無料動画GYAO!","http://gyao.yahoo.co.jp/"],
-      17: ["吐槽弹幕网","http://www.tucao.tv/"],
-      18: ["范特西视频","https://www.fantasy.tv/"],
-      19: ["搜狗影视","http://kan.sogou.com/"]
-    },
-    "VideoY": {
-      0: ["人人字幕组","http://www.zimuzu.tv/"],
-      1: ["诸神字幕组","https://sub.kamigami.org/index.php"],
-      2: ["电波字幕组","http://dbfansub.com/"],
-      3: ["B站排行","http://www.bilibili.com/ranking"],
-      4: ["隐社","http://www.hideystudio.com/drama/"],
-      5: ["蓝光电影网","http://www.hd1080.cn/"],
-      6: ["Talk Show","http://www.talkshowcn.com/"],
-      7: ["响巢看看","http://www.kankan.com/"],
-      8: ["80s手机电影网","http://www.80s.tw/"],
-      9: ["影视资源","http://www.dysfz.net/movie8938.html"],
-      10: ["豆瓣电影","https://movie.douban.com/"]
-    },
-    "Music": {
-      0: ["Billboard","http://www.billboard.com/"],
-      1: ["网易云音乐","http://music.163.com/"],
-      2: ["豆瓣FM","https://douban.fm/"],
-      3: ["喜马拉雅","http://www.ximalaya.com"],
-      4: ["音悦Tai","http://www.yinyuetai.com/"]
-    },
-    "TV": {
-      0: ["B站直播","http://live.bilibili.com/"],
-      1: ["熊猫","http://www.panda.tv/"],
-      2: ["斗鱼","http://www.douyu.com/"],
-      3: ["虎牙","http://www.huya.com/"],
-      4: ["龙珠","http://longzhu.com/"]
-    },
-    "Sub": {
-      0: ["163Sub","http://www.163sub.com/"],
-      1: ["Sub HD","http://subhd.com/"],
-      2: ["字幕库","http://www.zimuku.net/"]
-    }
-  },
-  "Culture": {
-    "Book": {
-      0: ["ProjectGutenberg","http://www.gutenberg.org/wiki/Main_Page"],
-      1: ["PDFSearchEngine","http://pdfgive.net/"],
-      2: ["中国哲学电子书计划","http://ctext.org/zh"],
-      3: ["青空文库","http://www.aozora.gr.jp/"],
-      4: ["书书网","http://www.shushu8.com/"],
-      5: ["eBooks-IT","https://ebooks-it.org/"],
-      6: ["劝学网","http://www.quanxue.cn/index.htm"],
-      7: ["语文新课程资源网","http://www.eywedu.com/"],
-      8: ["浩扬电子书城","http://www.chnxp.com.cn/"],
-      9: ["梦远书城","http://my285.com/"],
-      10: ["读国学网","http://duguoxue.cn/"],
-      11: ["百度文库","https://wenku.baidu.com/"],
-      12: ["三亿文库","http://3y.uu456.com/"],
-      13: ["习古堂","http://www.xigutang.com/"],
-      14: ["豆瓣读书","https://book.douban.com/"],
-      15: ["无忧书城","http://www.51shucheng.net/"],
-      16: ["书格","https://shuge.org/"],
-      17: ["FanFiction Mobile","https://m.fanfiction.net/"],
-      18: ["ManyBooks","http://manybooks.net/"],
-      19: ["mLook","https://www.mlook.mobi/"],
-      20: ["Book Depository","https://www.bookdepository.com/"],
-      21: ["Manning","https://www.manning.com/"],
-      22: ["Wuxiaworld","http://www.wuxiaworld.com/"],
-      23: ["e书联盟","http://www.book118.com/"],
-      24: ["书本网","http://www.bookben.com/"],
-      25: ["鸠摩搜书","https://www.jiumodiary.com/"],
-      26: ["NeatReader","http://www.neat-reader.com/app"]
-    },
-    "Classic": {
-      0: ["搜神","http://m.soshen.cn/soshen/"],
-      1: ["搜韵","http://sou-yun.com/index.aspx"],
-      2: ["殆知阁","http://wenxian.fanren8.com/"],
-      3: ["汉典古籍","http://gj.zdic.net/"],
-      4: ["历史春秋","http://guoxue.lishichunqiu.com/"],
-      5: ["古诗文网","http://www.gushiwen.org/"],
-      6: ["古诗词网","http://www.gushici5.com/"],
-      7: ["中国古诗词鉴赏","http://www.wjszx.com.cn/"],
-      8: ["中华农历网","http://www.nongli.com/"],
-      9: ["文学360","http://www.wenxue360.com/"],
-      10: ["国学网","http://www.guoxue.com/"],
-      11: ["千千秀字","http://www.qqxiuzi.cn/"],
-      12: ["真经阁 ","http://www.zhenjingge.com/"]
-    },
-    "EngDict": {
-      0: ["BingDict","https://www.bing.com/dict"],
-      1: ["Eudic","http://dict.eudic.net/"],
-      2: ["有道词典","http://dict.youdao.com/"],
-      3: ["UrbanDict","http://www.urbandictionary.com/"],
-      4: ["EtymologyDict","http://www.etymonline.com/index.php"],
-      5: ["TheFreeDict","http://www.thefreedictionary.com/"]
-    },
-    "ZHDict": {
-      0: ["汉典","http://www.zdic.net/"],
-      1: ["字源","http://www.chineseetymology.org/"],
-      2: ["汉语方言发音字典","http://cn.voicedic.com/"],
-      3: ["和英辞典","http://ejje.weblio.jp/"],
-      4: ["查查日语","http://www.ichacha.net/jp/"],
-      5: ["goo辞書","http://dictionary.goo.ne.jp/"],
-      6: ["BitEx","https://bitex-cn.com/"],
-      7: ["东方语言学","http://www.eastling.org/"],
-      8: ["教育部異體字字典","http://dict.variants.moe.edu.tw/"]
-    },
-    "汉字": {
-      0: ["簡帛網","http://www.bsm.org.cn/"],
-      1: ["简帛研究","http://www.jianbo.org/index.asp"],
-      2: ["出土文献","http://www.gwz.fudan.edu.cn/"],
-      3: ["简帛论坛","http://www.bsm.org.cn/bbs/"],
-      4: ["古文字吧","http://tieba.baidu.com/f?ie=utf-8&kw=古文字"],
-      5: ["甲骨文吧","http://tieba.baidu.com/f?ie=utf-8&kw=甲骨文"],
-      6: ["金文吧","http://tieba.baidu.com/f?ie=utf-8&kw=金文"],
-      7: ["篆体字吧","http://tieba.baidu.com/f?ie=utf-8&kw=篆体字"],
-      8: ["篆书吧","http://tieba.baidu.com/f?ie=utf-8&kw=篆书"],
-      9: ["大篆吧","http://tieba.baidu.com/f?ie=utf-8&kw=大篆"],
-      10: ["小篆吧","http://tieba.baidu.com/f?ie=utf-8&kw=小篆"],
-      11: ["说文解字吧","http://tieba.baidu.com/f?ie=utf-8&kw=说文解字"],
-      12: ["书法吧","http://tieba.baidu.com/f?ie=utf-8&kw=书法"],
-      13: ["瘦金体吧","http://tieba.baidu.com/f?ie=utf-8&kw=瘦金体"]
-    },
-    "Language": {
-      0: ["Google Translate","http://translate.google.cn/"],
-      1: ["有道翻译","http://fanyi.youdao.com/"],
-      2: ["Quizlet","http://quizlet.com/"],
-      3: ["Test Your Vocabulary","http://testyourvocab.com/"],
-      4: ["日语学习网","http://jp.tingroom.com/"]
-    }
-  },
-  "Entertm": {
-    "Usual": {
-      0: ["PingWest","http://no.pingwest.com/"],
-      1: ["9gag","http://9gag.com/"],
-      2: ["煎蛋","http://jandan.net/"],
-      3: ["煎蛋段子","http://jandan.net/duan"],
-      4: ["煎蛋ooxx","http://jandan.net/ooxx"],
-      5: ["4chan","http://www.4chan.org"],
-      6: ["蛋花儿","http://danhuaer.com/"],
-      7: ["草蛋","http://www.caoegg.cn/"],
-      8: ["糗事百科","http://www.qiushibaike.com/"],
-      9: ["抽屉","http://dig.chouti.com/r/scoff/hot/1"],
-      10: ["煎蛋段子","http://jandan.net/duan/"],
-      11: ["动弹","https://www.oschina.net/tweets"],
-      12: ["ShowerThoughts","https://www.reddit.com/r/Showerthoughts/"],
-      13: ["22words","http://twentytwowords.com/"]
-    },
-    "Comic": {
-      0: ["xkcd","http://xkcd.com/"],
-      1: ["鼠绘漫画","http://www.ishuhui.com/"],
-      2: ["有妖气","http://www.u17.com/"],
-      3: ["Webtoons","http://www.webtoons.com/zh-hans/"],
-      4: ["动漫之家","http://www.dmzj.com/"],
-      5: ["腾讯动漫","http://ac.qq.com/"],
-      6: ["暴走漫画","http://baozoumanhua.com/"],
-      7: ["诸神动漫论坛","http://www.kamigami.org/forum.php"],
-      8: ["Marvel","http://marvel.com/"],
-      9: ["DC","http://www.dccomics.com/"],
-      10: ["OnePiece_ishuhui","http://www.ishuhui.com/cartoon/book/1"],
-      11: ["汐空动漫BT分享","http://www.xkdmbt.com/"],
-      12: ["精明眼","http://www.iibq.com/"],
-      13: ["精明眼第二站","http://www.iieye.cc/"],
-      14: ["精明眼 日文版","http://www.iibq.com/class/51/"],
-      15: ["OP_Wikia","http://onepiece.wikia.com/wiki/Main_Page"],
-      16: ["CC图库漫画","http://www.tukucc.com/"],
-      17: ["豆丁漫画","http://manhua.docin.com"]
-    },
-    "Game": {
-      0: ["Steam","http://store.steampowered.com/"],
-      1: ["游民星空","http://www.gamersky.com/"],
-      2: ["腾讯游戏 ","http://game.qq.com/"],
-      3: ["4399小游戏","http://www.4399.com/"],
-      4: ["CodeCombat","http://www.codecombat.cn/"],
-      5: ["VimAdventures","https://vim-adventures.com/"],
-      6: ["Html5Game","http://html5games.com/"]
-    },
-    "MC": {
-      0: ["BukkitWiki","http://wiki.bukkit.org/Main_Page"],
-      1: ["MCBBS","http://www.mcbbs.net/forum.php"],
-      2: ["Minecraft中文下载站","http://www.minecraftxz.com/"],
-      3: ["MCServerList_xz","http://fwq.minecraftxz.com/servers"],
-      4: ["MCServerList_zuimc","http://list.zuimc.com/"],
-      5: ["MC合成表","http://www.minecraftxz.com/the-mc-synthesis-table-chinese-pictures-minecraft-craftting-guide/"],
-      6: ["我的世界中文网","http://www.mcmap.cc/"],
-      7: ["MC ID List","http://minecraft-ids.grahamedgecombe.com/"],
-      8: ["Minecraft 1.11 Mods","http://ogmcdownload.com/"],
-      9: ["Bukkit Jenkins","http://ci.mengcraft.com:8080/job/Bukkit/"],
-      10: ["安游我的世界专区","http://mc.ahgame.com/"],
-      11: ["Mine Clone","http://www.mineclone.net/"]
-    }
-  },
-  "Life": {
-    "Market": {
-      0: ["淘宝","http://www.taobao.com/"],
-      1: ["天猫","https://www.tmall.com/"],
-      2: ["京东","http://www.jd.com/"],
-      3: ["Amazon","https://www.amazon.com"],
-      4: ["当当","http://book.dangdang.com/"],
-      5: ["收藏天下","http://www.96567.com/"],
-      6: ["阿里巴巴","https://www.1688.com/"]
-    },
-    "Shop": {
-      0: ["麦田香香书店","https://shop111311280.taobao.com/?spm=a1z10.1-c.0.0.MhhFqu"],
-      1: ["文天电脑科技","https://shop106102246.taobao.com/?spm=a1z10.1-c.0.0.E48kzy"],
-      2: ["中华商务进口图书直营店","http://mall.jd.com/index-53449.html"]
-    },
-    "Lifes": {
-      0: ["支付宝","https://www.alipay.com/"],
-      1: ["菜鸟裹裹","http://www.guoguo-app.com/"],
-      2: ["12306","http://www.12306.cn/"]
-    },
-    "Map": {
-      0: ["高德地图","http://ditu.amap.com/"],
-      1: ["Google Map","http://www.google.cn/maps"],
-      2: ["百度地图","http://map.baidu.com"],
-      3: ["腾讯地图","http://map.qq.com"]
-    },
-    "Help": {
-      0: ["PocketList","https://getpocket.com/a/"],
-      1: ["Draw","./page/draw.html"],
-      2: ["GoogleActivity","https://myactivity.google.com/myactivity"],
-      3: ["CodeDownload", "https://github.com/JoryPein/NaviPage/archive/master.zip"]
-    }
-  }
-};
+}

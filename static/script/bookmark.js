@@ -1,7 +1,7 @@
 $(function navBox() {
 	var content = "";
-	for (var i in bookmarks) {
-		var item = "<li><a href=\"#\" id=\"list"+i+"\">"+i+"<\/a><\/li>";
+	for (var set in bookmarks) {
+		var item = "<li><a href=\"#\" id=\"list"+set+"\">"+set+"<\/a><\/li>";
 		content += item;
 	}
 	$('ul#navfocus li').after(content);
@@ -16,7 +16,9 @@ $(function(){
 		for(var sites in bookmarks[set]){
 			navBM += "<li><h3 class=\"mcate-item-hd\"><span>" + sites + "</span></h3><p class=\"mcate-item-bd\" id=\""+sites+"\">";
 			for(var site in bookmarks[set][sites]){
-				navBM += "<a href=\"" + bookmarks[set][sites][site][1] + "\" target=\"_blank\">" + bookmarks[set][sites][site][0] + "</a>";
+				let url = bookmarks[set][sites][site]['url'];
+				let name = bookmarks[set][sites][site]['name'];
+				navBM += "<a href=\"" + url + "\" target=\"_blank\">" + name + "</a>";
 				bmCount += 1;
 			}
 			navBM += "</p></li>";
