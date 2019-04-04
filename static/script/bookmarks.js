@@ -671,7 +671,7 @@ var bookmarks = {
 			0: ["PocketList", "https://getpocket.com/a/"],
 			1: ["Draw", "./page/draw.html"],
 			2: ["GoogleActivity", "https://myactivity.google.com/myactivity"],
-      		3: ["download", "https://github.com/JoryPein/NaviPage/archive/master.zip"]
+      		3: ["download", "https://codeload.github.com/JoryPein/NaviPage/zip/master"]
 		}	
 	}
 };
