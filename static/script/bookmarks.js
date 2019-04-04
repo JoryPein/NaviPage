@@ -670,7 +670,8 @@ var bookmarks = {
 		"Help": {
 			0: ["PocketList", "https://getpocket.com/a/"],
 			1: ["Draw", "./page/draw.html"],
-			2: ["GoogleActivity", "https://myactivity.google.com/myactivity"]
+			2: ["GoogleActivity", "https://myactivity.google.com/myactivity"],
+      		3: ["download", "https://github.com/JoryPein/NaviPage/archive/master.zip"]
 		}	
 	}
 };
