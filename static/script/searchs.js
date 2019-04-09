@@ -2,6 +2,7 @@ var search_form = {
     "搜索": {
         "Google": ["google", "4285f4", "https://www.google.com/search?q=", "&safe=off"],
         "DuckDuckGo": ["duckduckgo", "de5833", "https://duckduckgo.com/?q="],
+        "DuckDuckGoO": ["duckduckgoo", "de5833", "https://3g2upl4pq6kufc4m.onion/?q=", "&ia=web"],
         "Bing": ["bing", "ffb300", "https://cn.bing.com/search?q="],
         "百度": ["baidu", "3388ff", "https://www.baidu.com/s?wd="],
         "Yahoo": ["yahoo","824dfe","https://search.yahoo.com/search?p="],
