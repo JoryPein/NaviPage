@@ -82,8 +82,10 @@ var bookmarks = {
                 "url": "http://www.newsbtc.com/"
             },
             {
-                "name": "开源中文网",
-                "url": "http://www.91linux.com/"
+            },
+            {
+                "name": "DarkwebNews",
+                "url": "https://darkwebnews.com/"
             }
         ],
         "Code": [
@@ -1492,6 +1494,10 @@ var bookmarks = {
             {
                 "name": "WeChat for Web",
                 "url": "https://wx2.qq.com"
+            },
+            {
+                "name": "Dread",
+                "url": "http://dreadditevelidot.onion/"
             }
         ],
         "Photos": [
@@ -1962,6 +1968,10 @@ var bookmarks = {
             {
                 "name": "教育部異體字字典",
                 "url": "http://dict.variants.moe.edu.tw/"
+            },
+            {
+                "name": "故事ことわざ辞典",
+                "url": "http://kotowaza-allguide.com/"
             }
         ],
         "汉字": [
