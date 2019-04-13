@@ -1172,12 +1172,52 @@ var bookmarks = {
                 "url": "http://google.59note.com/"
             },
             {
+                "name": "看国外",
+                "url": "https://www.kanguowai.com/"
+            },
+            {
                 "name": "安全圈",
                 "url": "https://www.anquanquan.info/"
             },
             {
-                "name": "看国外",
-                "url": "https://www.kanguowai.com/"
+                "name": "纳威安全导航",
+                "url": "https://navisec.it/"
+            },
+            {
+                "name": "网络安全导航",
+                "url": "http://www.hacksec.cn/links.html"
+            },
+            {
+                "name": "渗透师安全导航",
+                "url": "https://www.shentoushi.top/"
+            },
+            {
+                "name": "安全导航",
+                "url": "http://coco413.com/SecNavi/"
+            },
+            {
+                "name": "黑客街",
+                "url": "https://www.hackjie.com/"
+            },
+            {
+                "name": "nMask's blog",
+                "url": "https://thief.one/SecWeb/"
+            },
+            {
+                "name": "安全站点导航",
+                "url": "https://www.t00ls.net/navi.html"
+            },
+            {
+                "name": "安全脉搏导航",
+                "url": "http://nav.secpulse.com/"
+            },
+            {
+                "name": "安全全景图",
+                "url": "http://all.aqniu.com/"
+            },
+            {
+                "name": "xssav网址导航",
+                "url": "https://www.xssav.com/"
             }
         ],
         "Course": [
