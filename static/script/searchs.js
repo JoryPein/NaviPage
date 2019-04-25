@@ -34,6 +34,7 @@ var search_form = {
         "Tor Relay": ["TorRelay", "7C4597", "https://metrics.torproject.org/rs.html#search/"],
         "NPM": ["npmjs", "FB3E44", "https://www.npmjs.com/search?q="],
         "Ubuntu Package": ["ubuntupackages", "DD6D41", "https://packages.ubuntu.com/search?searchon=names&suite=all&section=all&keywords="],
+        "Sublime Package": ["packagecontrol", "FC9701", "https://packagecontrol.io/search/"],
 
     },
     "社区": {
