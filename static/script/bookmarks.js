@@ -434,6 +434,10 @@ var bookmarks = {
             {
                 "name": "文档手册中心",
                 "url": "http://man.chinaunix.net/"
+            },
+            {
+                "name": "Ubuntu Help",
+                "url": "https://help.ubuntu.com/"
             }
         ],
         "ITBlog": [
