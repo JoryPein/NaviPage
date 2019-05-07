@@ -1404,6 +1404,10 @@ var bookmarks = {
             {
                 "name": "猪猪盘",
                 "url": "http://www.zhuzhupan.com/"
+            },
+            {
+                "name": "TorrentDownloads",
+                "url": "https://www.torrentdownloads.me/"
             }
         ],
         "Email": [
