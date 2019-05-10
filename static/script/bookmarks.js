@@ -560,6 +560,10 @@ var bookmarks = {
             {
                 "name": "PythonPIP",
                 "url": "https://pypi.python.org/pypi/pip"
+            },
+            {
+                "name": "pythonlibs",
+                "url": "https://www.lfd.uci.edu/~gohlke/pythonlibs/"
             }
         ],
         "Windows": [
