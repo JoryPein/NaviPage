@@ -34,8 +34,7 @@ var search_form = {
         "Tor Relay": ["TorRelay", "7C4597", "https://metrics.torproject.org/rs.html#search/"],
         "NPM": ["npmjs", "FB3E44", "https://www.npmjs.com/search?q="],
         "Ubuntu Package": ["ubuntupackages", "DD6D41", "https://packages.ubuntu.com/search?searchon=names&suite=all&section=all&keywords="],
-        "Sublime Package": ["packagecontrol", "FC9701", "https://packagecontrol.io/search/"],
-
+        "Sublime Package": ["packagecontrol", "FC9701", "https://packagecontrol.io/search/"]
     },
     "社区": {
         "经验": ["jingyan","43bf0f","http://jingyan.baidu.com/search?word="],
@@ -116,7 +115,8 @@ var search_form = {
         "EasyIcon": ["EasyIcon","76D17F","http://www.easyicon.net/language.en/iconsearch/"],
         "腾讯动漫": ["TecentCartoon","fa9144","http://ac.qq.com/Comic/searchList/search/"],
         "动漫之家": ["dmzj","049FC0","http://manhua.dmzj.com/tags/search.shtml?s="],
-        "9GAG": ["ninegag","000000","http://9gag.com/search?query="]
+        "9GAG": ["ninegag","000000","http://9gag.com/search?query="],
+        "Iconfont": ["iconfont", "090723", "https://www.iconfont.cn/search/index?q="]
     },
     "音乐": {
         "音悦Tai": ["yinyuetai","669900","http://so.yinyuetai.com/mv?keyword="],
