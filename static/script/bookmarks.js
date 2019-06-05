@@ -172,6 +172,14 @@ var bookmarks = {
             {
                 "name": "编程论坛",
                 "url": "https://bbs.bccn.net/"
+            },
+            {
+                "name": "数据结构与算法教程",
+                "url": "http://data.biancheng.net/"
+            },
+            {
+                "name": "C语言中文网",
+                "url": "http://c.biancheng.net/cpp/"
             }
         ],
         "Web": [
@@ -376,6 +384,10 @@ var bookmarks = {
             {
                 "name": "bugkuTools",
                 "url": "http://tool.bugku.com/"
+            },
+            {
+                "name": "密码字典生成器",
+                "url": "https://www.bugku.com/mima/"
             }
         ],
         "Nix": [
@@ -2378,6 +2390,10 @@ var bookmarks = {
             {
                 "name": "12306",
                 "url": "http://www.12306.cn/"
+            },
+            {
+                "name": "美团",
+                "url": "https://www.meituan.com/"
             }
         ],
         "Map": [
