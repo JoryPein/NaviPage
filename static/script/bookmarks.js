@@ -2398,7 +2398,10 @@ var bookmarks = {
                 "url": "http://map.qq.com"
             }
         ],
-        "Help": [
+        "Help": [{
+        		"name": "collections",
+        		"url": "./page/collections.html"
+        	},
             {
                 "name": "PocketList",
                 "url": "https://getpocket.com/a/"
