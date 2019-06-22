@@ -6,29 +6,48 @@ var collections = {
         },{
             "name": "Trending  repositories on GitHub today",
             "url": "https://github.com/trending"
-        }],
+        }]
     },
     "OS": {
+        "操作系统": [{
+                "name": "Operating System Tutorial - tutorialspoint",
+                "url": "https://www.tutorialspoint.com/operating_system/index.htm"
+            },{
+                "name": "进程间通信&trade;",
+                "url": "https://www.yiibai.com/ipc"
+            }
+        ],
         "Linux": [{
-            "name": "The Linux Kernel Archives",
-            "url": "https://www.kernel.org/"
-        },{
-            "name": "鸟哥的 Linux 私房菜",
-            "url": "http://cn.linux.vbird.org/linux_basic/linux_basic.php"
-        },{
-            "name": "Linux入门教程 - C语言中文网",
-            "url": "http://c.biancheng.net/cpp/linux/"
-        },{
-            "name": "Linux Shell脚本教程 - C语言中文网",
-            "url": "http://c.biancheng.net/cpp/shell/"
-        },{
-            "name": "Official Ubuntu Documentation",
-            "url": "https://help.ubuntu.com/"
-        }],
+                "name": "The Linux Kernel Archives",
+                "url": "https://www.kernel.org/"
+            },{
+                "name": "鸟哥的Linux私房菜",
+                "url": "http://cn.linux.vbird.org/linux_basic/linux_basic.php"
+            },{
+                "name": "Linux入门教程 - C语言中文网",
+                "url": "http://c.biancheng.net/cpp/linux/"
+            },{
+                "name": "Official Ubuntu Documentation",
+                "url": "https://help.ubuntu.com/"
+            },{
+                "name": "Unix中文教程&trade;",
+                "url": "https://www.yiibai.com/unix"
+            },{
+                "name": "Unix/Linux系统调用&trade;",
+                "url": "https://www.yiibai.com/unix_system_calls"
+            },{
+                "name": "Linux命令教程&trade;",
+                "url": "https://www.yiibai.com/linux"
+            }
+        ],
         "Windows": [{
-            "name": "Windows编程入门 - C语言中文网",
-            "url": "http://c.biancheng.net/cpp/windows/"
-        }]
+                "name": "Windows编程【C语言版】 - C语言中文网",
+                "url": "http://c.biancheng.net/cpp/u/window/"
+            },{
+                "name": "Windows编程入门 - C语言中文网",
+                "url": "http://c.biancheng.net/cpp/windows/"
+            }
+        ]
     },
     "Web": {
         "Nginx": [
@@ -62,6 +81,9 @@ var collections = {
             },{
                 "name": "Django 中文文档",
                 "url": "https://docs.pythontab.com/django/django1.5/"
+            },{
+                "name": "Django教程&trade;",
+                "url": "https://www.yiibai.com/django"
             }
         ],
         "Flask": [{
@@ -76,6 +98,9 @@ var collections = {
                 "name": "JavaScript教程 - 廖雪峰的官方网站",
                 "url": "https://www.liaoxuefeng.com/wiki/1022910821149312"
             },{
+                "name": "Javascript教程&trade;",
+                "url": "https://www.yiibai.com/javascript"
+            },{
                 "name": "jQuery 教程 - 菜鸟教程",
                 "url": "https://www.runoob.com/jquery/jquery-tutorial.html"
             }
@@ -83,6 +108,9 @@ var collections = {
         "NodeJs": [{
                 "name": "nodejs中文手册",
                 "url": "https://docs.pythontab.com/nodejs/"
+            },{
+                "name": "Node.js教程&trade;",
+                "url": "https://www.yiibai.com/nodejs/"
             }
         ],
         "webpack": [{
@@ -107,15 +135,31 @@ var collections = {
             }
         ],
     },
-    "Program": {
+    "Network": {
         "网络编程": [{
                 "name": "C/C++ socket编程教程 - C语言中文网",
                 "url": "http://c.biancheng.net/cpp/socket/"
             },{
                 "name": "Socket Programming in Python (Guide) – Real Python",
                 "url": "https://realpython.com/python-sockets/"
+            },{
+                "name": "Socket编程&trade;",
+                "url": "https://www.yiibai.com/html/socket"
             }
         ],
+        "区块链": [{
+            "name": "区块链教程&trade;",
+            "url": "https://www.yiibai.com/blockchain/"
+        },{
+            "name": "区块链技术快速入门教程",
+            "url": "http://c.biancheng.net/blockchain/"
+        }],
+        "Tor": [{
+            "name": "Tor Documentation - Tor Project",
+            "url": "https://www.torproject.org/docs/documentation.html.en"
+        }]
+    },
+    "Program": {
         "数据结构与算法": [{
                 "name": "数据结构与算法教程 - 数据结构C语言版教程",
                 "url": "http://data.biancheng.net/"
@@ -125,12 +169,18 @@ var collections = {
             }
         ],
         "设计模式": [{
-            "name": "设计模式 - 菜鸟教程",
-            "url": "https://www.runoob.com/design-pattern/design-pattern-tutorial.html"
-        },{
-            "name": "Java设计模式详解 - 微学苑",
-            "url": "http://www.weixueyuan.net/java/shejimoshi/"
-        }],
+                "name": "设计模式 - 菜鸟教程",
+                "url": "https://www.runoob.com/design-pattern/design-pattern-tutorial.html"
+            },{
+                "name": "Java设计模式详解 - 微学苑",
+                "url": "http://www.weixueyuan.net/java/shejimoshi/"
+            }
+        ],
+        "设计": [{
+                "name": "UML教程&trade;",
+                "url": "https://www.yiibai.com/uml"
+            }
+        ],
         "版本控制": [{
                 "name": "Pro Git book",
                 "url": "https://docs.pythontab.com/github/gitbook/"
@@ -139,10 +189,16 @@ var collections = {
                 "url": "https://www.runoob.com/git/git-tutorial.html"
             },{
                 "name": "Git教程 - 廖雪峰的官方网站",
-               "url": "https://www.liaoxuefeng.com/wiki/896043488029600"
+                "url": "https://www.liaoxuefeng.com/wiki/896043488029600"
+            },{
+                "name": "Git教程&trade;",
+                "url": "https://www.yiibai.com/git"
             },{
                 "name": "SVN 教程 - 菜鸟教程",
-               "url": "https://www.runoob.com/svn/svn-tutorial.html"
+                "url": "https://www.runoob.com/svn/svn-tutorial.html"
+            },{
+                "name": "TortoiseSVN教程&trade;",
+                "url": "https://www.yiibai.com/svn"
             }
         ],
         "数据库": [{
@@ -154,6 +210,12 @@ var collections = {
             },{
                 "name": "MySQL 教程 - 菜鸟教程",
                 "url": "https://www.runoob.com/mysql/mysql-tutorial.html"
+            },{
+                "name": "MySQL教程&trade;",
+                "url": "https://www.yiibai.com/mysql/"
+            },{
+                "name": "PostgreSQL教程&trade;",
+                "url": "https://www.yiibai.com/postgresql/"
             },{
                 "name": "MongoDB 教程 - 菜鸟教程",
                 "url": "https://www.runoob.com/mongodb/mongodb-tutorial.html"
@@ -174,6 +236,9 @@ var collections = {
         "机器学习": [{
                 "name": "TensorFlow 官方文档中文版",
                 "url": "https://docs.pythontab.com/tensorflow/"
+            },{
+                "name": "TensorFlow Tutorial - tutorialspoint",
+                "url": "https://www.tutorialspoint.com/tensorflow/index.htm"
             }
         ],
         "GUI": [{
@@ -182,6 +247,14 @@ var collections = {
             },{
                 "name": "Qt for Python",
                 "url": "https://doc.qt.io/qtforpython/index.html"
+            }
+        ],
+        "汇编": [{
+                "name": "Assembly/汇编教程&trade;",
+                "url": "https://www.yiibai.com/html/assembly/"
+            },{
+                "name": "Assembly Programming Tutorial - tutorialspoint",
+                "url": "https://www.tutorialspoint.com/assembly_programming/index.htm"
             }
         ],
         "C": [{
@@ -199,6 +272,15 @@ var collections = {
             },{
                 "name": "C语言教程 中文版",
                 "url": "http://wiki.jikexueyuan.com/project/c/"
+            },{
+                "name": "C语言进阶教程_Real C_极客学院 Wiki",
+                "url": "http://wiki.jikexueyuan.com/project/c-gitbook/"
+            },{
+                "name": "C Programming Tutorial - tutorialspoint",
+                "url": "https://www.tutorialspoint.com/cprogramming/index.htm"
+            },{
+                "name": "C Standard Library Reference Tutorial - tutorialspoint",
+                "url": "https://www.tutorialspoint.com/c_standard_library/index.htm"
             }
         ],
         "C++": [{
@@ -213,6 +295,29 @@ var collections = {
             },{
                 "name": "C++ Programming Language - GeeksforGeeks",
                 "url": "https://www.geeksforgeeks.org/c-plus-plus/"
+            },{
+                "name": "C++ Tutorial - tutorialspoint",
+                "url": "https://www.tutorialspoint.com/cplusplus/index.htm"
+            },{
+                "name": "C++教程&trade;",
+                "url": "https://www.yiibai.com/cplusplus/"
+            },{
+                "name": "C++标准库教程&trade;",
+                "url": "https://www.yiibai.com/cpp_standard_library"
+            }
+        ],
+        "Shell": [{
+                "name": "Shell教程_Shell开发中文手册 - 极客学院Wiki",
+                "url": "http://wiki.jikexueyuan.com/project/shell-tutorial/"
+            },{
+                "name": "Linux Shell脚本教程 - C语言中文网",
+                "url": "http://c.biancheng.net/cpp/shell/"
+            },{
+                "name": "shell教程&trade;",
+                "url": "https://www.yiibai.com/shell"
+            },{
+                "name": "PowerShell Scripting | Microsoft Docs",
+                "url": "https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-6"
             }
         ],
         "C#": [{
@@ -245,6 +350,9 @@ var collections = {
         "Android": [{
                 "name": "Android基础入门教程 - 菜鸟教程",
                 "url": "https://www.runoob.com/w3cnote/android-tutorial-intro.html"
+            },{
+                "name": "Android开发教程&trade;",
+                "url": "https://www.yiibai.com/android"
             }
         ],
         "Python": [{
@@ -270,6 +378,14 @@ var collections = {
                 "url": "https://docs.pythontab.com/interpy/"
             },
         ],
+        "爬虫": [{
+                "name": "Requests: HTTP for Humans™ &#8212; Requests 2.22.0 documentation",
+                "url": "https://2.python-requests.org/en/master/"
+            },{
+                "name": "Beautiful Soup 4.4.0 文档",
+                "url": "https://docs.pythontab.com/beautifulsoup4/"
+            }
+        ],
         "Scrapy": [{
                 "name": "Scrapy 1.6 documentation &mdash; Scrapy 1.6.0 documentation",
                 "url": "https://docs.scrapy.org/en/latest/"
@@ -278,20 +394,14 @@ var collections = {
                 "url": "https://scrapy-chs.readthedocs.io/zh_CN/0.24/index.html"
             },
         ],
-        "Spider": [{
-                "name": "Requests: HTTP for Humans™ &#8212; Requests 2.22.0 documentation",
-                "url": "https://2.python-requests.org/en/master/"
+        "Celery": [{
+                "name": "Celery - Distributed Task Queue &#8212; Celery 4.3.0 documentation",
+                "url": "http://docs.celeryproject.org/en/latest/"
             },{
-                "name": "Beautiful Soup 4.4.0 文档",
-                "url": "https://docs.pythontab.com/beautifulsoup4/"
-            }
+                "name": "Celery - 分布式任务队列 &mdash; Celery 3.1.7 文档",
+                "url": "http://docs.jinkan.org/docs/celery/"
+            },
         ]
-    },
-    "Network": {
-        "Tor": [{
-            "name": "Tor Documentation - Tor Project",
-            "url": "https://www.torproject.org/docs/documentation.html.en"
-        }],
     },
     "安全": {
         "CTF": [{
@@ -308,7 +418,7 @@ var collections = {
                 "url": "https://wizardforcel.gitbooks.io/ctf-field-guide/content/"
             }
         ],
-        "WriteUp": [{
+        "Write Up": [{
             "name": "VulnHub/ctf-writeups: CTF write-ups from the VulnHub CTF Team",
             "url": "https://github.com/VulnHub/ctf-writeups"
         }],
@@ -327,9 +437,12 @@ var collections = {
         ],
     },
     "Other": {
-        "Twitter": [{
-            "name": "python-twitter 3.4.2 documentation",
+        "Sites": [{
+            "name": "Python Twitter 3.4.2 documentation",
             "url": "https://python-twitter.readthedocs.io/en/latest/"
+        },{
+            "name": "Python Telegram Bot 11.1.0 documentation",
+            "url": "https://python-telegram-bot.readthedocs.io/en/stable/"
         }],
         "Software": [{
             "name": "Package Control Download",
