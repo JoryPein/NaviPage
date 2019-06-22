@@ -66,7 +66,8 @@ var search_form = {
         "煮酒论史": ["tianya","0084c4","http://search.tianya.cn/bbs?q="],
         "殆知阁": ["fanren8","337ab7","http://122.200.75.13/result.php"],
         "搜神": ["soshen","359a34","http://m.soshen.cn/spring/soshen/search?canshu="],
-        "PDF": ["pdfSearchEngine","FA7575","http://pdf-downloads.net/", "-pdf.html"]
+        "PDF": ["pdfSearchEngine","FA7575","http://pdf-downloads.net/", "-pdf.html"],
+        "Readthedocs": ["readthedocs", "7C8F99", "https://readthedocs.org/search/?q="]
     },
     "词典": {
         "Google": ["googletranslate","000","https://translate.google.cn/#view=home&op=translate&sl=auto&tl=zh-CN&text="],

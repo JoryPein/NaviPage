@@ -174,12 +174,11 @@ var bookmarks = {
                 "url": "https://bbs.bccn.net/"
             },
             {
-                "name": "数据结构与算法教程",
-                "url": "http://data.biancheng.net/"
-            },
-            {
                 "name": "C语言中文网",
                 "url": "http://c.biancheng.net/cpp/"
+            },{
+                "name": "80x86汇编小站",
+                "url": "http://www.x86asm.com/#"
             }
         ],
         "Web": [
@@ -2415,7 +2414,7 @@ var bookmarks = {
             }
         ],
         "Help": [{
-        		"name": "collections",
+        		"name": "Collections",
         		"url": "./page/collections.html"
         	},
             {
