@@ -49,7 +49,7 @@ var collections = {
             }
         ]
     },
-    "Web": {
+    "Server": {
         "Nginx": [
             {
                 "name": "Nginx开发从入门到精通",
@@ -113,7 +113,7 @@ var collections = {
                 "url": "https://www.yiibai.com/nodejs/"
             }
         ],
-        "webpack": [{
+        "Webpack": [{
                 "name": "webpack",
                 "url": "https://webpack.js.org/concepts/"
             },{
@@ -121,7 +121,7 @@ var collections = {
                 "url": "http://webpack.html.cn/"
             }
         ],
-        "vue.js": [{
+        "Vue.js": [{
                 "name": "Vue.js 教程 - 菜鸟教程",
                 "url": "https://www.runoob.com/vue2/vue-tutorial.html"
             },{
@@ -132,6 +132,14 @@ var collections = {
         "Layui": [{
                 "name": "layui开发使用文档 - 入门指南",
                 "url": "https://www.layui.com/doc/"
+            }
+        ],
+        "Docker": [{
+                "name": "Docker Documentation | Docker Documentation",
+                "url": "https://docs.docker.com/"
+            },{
+                "name": "Docker 教程 - 菜鸟教程",
+                "url": "https://www.runoob.com/docker/docker-tutorial.html"
             }
         ],
     },
@@ -148,15 +156,23 @@ var collections = {
             }
         ],
         "区块链": [{
-            "name": "区块链教程&trade;",
-            "url": "https://www.yiibai.com/blockchain/"
-        },{
-            "name": "区块链技术快速入门教程",
-            "url": "http://c.biancheng.net/blockchain/"
-        }],
+                "name": "区块链教程&trade;",
+                "url": "https://www.yiibai.com/blockchain/"
+            },{
+                "name": "区块链技术快速入门教程",
+                "url": "http://c.biancheng.net/blockchain/"
+            }
+        ],
         "Tor": [{
             "name": "Tor Documentation - Tor Project",
             "url": "https://www.torproject.org/docs/documentation.html.en"
+        }],
+        "Tools": [{
+            "name": "Windows Sysinternals - Windows Sysinternals | Microsoft Docs",
+            "url": "https://docs.microsoft.com/en-us/sysinternals/"
+        },{
+            "name": "Burp Suite documentation",
+            "url": "https://portswigger.net/burp/documentation"
         }]
     },
     "Program": {
@@ -219,6 +235,9 @@ var collections = {
             },{
                 "name": "MongoDB 教程 - 菜鸟教程",
                 "url": "https://www.runoob.com/mongodb/mongodb-tutorial.html"
+            },{
+                "name": "MongoDB 教程 &mdash; Python 1.0.0 documentation",
+                "url": "https://mongodbdocs.readthedocs.io/en/latest/"
             },{
                 "name": "Redis 教程 - 菜鸟教程",
                 "url": "https://www.runoob.com/redis/redis-tutorial.html"
@@ -340,6 +359,9 @@ var collections = {
                 "name": "Java入门教程 - 微学苑",
                 "url": "http://www.weixueyuan.net/java/rumen/"
             },{
+                "name": "Java教程 - 菜鸟教程",
+                "url": "https://www.runoob.com/java/java-tutorial.html"
+            },{
                 "name": "Java教程 - 廖雪峰的官方网站",
                 "url": "https://www.liaoxuefeng.com/wiki/1252599548343744"
             },{
@@ -378,7 +400,7 @@ var collections = {
                 "url": "https://docs.pythontab.com/interpy/"
             },
         ],
-        "爬虫": [{
+        "Web": [{
                 "name": "Requests: HTTP for Humans™ &#8212; Requests 2.22.0 documentation",
                 "url": "https://2.python-requests.org/en/master/"
             },{
@@ -386,6 +408,10 @@ var collections = {
                 "url": "https://docs.pythontab.com/beautifulsoup4/"
             }
         ],
+        "Image": [{
+            "name": "Pillow &mdash; Pillow (PIL Fork) 6.1.0.dev0 documentation",
+            "url": "https://pillow.readthedocs.io/en/latest/index.html"
+        }],
         "Scrapy": [{
                 "name": "Scrapy 1.6 documentation &mdash; Scrapy 1.6.0 documentation",
                 "url": "https://docs.scrapy.org/en/latest/"
