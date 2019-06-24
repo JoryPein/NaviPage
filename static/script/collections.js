@@ -253,6 +253,10 @@ var collections = {
             }
         ],
         "机器学习": [{
+        		"name": "Python机器学习",
+        		"url": "https://ljalphabeta.gitbooks.io/python-/content/"
+        	},
+        	{
                 "name": "TensorFlow 官方文档中文版",
                 "url": "https://docs.pythontab.com/tensorflow/"
             },{
