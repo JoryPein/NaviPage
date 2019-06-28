@@ -76,7 +76,7 @@ var collections = {
                 "name": "Django 文档 - Django",
                 "url": "https://docs.djangoproject.com/zh-hans/2.2"
             },{
-                "name": "Django 教程 - 菜鸟教程",
+                "name": "Django教程 - 菜鸟教程",
                 "url": "https://www.runoob.com/django/django-tutorial.html"
             },{
                 "name": "Django 中文文档",
@@ -92,7 +92,10 @@ var collections = {
             }
         ],
         "Javascript": [{
-                "name": "JavaScript 教程 - 菜鸟教程",
+                "name": "JavaScript教程 - W3school",
+                "url": "http://www.w3school.com.cn/js/index.asp"
+            },{
+                "name": "JavaScript教程 - 菜鸟教程",
                 "url": "https://www.runoob.com/js/js-tutorial.html"
             },{
                 "name": "JavaScript教程 - 廖雪峰的官方网站",
@@ -100,8 +103,13 @@ var collections = {
             },{
                 "name": "Javascript教程&trade;",
                 "url": "https://www.yiibai.com/javascript"
+            }
+        ],
+        "JQuery": [{
+                "name": "jQuery教程 - W3school",
+                "url": "http://www.w3school.com.cn/jquery/index.asp"
             },{
-                "name": "jQuery 教程 - 菜鸟教程",
+                "name": "jQuery教程 - 菜鸟教程",
                 "url": "https://www.runoob.com/jquery/jquery-tutorial.html"
             }
         ],
@@ -122,7 +130,7 @@ var collections = {
             }
         ],
         "Vue.js": [{
-                "name": "Vue.js 教程 - 菜鸟教程",
+                "name": "Vue.js教程 - 菜鸟教程",
                 "url": "https://www.runoob.com/vue2/vue-tutorial.html"
             },{
                 "name": "介绍 — Vue.js",
@@ -138,7 +146,7 @@ var collections = {
                 "name": "Docker Documentation | Docker Documentation",
                 "url": "https://docs.docker.com/"
             },{
-                "name": "Docker 教程 - 菜鸟教程",
+                "name": "Docker教程 - 菜鸟教程",
                 "url": "https://www.runoob.com/docker/docker-tutorial.html"
             }
         ],
@@ -201,7 +209,7 @@ var collections = {
                 "name": "Pro Git book",
                 "url": "https://docs.pythontab.com/github/gitbook/"
             },{
-                "name": "Git 教程 - 菜鸟教程",
+                "name": "Git教程 - 菜鸟教程",
                 "url": "https://www.runoob.com/git/git-tutorial.html"
             },{
                 "name": "Git教程 - 廖雪峰的官方网站",
@@ -210,7 +218,7 @@ var collections = {
                 "name": "Git教程&trade;",
                 "url": "https://www.yiibai.com/git"
             },{
-                "name": "SVN 教程 - 菜鸟教程",
+                "name": "SVN教程 - 菜鸟教程",
                 "url": "https://www.runoob.com/svn/svn-tutorial.html"
             },{
                 "name": "TortoiseSVN教程&trade;",
@@ -218,13 +226,13 @@ var collections = {
             }
         ],
         "数据库": [{
-                "name": "SQL 教程 - 菜鸟教程",
+                "name": "SQL教程 - 菜鸟教程",
                 "url": "https://www.runoob.com/sql/sql-tutorial.html"
             },{
                 "name": "SQL教程 - 廖雪峰的官方网站",
                 "url": "https://www.liaoxuefeng.com/wiki/1177760294764384"
             },{
-                "name": "MySQL 教程 - 菜鸟教程",
+                "name": "MySQL教程 - 菜鸟教程",
                 "url": "https://www.runoob.com/mysql/mysql-tutorial.html"
             },{
                 "name": "MySQL教程&trade;",
@@ -233,13 +241,13 @@ var collections = {
                 "name": "PostgreSQL教程&trade;",
                 "url": "https://www.yiibai.com/postgresql/"
             },{
-                "name": "MongoDB 教程 - 菜鸟教程",
+                "name": "MongoDB教程 - 菜鸟教程",
                 "url": "https://www.runoob.com/mongodb/mongodb-tutorial.html"
             },{
-                "name": "MongoDB 教程 &mdash; Python 1.0.0 documentation",
+                "name": "MongoDB教程 &mdash; Python 1.0.0 documentation",
                 "url": "https://mongodbdocs.readthedocs.io/en/latest/"
             },{
-                "name": "Redis 教程 - 菜鸟教程",
+                "name": "Redis教程 - 菜鸟教程",
                 "url": "https://www.runoob.com/redis/redis-tutorial.html"
             },{
                 "name": "Redis 设计与实现",
@@ -248,7 +256,7 @@ var collections = {
                 "name": "Elasticsearch 权威指南（中文版）",
                 "url": "http://wiki.jikexueyuan.com/project/elasticsearch-definitive-guide-cn/"
             },{
-                "name": "SQLite 教程",
+                "name": "SQLite教程",
                 "url": "http://wiki.jikexueyuan.com/project/sqlite/"
             }
         ],
@@ -313,7 +321,7 @@ var collections = {
                 "name": "C++入门教程 - C语言中文网",
                 "url": "http://c.biancheng.net/cpp/biancheng/cpp/rumen/"
             },{
-                "name": "C++ 教程 - 菜鸟教程",
+                "name": "C++教程 - 菜鸟教程",
                 "url": "https://www.runoob.com/cplusplus/cpp-tutorial.html"
             },{
                 "name": "Visual Studio 中的 C++ - Microsoft Docs",
@@ -350,7 +358,7 @@ var collections = {
                 "name": "C# 指南 - Microsoft Docs",
                 "url": "https://docs.microsoft.com/zh-cn/dotnet/csharp/"
             },{
-                "name": "C# 教程 - 菜鸟教程",
+                "name": "C#教程 - 菜鸟教程",
                 "url": "https://www.runoob.com/csharp/csharp-tutorial.html"
             }
         ],
