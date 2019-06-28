@@ -304,6 +304,9 @@ var collections = {
             },{
                 "name": "C Standard Library Reference Tutorial - tutorialspoint",
                 "url": "https://www.tutorialspoint.com/c_standard_library/index.htm"
+            },{
+                "name": "C 中文开发手册 - 开发者手册 - 云+社区 - 腾讯云",
+                "url": "https://cloud.tencent.com/developer/doc/1023"
             }
         ],
         "C++": [{
@@ -357,6 +360,9 @@ var collections = {
             },{
                 "name": "Go入门指南",
                 "url": "http://wiki.jikexueyuan.com/project/the-way-to-go/"
+            },{
+                "name": "Go 中文开发手册 - 开发者手册 - 云+社区 - 腾讯云",
+                "url": "https://cloud.tencent.com/developer/doc/1101"
             }
         ],
         "Java": [{
@@ -402,6 +408,9 @@ var collections = {
             },{
                 "name": "《Python进阶》",
                 "url": "https://docs.pythontab.com/interpy/"
+            },{
+                "name": "Python 中文开发手册 - 开发者手册 - 云+社区 - 腾讯云",
+                "url": "https://cloud.tencent.com/developer/doc/1198"
             },
         ],
         "Web": [{
