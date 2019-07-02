@@ -273,11 +273,17 @@ var collections = {
             }
         ],
         "GUI": [{
+                "name": "PyQt5 tutorial - learn GUI programming with Python and PyQt5",
+                "url": "http://zetcode.com/gui/pyqt5/"
+            },{
                 "name": "Qt 学习之路",
                 "url": "http://wiki.jikexueyuan.com/project/learn-road-qt/"
             },{
                 "name": "Qt for Python",
                 "url": "https://doc.qt.io/qtforpython/index.html"
+            },{
+            	"name": "PyQt5 中文教程",
+            	"url": "https://maicss.gitbooks.io/pyqt5/content/"
             }
         ],
         "汇编": [{
