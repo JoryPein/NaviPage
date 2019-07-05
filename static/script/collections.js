@@ -98,6 +98,9 @@ var collections = {
                 "name": "JavaScript教程 - W3school",
                 "url": "http://www.w3school.com.cn/js/index.asp"
             },{
+                "name": "利用 Visual Studio 开发 JavaScript 和 TypeScript - Visual Studio",
+                "url": "https://docs.microsoft.com/zh-cn/visualstudio/javascript/?view=vs-2019"
+            },{
                 "name": "JavaScript教程 - 菜鸟教程",
                 "url": "https://www.runoob.com/js/js-tutorial.html"
             },{
@@ -138,6 +141,9 @@ var collections = {
             },{
                 "name": "介绍 — Vue.js",
                 "url": "https://cn.vuejs.org/v2/guide/index.html"
+            },{
+                "name": "快速入门：使用 Visual Studio 创建第一个 Vue.js 应用",
+                "url": "https://docs.microsoft.com/zh-cn/visualstudio/javascript/quickstart-vuejs-with-nodejs?view=vs-2019"
             }
         ],
         "Layui": [{
@@ -264,10 +270,9 @@ var collections = {
             }
         ],
         "机器学习": [{
-        		"name": "Python机器学习",
-        		"url": "https://ljalphabeta.gitbooks.io/python-/content/"
-        	},
-        	{
+                "name": "Python机器学习",
+                "url": "https://ljalphabeta.gitbooks.io/python-/content/"
+            },{
                 "name": "TensorFlow 官方文档中文版",
                 "url": "https://docs.pythontab.com/tensorflow/"
             },{
@@ -285,8 +290,8 @@ var collections = {
                 "name": "Qt for Python",
                 "url": "https://doc.qt.io/qtforpython/index.html"
             },{
-            	"name": "PyQt5 中文教程",
-            	"url": "https://maicss.gitbooks.io/pyqt5/content/"
+                "name": "PyQt5 中文教程",
+                "url": "https://maicss.gitbooks.io/pyqt5/content/"
             }
         ],
         "汇编": [{
@@ -363,9 +368,20 @@ var collections = {
                 "url": "https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-6"
             }
         ],
+        "VB": [{
+                "name": "Visual Basic | Microsoft Docs",
+                "url": "https://docs.microsoft.com/en-us/dotnet/visual-basic/index"
+            },{
+                "name": "教程：Visual Basic 入门 - Visual Studio",
+                "url": "https://docs.microsoft.com/zh-cn/visualstudio/get-started/visual-basic/tutorial-console?view=vs-2019"
+            }
+        ],
         "C#": [{
                 "name": "C# 指南 - Microsoft Docs",
                 "url": "https://docs.microsoft.com/zh-cn/dotnet/csharp/"
+            },{
+                "name": "利用 Visual Studio 开发 C# - Visual Studio",
+                "url": "https://docs.microsoft.com/zh-cn/visualstudio/get-started/csharp/?view=vs-2019"
             },{
                 "name": "C#教程 - 菜鸟教程",
                 "url": "https://www.runoob.com/csharp/csharp-tutorial.html"
@@ -429,8 +445,11 @@ var collections = {
                 "name": "Python 中文开发手册 - 开发者手册 - 云+社区 - 腾讯云",
                 "url": "https://cloud.tencent.com/developer/doc/1198"
             },{
-            	"name": "Python 资源大全中文版 - jobbole/awesome-python-cn",
-            	"url": "https://github.com/jobbole/awesome-python-cn"
+                "name": "Python 资源大全中文版 - jobbole/awesome-python-cn",
+                "url": "https://github.com/jobbole/awesome-python-cn"
+            },{
+                "name": "利用 Visual Studio 开发 Python",
+                "url": "https://docs.microsoft.com/zh-cn/visualstudio/python/?view=vs-2019"
             }
         ],
         "Web": [{
