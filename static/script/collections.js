@@ -46,7 +46,10 @@ var collections = {
             },{
                 "name": "Windows编程入门 - C语言中文网",
                 "url": "http://c.biancheng.net/cpp/windows/"
-            }
+            },{
+                "name": "PyWin32 Documentation",
+                "url": "http://timgolden.me.uk/pywin32-docs/contents.html"
+            },
         ]
     },
     "Server": {
@@ -425,7 +428,10 @@ var collections = {
             },{
                 "name": "Python 中文开发手册 - 开发者手册 - 云+社区 - 腾讯云",
                 "url": "https://cloud.tencent.com/developer/doc/1198"
-            },
+            },{
+            	"name": "Python 资源大全中文版 - jobbole/awesome-python-cn",
+            	"url": "https://github.com/jobbole/awesome-python-cn"
+            }
         ],
         "Web": [{
                 "name": "Requests: HTTP for Humans™ &#8212; Requests 2.22.0 documentation",
@@ -455,6 +461,12 @@ var collections = {
                 "url": "http://docs.jinkan.org/docs/celery/"
             },
         ]
+    },
+    "编码": {
+        "密码学": [{
+            "name": "PyCryptodome 3.9a0 documentation",
+            "url": "https://pycryptodome.readthedocs.io/en/latest/index.html"
+        }]
     },
     "安全": {
         "CTF": [{
