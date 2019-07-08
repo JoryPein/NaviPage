@@ -149,6 +149,9 @@ var collections = {
         "Layui": [{
                 "name": "layui开发使用文档 - 入门指南",
                 "url": "https://www.layui.com/doc/"
+            },{
+                "name": "layuiAdmin std - 通用后台管理模板系统（iframe标准版）",
+                "url": "https://www.layui.com/admin/std/dist/views/"
             }
         ],
         "Docker": [{
@@ -488,6 +491,16 @@ var collections = {
         }]
     },
     "安全": {
+        "CVE": [{
+            "name": "CVE - Download CVE List",
+            "url": "http://cve.mitre.org/data/downloads/index.html"
+        },{
+            "name": "Browse cve vulnerabilities by date",
+            "url": "https://www.cvedetails.com/browse-by-date.php"
+        },{
+            "name": "漏洞列表 - 知道创宇 Seebug 漏洞平台",
+            "url": "https://www.seebug.org/vuldb/vulnerabilities"
+        }],
         "CTF": [{
                 "name": "CTF Test - szysec/ctftest",
                 "url": "https://github.com/szysec/ctftest/blob/master/readme.md"
