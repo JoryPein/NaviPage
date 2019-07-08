@@ -270,6 +270,9 @@ var collections = {
             },{
                 "name": "SQLite教程",
                 "url": "http://wiki.jikexueyuan.com/project/sqlite/"
+            },{
+                "name": "SQLite Documentation",
+                "url": "https://sqlite.org/docs.html"
             }
         ],
         "机器学习": [{
@@ -281,6 +284,11 @@ var collections = {
             },{
                 "name": "TensorFlow Tutorial - tutorialspoint",
                 "url": "https://www.tutorialspoint.com/tensorflow/index.htm"
+            }
+        ],
+        "Data Science": [{
+                "name": "Learn Data Science - Data Science Tutorials - DataFlair",
+                "url": "https://data-flair.training/blogs/data-science-tutorials-home/"
             }
         ],
         "GUI": [{
@@ -453,6 +461,9 @@ var collections = {
             },{
                 "name": "利用 Visual Studio 开发 Python",
                 "url": "https://docs.microsoft.com/zh-cn/visualstudio/python/?view=vs-2019"
+            },{
+                "name": "Python Tutorials for Beginners - Learn Python Programming from scratch - DataFlair",
+                "url": "https://data-flair.training/blogs/python-tutorials-home/"
             }
         ],
         "Web": [{
@@ -515,7 +526,7 @@ var collections = {
                 "url": "https://wizardforcel.gitbooks.io/ctf-field-guide/content/"
             }
         ],
-        "Write Up": [{
+        "CTF Writeups": [{
             "name": "VulnHub/ctf-writeups: CTF write-ups from the VulnHub CTF Team",
             "url": "https://github.com/VulnHub/ctf-writeups"
         }],
