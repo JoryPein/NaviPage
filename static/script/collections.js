@@ -464,6 +464,9 @@ var collections = {
             },{
                 "name": "Python Tutorials for Beginners - Learn Python Programming from scratch - DataFlair",
                 "url": "https://data-flair.training/blogs/python-tutorials-home/"
+            },{
+            	"name": "Six: Python 2 and 3 Compatibility Library &mdash; six 1.12.0 documentation",
+            	"url": "https://six.readthedocs.io/"
             }
         ],
         "Web": [{
