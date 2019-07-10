@@ -87,6 +87,9 @@ var collections = {
             },{
                 "name": "Django教程&trade;",
                 "url": "https://www.yiibai.com/django"
+            },{
+                "name": "刘江的Django教程",
+                "url": "http://www.liujiangblog.com/course/django/"
             }
         ],
         "Flask": [{
@@ -173,6 +176,9 @@ var collections = {
             },{
                 "name": "Socket编程&trade;",
                 "url": "https://www.yiibai.com/html/socket"
+            },{
+                "name": "python高级与网络编程",
+                "url": "https://aceld.gitbooks.io/python/content/"
             }
         ],
         "区块链": [{
@@ -289,6 +295,9 @@ var collections = {
         "Data Science": [{
                 "name": "Learn Data Science - Data Science Tutorials - DataFlair",
                 "url": "https://data-flair.training/blogs/data-science-tutorials-home/"
+            },{
+                "name": "刘江的数据分析教程",
+                "url": "http://www.liujiangblog.com/course/data/"
             }
         ],
         "GUI": [{
@@ -465,8 +474,11 @@ var collections = {
                 "name": "Python Tutorials for Beginners - Learn Python Programming from scratch - DataFlair",
                 "url": "https://data-flair.training/blogs/python-tutorials-home/"
             },{
-            	"name": "Six: Python 2 and 3 Compatibility Library &mdash; six 1.12.0 documentation",
-            	"url": "https://six.readthedocs.io/"
+                "name": "Python高级教程 - 刘江的Python教程",
+                "url": "http://www.liujiangblog.com/course/python/1"
+            },{
+                "name": "Six: Python 2 and 3 Compatibility Library &mdash; six 1.12.0 documentation",
+                "url": "https://six.readthedocs.io/"
             }
         ],
         "Web": [{
@@ -475,7 +487,11 @@ var collections = {
             },{
                 "name": "Beautiful Soup 4.4.0 文档",
                 "url": "https://docs.pythontab.com/beautifulsoup4/"
+            },{
+                "name": "为什么要学习爬虫 · 网络爬虫教程",
+                "url": "https://piaosanlang.gitbooks.io/spiders/content/01day/section1.1.html"
             }
+            
         ],
         "Image": [{
             "name": "Pillow &mdash; Pillow (PIL Fork) 6.1.0.dev0 documentation",
