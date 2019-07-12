@@ -53,10 +53,12 @@ var collections = {
         ]
     },
     "Server": {
-        "Nginx": [
-            {
+        "Nginx": [{
                 "name": "Nginx开发从入门到精通",
                 "url": "https://docs.pythontab.com/nginx/nginx-book/"
+            },{
+                "name": "nginx 1.15 | nginx文档 : Code Examples",
+                "url": "https://code-examples.net/zh-CN/docs/nginx/index"
             }
         ],
         "Jinja": [{
@@ -202,6 +204,11 @@ var collections = {
         }]
     },
     "Program": {
+        "开发文档": [{
+                "name": "Developer Documentation : Code Examples",
+                "url": "https://code-examples.net/zh-CN/docs"
+            }
+        ],
         "数据结构与算法": [{
                 "name": "数据结构与算法教程 - 数据结构C语言版教程",
                 "url": "http://data.biancheng.net/"
@@ -349,6 +356,12 @@ var collections = {
             },{
                 "name": "C 中文开发手册 - 开发者手册 - 云+社区 - 腾讯云",
                 "url": "https://cloud.tencent.com/developer/doc/1023"
+            },{
+                "name": "Learn C (Introduction and Tutorials to C Programming)",
+                "url": "https://www.programiz.com/c-programming"
+            },{
+                "name": "C | C编程语言 : Code Examples",
+                "url": "https://code-examples.net/zh-CN/docs/c/index"
             }
         ],
         "C++": [{
@@ -372,6 +385,12 @@ var collections = {
             },{
                 "name": "C++标准库教程&trade;",
                 "url": "https://www.yiibai.com/cpp_standard_library"
+            },{
+                "name": "Learn C++ (Introduction and Tutorials to C++ Programming)",
+                "url": "https://www.programiz.com/cpp-programming"
+            },{
+                "name": "C++ | C ++编程语言 : Code Examples",
+                "url": "https://code-examples.net/zh-CN/docs/cpp/index"
             }
         ],
         "Shell": [{
@@ -416,6 +435,9 @@ var collections = {
             },{
                 "name": "Go 中文开发手册 - 开发者手册 - 云+社区 - 腾讯云",
                 "url": "https://cloud.tencent.com/developer/doc/1101"
+            },{
+                "name": "Go 1.11 | 去编程语言 : Code Examples",
+                "url": "https://code-examples.net/zh-CN/docs/go/index"
             }
         ],
         "Java": [{
@@ -430,6 +452,9 @@ var collections = {
             },{
                 "name": "Java 提高篇",
                 "url": "http://wiki.jikexueyuan.com/project/java-enhancement/"
+            },{
+                "name": "Learn Java (Introduction and Tutorials to Java Programming)",
+                "url": "https://www.programiz.com/java-programming"
             }
         ],
         "Android": [{
@@ -459,7 +484,7 @@ var collections = {
                 "name": "Python编程时光 &mdash; MING&#39;s BLOG 1.0.0 文档",
                 "url": "http://python-online.cn/zh_CN/latest/"
             },{
-                "name": "《Python进阶》",
+                "name": "Python进阶",
                 "url": "https://docs.pythontab.com/interpy/"
             },{
                 "name": "Python 中文开发手册 - 开发者手册 - 云+社区 - 腾讯云",
@@ -477,11 +502,25 @@ var collections = {
                 "name": "Python高级教程 - 刘江的Python教程",
                 "url": "http://www.liujiangblog.com/course/python/1"
             },{
+                "name": "Pythontic.com - Learn the Python Programming Language",
+                "url": "https://pythontic.com/"
+            },{
+                "name": "Learn Python (Programming Tutorial for Beginners)",
+                "url": "https://www.programiz.com/python-programming"
+            },{
+                "name": "The Hitchhiker’s Guide to Python! &#8212; The Hitchhiker&#39;s Guide to Python",
+                "url": "https://docs.python-guide.org/"
+            },{
+                "name": "Python 3.6 | Python : Code Examples",
+                "url": "https://code-examples.net/zh-CN/docs/python~3.6/index"
+            }
+        ],
+        "PythonVersion": [{
                 "name": "Six: Python 2 and 3 Compatibility Library &mdash; six 1.12.0 documentation",
                 "url": "https://six.readthedocs.io/"
             }
         ],
-        "Web": [{
+        "Spider": [{
                 "name": "Requests: HTTP for Humans™ &#8212; Requests 2.22.0 documentation",
                 "url": "https://2.python-requests.org/en/master/"
             },{
@@ -493,10 +532,6 @@ var collections = {
             }
             
         ],
-        "Image": [{
-            "name": "Pillow &mdash; Pillow (PIL Fork) 6.1.0.dev0 documentation",
-            "url": "https://pillow.readthedocs.io/en/latest/index.html"
-        }],
         "Scrapy": [{
                 "name": "Scrapy 1.6 documentation &mdash; Scrapy 1.6.0 documentation",
                 "url": "https://docs.scrapy.org/en/latest/"
@@ -505,6 +540,10 @@ var collections = {
                 "url": "https://scrapy-chs.readthedocs.io/zh_CN/0.24/index.html"
             },
         ],
+        "Image": [{
+            "name": "Pillow &mdash; Pillow (PIL Fork) 6.1.0.dev0 documentation",
+            "url": "https://pillow.readthedocs.io/en/latest/index.html"
+        }],
         "Celery": [{
                 "name": "Celery - Distributed Task Queue &#8212; Celery 4.3.0 documentation",
                 "url": "http://docs.celeryproject.org/en/latest/"
