@@ -515,9 +515,12 @@ var collections = {
                 "url": "https://code-examples.net/zh-CN/docs/python~3.6/index"
             }
         ],
-        "PythonVersion": [{
+        "PythonAbout": [{
                 "name": "Six: Python 2 and 3 Compatibility Library &mdash; six 1.12.0 documentation",
                 "url": "https://six.readthedocs.io/"
+            },{
+                "name": "Full pytest documentation &#8212; pytest documentation",
+                "url": "https://docs.pytest.org/en/latest/contents.html"
             }
         ],
         "Spider": [{
