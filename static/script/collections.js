@@ -204,9 +204,12 @@ var collections = {
         }]
     },
     "Program": {
-        "开发文档": [{
+        "开发": [{
                 "name": "Developer Documentation : Code Examples",
                 "url": "https://code-examples.net/zh-CN/docs"
+            },{
+                "name": "CTOLib码库",
+                "url": "https://www.ctolib.com/"
             }
         ],
         "数据结构与算法": [{
@@ -362,6 +365,9 @@ var collections = {
             },{
                 "name": "C | C编程语言 : Code Examples",
                 "url": "https://code-examples.net/zh-CN/docs/c/index"
+            },{
+                "name": "介绍 | 手把手教你做一个 C 语言编译器",
+                "url": "https://www.ctolib.com/docs//sfile/diy-c-compiler/index.html"
             }
         ],
         "C++": [{
@@ -391,6 +397,15 @@ var collections = {
             },{
                 "name": "C++ | C ++编程语言 : Code Examples",
                 "url": "https://code-examples.net/zh-CN/docs/cpp/index"
+            },{
+                "name": "C++资源框架速查表 - C/C++开发社区 | CTOLib码库",
+                "url": "https://www.ctolib.com/cheatsheets-c++-resource-framework.html"
+            },{
+                "name": "Highscore - The Boost C++ Libraries",
+                "url": "http://zh.highscore.de/cpp/boost/"
+            },{
+                "name": "介绍 | Effective C++ 中文版",
+                "url": "https://www.ctolib.com/docs//sfile/effective-cpp/index.html"
             }
         ],
         "Shell": [{
@@ -424,6 +439,12 @@ var collections = {
             },{
                 "name": "C#教程 - 菜鸟教程",
                 "url": "https://www.runoob.com/csharp/csharp-tutorial.html"
+            },{
+                "name": "简介 - C# 入门手册_教程_.NET开发社区",
+                "url": "https://www.ctolib.com/docs-csharp-c-index"
+            },{
+                "name": "简介 - ASP.NET 编程指南_教程_.NET开发社区",
+                "url": "https://www.ctolib.com/docs-asp-net-c-index"
             }
         ],
         "Go": [{
@@ -513,6 +534,9 @@ var collections = {
             },{
                 "name": "Python 3.6 | Python : Code Examples",
                 "url": "https://code-examples.net/zh-CN/docs/python~3.6/index"
+            },{
+                "name": "Python开发资源速查表 - Python开发社区 | CTOLib码库",
+                "url": "https://www.ctolib.com/cheatsheets-Awesome-Python.html"
             }
         ],
         "PythonAbout": [{
@@ -521,6 +545,9 @@ var collections = {
             },{
                 "name": "Full pytest documentation &#8212; pytest documentation",
                 "url": "https://docs.pytest.org/en/latest/contents.html"
+            },{
+                "name": "PyInstaller Manual &mdash; PyInstaller 3.5 documentation",
+                "url": "https://pyinstaller.readthedocs.io/en/stable/index.html"
             }
         ],
         "Spider": [{
