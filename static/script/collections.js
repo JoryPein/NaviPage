@@ -49,16 +49,19 @@ var collections = {
             },{
                 "name": "PyWin32 Documentation",
                 "url": "http://timgolden.me.uk/pywin32-docs/contents.html"
-            },
+            }
         ]
     },
     "Server": {
         "Nginx": [{
+                "name": "nginx 1.15 | nginx文档 : Code Examples",
+                "url": "https://code-examples.net/zh-CN/docs/nginx/index"
+            },{
                 "name": "Nginx开发从入门到精通",
                 "url": "https://docs.pythontab.com/nginx/nginx-book/"
             },{
-                "name": "nginx 1.15 | nginx文档 : Code Examples",
-                "url": "https://code-examples.net/zh-CN/docs/nginx/index"
+                "name": "Nginx 入门指南_w3cschool",
+                "url": "https://www.w3cschool.cn/nginx/"
             }
         ],
         "Jinja": [{
@@ -92,6 +95,9 @@ var collections = {
             },{
                 "name": "刘江的Django教程",
                 "url": "http://www.liujiangblog.com/course/django/"
+            },{
+                "name": "Django教程_w3cschool",
+                "url": "https://www.w3cschool.cn/django/"
             }
         ],
         "Flask": [{
@@ -149,6 +155,9 @@ var collections = {
             },{
                 "name": "快速入门：使用 Visual Studio 创建第一个 Vue.js 应用",
                 "url": "https://docs.microsoft.com/zh-cn/visualstudio/javascript/quickstart-vuejs-with-nodejs?view=vs-2019"
+            },{
+                "name": "vue 手册_w3cschool",
+                "url": "https://www.w3cschool.cn/aekdgs/"
             }
         ],
         "Layui": [{
@@ -165,6 +174,9 @@ var collections = {
             },{
                 "name": "Docker教程 - 菜鸟教程",
                 "url": "https://www.runoob.com/docker/docker-tutorial.html"
+            },{
+                "name": "Docker从入门到实践_w3cschool",
+                "url": "https://www.w3cschool.cn/reqsgr/"
             }
         ],
     },
@@ -210,6 +222,9 @@ var collections = {
             },{
                 "name": "CTOLib码库",
                 "url": "https://www.ctolib.com/"
+            },{
+                "name": "编程入门教程_w3cschool极客教程",
+                "url": "https://www.w3cschool.cn/tutorial"
             }
         ],
         "数据结构与算法": [{
@@ -274,6 +289,12 @@ var collections = {
             },{
                 "name": "MongoDB教程 &mdash; Python 1.0.0 documentation",
                 "url": "https://mongodbdocs.readthedocs.io/en/latest/"
+            },{
+                "name": "MongoDB教程_w3cschool",
+                "url": "https://www.w3cschool.cn/mongodb/"
+            },{
+                "name": "MongoDB .NET Driver API Documentation",
+                "url": "http://mongodb.github.io/mongo-csharp-driver/2.8/apidocs/html/R_Project_CSharpDriverDocs.htm"
             },{
                 "name": "Redis教程 - 菜鸟教程",
                 "url": "https://www.runoob.com/redis/redis-tutorial.html"
@@ -420,7 +441,13 @@ var collections = {
             },{
                 "name": "PowerShell Scripting | Microsoft Docs",
                 "url": "https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-6"
-            }
+            },{
+                "name": "DOS命令学习手册_w3cschool",
+                "url": "https://www.w3cschool.cn/dosmlxxsc1/"
+            },{
+                "name": "Shell 编程范例_w3cschool",
+                "url": "https://www.w3cschool.cn/shellbook/"
+            },
         ],
         "VB": [{
                 "name": "Visual Basic | Microsoft Docs",
@@ -445,6 +472,9 @@ var collections = {
             },{
                 "name": "简介 - ASP.NET 编程指南_教程_.NET开发社区",
                 "url": "https://www.ctolib.com/docs-asp-net-c-index"
+            },{
+                "name": "C# (CSharp) Code Examples - HotExamples",
+                "url": "https://csharp.hotexamples.com/"
             }
         ],
         "Go": [{
@@ -633,6 +663,14 @@ var collections = {
         ],
     },
     "Other": {
+        "Chrome": [{
+            "name": "Chrome 开发工具指南_w3cschool",
+            "url": "https://www.w3cschool.cn/chromedevtools/"
+        }],
+        "Format": [{
+            "name": "Markdown 语法说明_w3cschool",
+            "url": "https://www.w3cschool.cn/markdownyfsm/"
+        }],
         "Sites": [{
             "name": "Python Twitter 3.4.2 documentation",
             "url": "https://python-twitter.readthedocs.io/en/latest/"
