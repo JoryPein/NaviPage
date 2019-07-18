@@ -281,6 +281,9 @@ var collections = {
                 "name": "MySQL教程&trade;",
                 "url": "https://www.yiibai.com/mysql/"
             },{
+                "name": "MySQL Connector/NET 8.0 API Reference",
+                "url": "https://dev.mysql.com/doc/dev/connector-net/8.0/html/connector-net-x-devapi-reference.htm"
+            },{
                 "name": "PostgreSQL教程&trade;",
                 "url": "https://www.yiibai.com/postgresql/"
             },{
