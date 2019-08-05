@@ -213,6 +213,13 @@ var collections = {
         },{
             "name": "Burp Suite documentation",
             "url": "https://portswigger.net/burp/documentation"
+        }],
+        "Metasploit": [{
+            "name": "Metasploit Framework",
+            "url": "https://metasploit.help.rapid7.com/docs"
+        },{
+            "name": "Metasploit Framework - GitHub",
+            "url": "https://github.com/rapid7/metasploit-framework/wiki"
         }]
     },
     "Program": {
