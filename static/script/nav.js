@@ -29,7 +29,8 @@
 		lista.removeClass("now");
 		$(this).addClass("now");
 		clearTimeout(time);
-		var index = list.find("a").index($(this)) - 1;
+		// var index = list.find("a").index($(this)) - 1;
+		var index = list.find("a").index($(this));
 		box.find(".cont").hide().eq(index).show();
 		var _height = box.find(".cont").eq(index).height()+54;
 		box_show(_height)

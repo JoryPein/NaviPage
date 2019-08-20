@@ -4,7 +4,8 @@ $(function navBox() {
 		var item = "<li><a href=\"#\" id=\"list"+set+"\">"+set+"<\/a><\/li>";
 		content += item;
 	}
-	$('ul#navfocus li').after(content);
+	// $('ul#navfocus li').after(content);
+	$('ul#navfocus li').html(content);
 });
 
 
