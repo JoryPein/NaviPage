@@ -103,6 +103,9 @@ var collections = {
         "Flask": [{
             "name": "Flask 0.10.1 文档",
             "url": "http://docs.jinkan.org/docs/flask/"
+            },{
+            "name": "Flask 扩展文档汇总",
+            "url": "https://wizardforcel.gitbooks.io/flask-extension-docs/content/"
             }
         ],
         "Javascript": [{
@@ -220,6 +223,9 @@ var collections = {
         },{
             "name": "Metasploit Framework - GitHub",
             "url": "https://github.com/rapid7/metasploit-framework/wiki"
+        },{
+            "name": "Introduction - Metasploit Unleashed",
+            "url": "https://www.offensive-security.com/metasploit-unleashed/introduction/"
         }]
     },
     "Program": {
@@ -531,6 +537,17 @@ var collections = {
                 "url": "https://www.yiibai.com/android"
             }
         ],
+        "Ruby": [{
+                "name": "Ruby Documentation",
+                "url": "https://www.ruby-lang.org/en/documentation/"
+            },{
+                "name": "Ruby教程&trade;",
+                "url": "https://www.yiibai.com/ruby"
+            },{
+                "name": "Ruby 教程 | 菜鸟教程",
+                "url": "https://www.runoob.com/ruby/ruby-tutorial.html"
+            }
+        ],
         "Python": [{
                 "name": "Python Documentation contents &#8212; Python 3.7.0a2 documentation",
                 "url": "https://python.readthedocs.io/en/latest/contents.html"
@@ -582,6 +599,9 @@ var collections = {
             },{
                 "name": "Python开发资源速查表 - Python开发社区 | CTOLib码库",
                 "url": "https://www.ctolib.com/cheatsheets-Awesome-Python.html"
+            },{
+                "name": "Python 中文学习大本营",
+                "url": "http://www.pythondoc.com/"
             }
         ],
         "PythonAbout": [{
@@ -632,9 +652,17 @@ var collections = {
         "密码学": [{
             "name": "PyCryptodome 3.9a0 documentation",
             "url": "https://pycryptodome.readthedocs.io/en/latest/index.html"
+        }],
+        "工具": [{
+        	"name": "HashKiller.co.uk - Huge Online Hash Database and Community, Free Hash Cracker, Online Hash Cracking",
+        	"url": "https://hashkiller.co.uk/"
         }]
     },
     "安全": {
+        "语言": [{
+        	"name": "python安全编程教程",
+        	"url": "https://wizardforcel.gitbooks.io/py-sec-tutorial/content/index.html"
+        }],
         "CVE": [{
             "name": "CVE - Download CVE List",
             "url": "http://cve.mitre.org/data/downloads/index.html"
@@ -664,6 +692,9 @@ var collections = {
             "url": "https://github.com/VulnHub/ctf-writeups"
         }],
         "Pwn": [{
+                "name": "binjitsu &mdash; binjitsu 2.2.0 documentation",
+                "url": "https://binjitsu.readthedocs.io/s"
+            },{
                 "name": "pwntools &mdash; pwntools 3.12.1 documentation",
                 "url": "https://pwntools.readthedocs.io/en/stable/"
             },{
