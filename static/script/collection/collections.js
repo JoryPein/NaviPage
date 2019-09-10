@@ -185,69 +185,72 @@ var collections = {
     },
     "Network": {
         "网络编程": [{
-                "name": "C/C++ socket编程教程 - C语言中文网",
-                "url": "http://c.biancheng.net/cpp/socket/"
-            },{
-                "name": "Socket Programming in Python (Guide) – Real Python",
-                "url": "https://realpython.com/python-sockets/"
-            },{
-                "name": "Socket编程&trade;",
-                "url": "https://www.yiibai.com/html/socket"
-            },{
-                "name": "python高级与网络编程",
-                "url": "https://aceld.gitbooks.io/python/content/"
-            }
-        ],
+                    "name": "C/C++ socket编程教程 - C语言中文网",
+                    "url": "http://c.biancheng.net/cpp/socket/"
+                },{
+                    "name": "Socket Programming in Python (Guide) – Real Python",
+                    "url": "https://realpython.com/python-sockets/"
+                },{
+                    "name": "Socket编程&trade;",
+                    "url": "https://www.yiibai.com/html/socket"
+                },{
+                    "name": "python高级与网络编程",
+                    "url": "https://aceld.gitbooks.io/python/content/"
+                }
+            ],
         "区块链": [{
                 "name": "区块链教程&trade;",
                 "url": "https://www.yiibai.com/blockchain/"
-            },{
-                "name": "区块链技术快速入门教程",
-                "url": "http://c.biancheng.net/blockchain/"
-            }
-        ],
+                },{
+                    "name": "区块链技术快速入门教程",
+                    "url": "http://c.biancheng.net/blockchain/"
+                }
+            ],
         "Tor": [{
-            "name": "Tor Documentation - Tor Project",
-            "url": "https://www.torproject.org/docs/documentation.html.en"
-        }],
+                "name": "Tor Documentation - Tor Project",
+                "url": "https://www.torproject.org/docs/documentation.html.en"
+            }],
         "Tools": [{
-            "name": "Windows Sysinternals - Windows Sysinternals | Microsoft Docs",
-            "url": "https://docs.microsoft.com/en-us/sysinternals/"
-        },{
-            "name": "Burp Suite documentation",
-            "url": "https://portswigger.net/burp/documentation"
-        }],
+                "name": "Windows Sysinternals - Windows Sysinternals | Microsoft Docs",
+                "url": "https://docs.microsoft.com/en-us/sysinternals/"
+            },{
+                "name": "Burp Suite documentation",
+                "url": "https://portswigger.net/burp/documentation"
+            }],
         "Metasploit": [{
-            "name": "Metasploit Framework",
-            "url": "https://metasploit.help.rapid7.com/docs"
-        },{
-            "name": "Metasploit Framework - GitHub",
-            "url": "https://github.com/rapid7/metasploit-framework/wiki"
-        },{
-            "name": "Introduction - Metasploit Unleashed",
-            "url": "https://www.offensive-security.com/metasploit-unleashed/introduction/"
-        }]
+                "name": "Metasploit Framework",
+                "url": "https://metasploit.help.rapid7.com/docs"
+            },{
+                "name": "Metasploit Framework - GitHub",
+                "url": "https://github.com/rapid7/metasploit-framework/wiki"
+            },{
+                "name": "Introduction - Metasploit Unleashed",
+                "url": "https://www.offensive-security.com/metasploit-unleashed/introduction/"
+            },{
+                "name": "Metasploit - Wikibooks, open books for an open world",
+                "url": "https://en.wikibooks.org/wiki/Metasploit"
+            }]
     },
     "Program": {
         "开发": [{
-                "name": "Developer Documentation : Code Examples",
-                "url": "https://code-examples.net/zh-CN/docs"
-            },{
-                "name": "CTOLib码库",
-                "url": "https://www.ctolib.com/"
-            },{
-                "name": "编程入门教程_w3cschool极客教程",
-                "url": "https://www.w3cschool.cn/tutorial"
-            }
-        ],
+                    "name": "Developer Documentation : Code Examples",
+                    "url": "https://code-examples.net/zh-CN/docs"
+                },{
+                    "name": "CTOLib码库",
+                    "url": "https://www.ctolib.com/"
+                },{
+                    "name": "编程入门教程_w3cschool极客教程",
+                    "url": "https://www.w3cschool.cn/tutorial"
+                }
+            ],
         "数据结构与算法": [{
-                "name": "数据结构与算法教程 - 数据结构C语言版教程",
-                "url": "http://data.biancheng.net/"
-            },{
-                "name": "数据结构与算法系列 目录 - 如果天空不死 - 博客园",
-                "url": "https://www.cnblogs.com/skywang12345/p/3603935.html"
-            }
-        ],
+                    "name": "数据结构与算法教程 - 数据结构C语言版教程",
+                    "url": "http://data.biancheng.net/"
+                },{
+                    "name": "数据结构与算法系列 目录 - 如果天空不死 - 博客园",
+                    "url": "https://www.cnblogs.com/skywang12345/p/3603935.html"
+                }
+            ],
         "设计模式": [{
                 "name": "设计模式 - 菜鸟教程",
                 "url": "https://www.runoob.com/design-pattern/design-pattern-tutorial.html"
@@ -541,11 +544,23 @@ var collections = {
                 "name": "Ruby Documentation",
                 "url": "https://www.ruby-lang.org/en/documentation/"
             },{
+                "name": "Ruby Programming - Wikibooks, open books for an open world",
+                "url": "https://en.wikibooks.org/wiki/Ruby_Programming"
+            },{
                 "name": "Ruby教程&trade;",
                 "url": "https://www.yiibai.com/ruby"
             },{
                 "name": "Ruby 教程 | 菜鸟教程",
                 "url": "https://www.runoob.com/ruby/ruby-tutorial.html"
+            },{
+                "name": "Ruby 要点速查表 - Ruby开发社区 | CTOLib码库",
+                "url": "https://www.ctolib.com/cheatsheets-Ruby-Essentials.html"
+            },{
+                "name": "Ruby开发教程 | 码库CTOLib",
+                "url": "https://www.ctolib.com/ruby/docs/"
+            },{
+                "name": "Ruby 2.4 中文开发手册 - 开发者手册 - 云+社区 - 腾讯云",
+                "url": "https://cloud.tencent.com/developer/doc/1211"
             }
         ],
         "Python": [{
@@ -654,14 +669,14 @@ var collections = {
             "url": "https://pycryptodome.readthedocs.io/en/latest/index.html"
         }],
         "工具": [{
-        	"name": "HashKiller.co.uk - Huge Online Hash Database and Community, Free Hash Cracker, Online Hash Cracking",
-        	"url": "https://hashkiller.co.uk/"
+            "name": "HashKiller.co.uk - Huge Online Hash Database and Community, Free Hash Cracker, Online Hash Cracking",
+            "url": "https://hashkiller.co.uk/"
         }]
     },
     "安全": {
         "语言": [{
-        	"name": "python安全编程教程",
-        	"url": "https://wizardforcel.gitbooks.io/py-sec-tutorial/content/index.html"
+            "name": "python安全编程教程",
+            "url": "https://wizardforcel.gitbooks.io/py-sec-tutorial/content/index.html"
         }],
         "CVE": [{
             "name": "CVE - Download CVE List",
