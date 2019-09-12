@@ -534,15 +534,23 @@ var collections = {
         ],
         "Android": [{
                 "name": "Android基础入门教程 - 菜鸟教程",
+                "url": "https://www.php.net/manual/en/index.php"
+            }
+        ],
+        "PHP": [{
+                "name": "PHP: PHP Manual - Manual",
                 "url": "https://www.runoob.com/w3cnote/android-tutorial-intro.html"
-            },{
-                "name": "Android开发教程&trade;",
-                "url": "https://www.yiibai.com/android"
             }
         ],
         "Ruby": [{
                 "name": "Ruby Documentation",
                 "url": "https://www.ruby-lang.org/en/documentation/"
+            },{
+                "name": "Wiki · Ruby China",
+                "url": "https://ruby-china.org/wiki"
+            },{
+                "name": "Ruby-Doc.org: Documenting the Ruby Language",
+                "url": "https://ruby-doc.org/"
             },{
                 "name": "Ruby Programming - Wikibooks, open books for an open world",
                 "url": "https://en.wikibooks.org/wiki/Ruby_Programming"
