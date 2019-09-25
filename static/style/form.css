@@ -66,6 +66,10 @@ div.sbody {
     width: 900px;
     float: left;
 }
+div.button {
+    position: absolute;
+    left: 900px;
+}
 div.button button{
     position: absolute;
     background-color: #007cff;
