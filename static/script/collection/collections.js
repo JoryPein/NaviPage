@@ -535,6 +535,9 @@ var collections = {
         "Android": [{
                 "name": "Android基础入门教程 - 菜鸟教程",
                 "url": "https://www.php.net/manual/en/index.php"
+            },{
+                "name": "Android开发入门教程：7天玩转安卓APP开发",
+                "url": "http://c.biancheng.net/android/"
             }
         ],
         "PHP": [{
