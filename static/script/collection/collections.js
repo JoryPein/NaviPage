@@ -639,6 +639,9 @@ var collections = {
             },{
                 "name": "PyInstaller Manual &mdash; PyInstaller 3.5 documentation",
                 "url": "https://pyinstaller.readthedocs.io/en/stable/index.html"
+            },{
+                "name": "namedstruct’s documentation",
+                "url": "https://namedstruct.readthedocs.io/en/latest/"
             }
         ],
         "Spider": [{
