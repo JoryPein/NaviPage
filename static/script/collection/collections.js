@@ -569,6 +569,9 @@ var collections = {
             },{
                 "name": "Ruby 2.4 中文开发手册 - 开发者手册 - 云+社区 - 腾讯云",
                 "url": "https://cloud.tencent.com/developer/doc/1211"
+            },{
+                "name": "Summary - 《RubyFu(英文)》 - 书栈网 · BookStack",
+                "url": "https://www.bookstack.cn/read/RubyFu/SUMMARY.md"
             }
         ],
         "Python": [{

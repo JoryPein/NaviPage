@@ -37,7 +37,8 @@ var search_form = {
         "Ubuntu Package": ["ubuntupackages", "DD6D41", "https://packages.ubuntu.com/search?searchon=names&suite=all&section=all&keywords="],
         "Sublime Package": ["packagecontrol", "FC9701", "https://packagecontrol.io/search/"],
         "DockerHub": ["dockerhub", "099CEC", "https://hub.docker.com/search/?q="],
-        "Rubygems": ["rubygems", "E9573F", "https://rubygems.org/search?utf8=✓&query="]
+        "Rubygems": ["rubygems", "E9573F", "https://rubygems.org/search?utf8=✓&query="],
+        "Pudn": ["pudn", "1ab394", "http://search.pudn.com/Read/index?content_type=read&keyword="]
     },
     "社区": {
         "经验": ["jingyan","43bf0f","http://jingyan.baidu.com/search?word="],
