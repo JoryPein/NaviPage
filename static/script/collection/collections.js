@@ -645,6 +645,9 @@ var collections = {
             },{
                 "name": "namedstruct’s documentation",
                 "url": "https://namedstruct.readthedocs.io/en/latest/"
+            },{
+                "name": "Python渗透测试工具都有哪些？ - 云+社区 - 腾讯云",
+                "url": "https://cloud.tencent.com/developer/article/1039351"
             }
         ],
         "Spider": [{
