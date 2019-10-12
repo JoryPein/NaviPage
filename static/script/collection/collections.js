@@ -648,6 +648,9 @@ var collections = {
             },{
                 "name": "Python渗透测试工具都有哪些？ - 云+社区 - 腾讯云",
                 "url": "https://cloud.tencent.com/developer/article/1039351"
+            },{
+                "name": "灰帽 Python 之旅",
+                "url": "https://wizardforcel.gitbooks.io/grey-hat-python/content/"
             }
         ],
         "Spider": [{
