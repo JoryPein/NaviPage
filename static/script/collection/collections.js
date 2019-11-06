@@ -634,6 +634,9 @@ var collections = {
             },{
                 "name": "Python 中文学习大本营",
                 "url": "http://www.pythondoc.com/"
+            },{
+                "name": "Python 中文学习大本营",
+                "url": "Learn Python (Programming Tutorial for Beginners)"
             }
         ],
         "PythonAbout": [{
