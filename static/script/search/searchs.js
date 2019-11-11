@@ -5,14 +5,17 @@ var search_form = {
         "DuckDuckGoO": ["duckduckgoo", "de5833", "https://3g2upl4pq6kufc4m.onion/?q=", "&ia=web"],
         "Bing": ["bing", "ffb300", "https://cn.bing.com/search?q="],
         "百度": ["baidu", "3388ff", "https://www.baidu.com/s?wd="],
+        "Yandex": ["yandex","FF0000","https://yandex.com/search/?text="],
         "Yahoo": ["yahoo","824dfe","https://search.yahoo.com/search?p="],
         "Yahoo Japan": ["yahoojp","824dfe","https://search.yahoo.co.jp/search?p="],
         "搜狗": ["sogou","fd6853","https://www.sogou.com/web?query="],
-        "搜索360": ["so360","19b955","https://www.so.com/s?q="]
+        "搜索360": ["so360","19b955","https://www.so.com/s?q="],
+        "Magi": ["magi","14A2F5","https://magi.com/search?q="]
     },
     "IT": {
         "GitHub": ["github","81d364","https://github.com/search?q="],
         "StackOverflow": ["stackoverflow","f48024","http://stackoverflow.com/search?q="],
+        "StackExchange": ["stackexchange","195398","https://stackexchange.com/search?q="],
         "SegmentFault": ["segmentfault","009a61","https://segmentfault.com/search?q="],
         "CSDN": ["csdn","be1a21","https://so.csdn.net/so/search/s.do?q="],
         "Source Forge": ["sourceforge", "ff6600", "https://sourceforge.net/directory/?q="],
@@ -73,7 +76,8 @@ var search_form = {
         "Readthedocs": ["readthedocs", "7C8F99", "https://readthedocs.org/search/?q="]
     },
     "词典": {
-        "Google": ["googletranslate","000","https://translate.google.cn/#view=home&op=translate&sl=auto&tl=zh-CN&text="],
+        "Google Translate": ["googletranslate","000","https://translate.google.cn/#view=home&op=translate&sl=auto&tl=zh-CN&text="],
+        "Yandex Translate": ["yandextranslate","f00","https://translate.yandex.com/?family=yes&lang=en-zh&text="],
         "Etymology": ["etymonline","700020","http://www.etymonline.com/index.php?search="],
         "Dictionary": ["Dictc","3c7bbe","http://www.dictionary.com/browse/?kw="],
         "FreeDict": ["FreeDict","2eb398","http://www.thefreedictionary.com/?kw="],
@@ -109,10 +113,12 @@ var search_form = {
         "Coursera": ["coursera","428bca","https://www.coursera.org/courses?query="]
     },
     "图片": {
-        "Google": ["googleimage","000000","https://www.google.com.hk/search?q="],
+        "Google Image": ["googleimage","000000","https://www.google.com.hk/search?q="],
+        "Yandex Image": ["yandeximage","ff0000","https://yandex.com/images/search?text="],
+        "Bing Image": ["bingimage","007DAA","https://cn.bing.com/images/search?q="],
+        "百度图片": ["baiduimage","3388ff","https://image.baidu.com/search/index?tn=baiduimage&ipn=r&word="],
         "Tumblr": ["tumblr","2f3d51","https://www.tumblr.com/search?q="],
         "Pinterest": ["pinterest","bd081c","https://www.pinterest.com/search/?q="],
-        "百度": ["baiduimage","3388ff","https://image.baidu.com/search/index?tn=baiduimage&ipn=r&word="],
         "搜狗": ["sougouimage","454251","http://pic.sogou.com/pics?query="],
         "花瓣": ["petal","D43636","http://huaban.com/search/?q="],
         "Pixabay": ["Pixabay","333","https://pixabay.com/zh/photos/?q="],
