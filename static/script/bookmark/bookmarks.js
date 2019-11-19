@@ -1237,6 +1237,10 @@ var bookmarks = {
             {
                 "name": "xssav网址导航",
                 "url": "https://www.xssav.com/"
+            },
+            {
+                "name": "遨寰宇",
+                "url": "http://aohuanyu.com/"
             }
         ],
         "Course": [
