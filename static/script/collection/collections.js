@@ -373,6 +373,9 @@ var collections = {
             },{
                 "name": "Assembly Programming Tutorial - tutorialspoint",
                 "url": "https://www.tutorialspoint.com/assembly_programming/index.htm"
+            },{
+                "name": "汇编语言入门教程：汇编语言程序设计指南（精讲版）",
+                "url": "http://c.biancheng.net/asm/"
             }
         ],
         "C": [{
