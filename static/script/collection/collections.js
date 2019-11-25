@@ -581,6 +581,9 @@ var collections = {
             },{
                 "name": "Summary - 《RubyFu(英文)》 - 书栈网 · BookStack",
                 "url": "https://www.bookstack.cn/read/RubyFu/SUMMARY.md"
+            },{
+                "name": "Ruby用户指南,Ruby中文文档",
+                "url": "https://www.php.cn/manual/view/20139.html"
             }
         ],
         "Python": [{
@@ -732,6 +735,9 @@ var collections = {
             },{
                 "name": "CTF 领域指南",
                 "url": "https://wizardforcel.gitbooks.io/ctf-field-guide/content/"
+            },{
+                "name": "Resources - CTF Wiki",
+                "url": "https://ctf-wiki.github.io/ctf-wiki/introduction/resources/"
             }
         ],
         "CTF Writeups": [{
@@ -750,8 +756,14 @@ var collections = {
             }
         ],
         "工具": [{
+                "name": "看雪知识库 - 看雪学院",
+                "url": "https://www.kanxue.com/chm.htm"
+            }, {
                 "name": "爱盘 - 在线破解工具包",
                 "url": "https://down.52pojie.cn/"
+            }, {
+                "name": "看雪工具",
+                "url": "https://tools.pediy.com/"
             }
         ],
     },
