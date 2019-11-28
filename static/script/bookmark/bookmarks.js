@@ -1809,30 +1809,14 @@ var bookmarks = {
         ]
     },
     "文化": {
-        "Book": [
+        "Book1": [
             {
-                "name": "ProjectGutenberg",
-                "url": "http://www.gutenberg.org/wiki/Main_Page"
-            },
-            {
-                "name": "PDFSearchEngine",
-                "url": "http://pdfgive.net/"
-            },
-            {
-                "name": "中国哲学电子书计划",
-                "url": "http://ctext.org/zh"
-            },
-            {
-                "name": "青空文库",
-                "url": "http://www.aozora.gr.jp/"
+                "name": "读书网",
+                "url": "https://www.dushu.com/"
             },
             {
                 "name": "书书网",
                 "url": "http://www.shushu8.com/"
-            },
-            {
-                "name": "eBooks-IT",
-                "url": "https://ebooks-it.org/"
             },
             {
                 "name": "劝学网",
@@ -1879,6 +1863,40 @@ var bookmarks = {
                 "url": "https://shuge.org/"
             },
             {
+                "name": "中国哲学电子书计划",
+                "url": "http://ctext.org/zh"
+            },
+            {
+                "name": "e书联盟",
+                "url": "http://www.book118.com/"
+            },
+            {
+                "name": "书本网",
+                "url": "http://www.bookben.com/"
+            },
+            {
+                "name": "鸠摩搜书",
+                "url": "https://www.jiumodiary.com/"
+            },
+            {
+                "name": "九九藏书网",
+                "url": "https://www.99lib.net/index.php"
+            },
+            {
+                "name": "光剑图书馆",
+                "url": "https://universsky.github.io/"
+            },
+            {
+                "name": "影印古籍资料",
+                "url": "https://sou-yun.cn/eBookIndex.aspx"
+            }
+        ],
+        "Book2": [
+            {
+                "name": "青空文库",
+                "url": "http://www.aozora.gr.jp/"
+            },
+            {
                 "name": "FanFiction Mobile",
                 "url": "https://m.fanfiction.net/"
             },
@@ -1903,21 +1921,33 @@ var bookmarks = {
                 "url": "http://www.wuxiaworld.com/"
             },
             {
-                "name": "e书联盟",
-                "url": "http://www.book118.com/"
+                "name": "ProjectGutenberg",
+                "url": "http://www.gutenberg.org/wiki/Main_Page"
             },
             {
-                "name": "书本网",
-                "url": "http://www.bookben.com/"
+                "name": "PDFSearchEngine",
+                "url": "http://pdfgive.net/"
             },
             {
-                "name": "鸠摩搜书",
-                "url": "https://www.jiumodiary.com/"
+                "name": "eBooks-IT",
+                "url": "https://ebooks-it.org/"
             },
             {
                 "name": "NeatReader",
                 "url": "http://www.neat-reader.com/app"
-            }
+            },
+            {
+                "name": "Electronic library",
+                "url": "http://en.bookfi.net/"
+            },
+            {
+                "name": "z0roRepository",
+                "url": "http://index-of.es/"
+            },
+            {
+                "name": "Online Library of Liberty",
+                "url": "https://oll.libertyfund.org/"
+            },
         ],
         "Classic": [
             {
@@ -2253,6 +2283,10 @@ var bookmarks = {
             {
                 "name": "豆丁漫画",
                 "url": "http://manhua.docin.com"
+            },
+            {
+                "name": "黑白漫话",
+                "url": "https://heibaimanhua.com"
             }
         ],
         "Game": [
@@ -2418,9 +2452,12 @@ var bookmarks = {
             }
         ],
         "Help": [{
-        		"name": "Collections",
-        		"url": "./page/collections.html"
-        	},
+                "name": "Collections",
+                "url": "./page/collections.html"
+            },{
+                "name": "Collections - Github",
+                "url": "https://jorypein.github.io/NaviPage/page/collections.html"
+            },
             {
                 "name": "PocketList",
                 "url": "https://getpocket.com/a/"

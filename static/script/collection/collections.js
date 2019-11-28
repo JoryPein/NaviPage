@@ -764,6 +764,9 @@ var collections = {
             }, {
                 "name": "看雪工具",
                 "url": "https://tools.pediy.com/"
+            }, {
+                "name": "exelab ::: Download cracker tools, disassemblers, debuggers",
+                "url": "https://exelab.ru/download.php"
             }
         ],
     },
