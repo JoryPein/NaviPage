@@ -423,9 +423,6 @@ var collections = {
                 "name": "C++教程 - 菜鸟教程",
                 "url": "https://www.runoob.com/cplusplus/cpp-tutorial.html"
             },{
-                "name": "Visual Studio 中的 C++ - Microsoft Docs",
-                "url": "https://docs.microsoft.com/zh-cn/cpp/overview/visual-cpp-in-visual-studio?view=vs-2019"
-            },{
                 "name": "C++ Programming Language - GeeksforGeeks",
                 "url": "https://www.geeksforgeeks.org/c-plus-plus/"
             },{
@@ -452,7 +449,13 @@ var collections = {
             },{
                 "name": "介绍 | Effective C++ 中文版",
                 "url": "https://www.ctolib.com/docs//sfile/effective-cpp/index.html"
-            }
+            },{
+                "name": "Visual Studio 中的 C++ - Microsoft Docs",
+                "url": "https://docs.microsoft.com/zh-cn/cpp/overview/visual-cpp-in-visual-studio"
+            },{
+                "name": "C/C++语言和标准库参考",
+                "url": "https://docs.microsoft.com/zh-cn/cpp/cpp/c-cpp-language-and-standard-libraries"
+            },
         ],
         "Shell": [{
                 "name": "Shell教程_Shell开发中文手册 - 极客学院Wiki",
@@ -519,6 +522,9 @@ var collections = {
             },{
                 "name": "Go 1.11 | 去编程语言 : Code Examples",
                 "url": "https://code-examples.net/zh-CN/docs/go/index"
+            },{
+                "name": "Go语言圣经（中文版）",
+                "url": "https://books.studygolang.com/gopl-zh/index.html"
             }
         ],
         "Java": [{
@@ -767,6 +773,11 @@ var collections = {
             }, {
                 "name": "exelab ::: Download cracker tools, disassemblers, debuggers",
                 "url": "https://exelab.ru/download.php"
+            }
+        ],
+        "教程": [{
+                "name": "专注 APT 攻击与防御 - Micro8 系列教程",
+                "url": "https://www.bookstack.cn/read/Micro8/README.md"
             }
         ],
     },

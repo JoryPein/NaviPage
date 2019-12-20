@@ -1187,13 +1187,19 @@ var bookmarks = {
                 "url": "http://hao.uisdc.com/"
             },
             {
-                "name": "程序导航",
-                "url": "http://google.59note.com/"
-            },
-            {
                 "name": "看国外",
                 "url": "https://www.kanguowai.com/"
             },
+            {
+                "name": "AnywhereAnything",
+                "url": "http://lackar.com/aa/"
+            },
+            {
+                "name": "遨寰宇",
+                "url": "http://aohuanyu.com/"
+            },
+        ],
+        "Hacker Navigator": [
             {
                 "name": "安全圈",
                 "url": "https://www.anquanquan.info/"
@@ -1239,9 +1245,9 @@ var bookmarks = {
                 "url": "https://www.xssav.com/"
             },
             {
-                "name": "遨寰宇",
-                "url": "http://aohuanyu.com/"
-            }
+                "name": "程序导航",
+                "url": "http://google.59note.com/"
+            },
         ],
         "Course": [
             {
@@ -1889,6 +1895,10 @@ var bookmarks = {
             {
                 "name": "影印古籍资料",
                 "url": "https://sou-yun.cn/eBookIndex.aspx"
+            },
+            {
+                "name": "国学经典_国学网",
+                "url": "http://www.guoxuedashi.com/"
             }
         ],
         "Book2": [
