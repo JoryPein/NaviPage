@@ -18,5 +18,8 @@
 	16: ["md5", "http://pmd5.com/"],
 	17: ["网页调色板", "http://tools.jb51.net/color/color_picker"],
 	18: ["haoIP", "https://haoip.cn/"],
-	19: ["md_pandao", "http://pandao.github.io/editor.md/"]
+	19: ["md_pandao", "http://pandao.github.io/editor.md/"],
+	20: ["de4js", "https://lelinhtinh.github.io/de4js/"],
+	21: ["uuidgenerator", "https://www.uuidgenerator.net/"]
+	
 };

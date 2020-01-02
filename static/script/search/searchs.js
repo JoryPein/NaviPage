@@ -77,13 +77,15 @@ var search_form = {
         "百度百科": ["baidubaike","3388ff","http://baike.baidu.com/search?word="],
         "互动百科": ["HudongBaike","ff9423","http://www.baike.com/wiki/?kw="],
         "百度文库": ["baiduwenku","21BB8B","http://wenku.baidu.com/search?word="],
+        "Wikileaks": ["wikileaks","4D5F69","https://search.wikileaks.org/?q="],
         "伪基百科": ["uncyclopedia","110f1d","http://cn.uncyclopedia.wikia.com/wiki/?kw="],
         "萌娘百科": ["moegirl","222222","https://zh.moegirl.org/index.php?search="],
         "GOT Wiki": ["GOTWiki","222222","http://gameofthrones.wikia.com/wiki/Special:Search?search="],
         "煮酒论史": ["tianya","0084c4","http://search.tianya.cn/bbs?q="],
         "殆知阁": ["fanren8","337ab7","http://122.200.75.13/result.php"],
         "搜神": ["soshen","359a34","http://m.soshen.cn/spring/soshen/search?canshu="],
-        "Readthedocs": ["readthedocs", "7C8F99", "https://readthedocs.org/search/?q="]
+        "Readthedocs": ["readthedocs", "7C8F99", "https://readthedocs.org/search/?q="],
+        "英文名911": ["yingwenming911cha", "00A8F9", "https://yingwenming.911cha.com/", ".html"]
     },
     "图书": {
     	"Enbookfi": ["enbookfi", "8ECD51", "http://en.bookfi.net/s/?q=", "&t=0"],

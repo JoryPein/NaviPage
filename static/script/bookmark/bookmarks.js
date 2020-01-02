@@ -1,93 +1,5 @@
 var bookmarks = {
     "IT": {
-        "ITNEWS": [
-            {
-                "name": "HackerNews",
-                "url": "https://news.ycombinator.com/"
-            },
-            {
-                "name": "FreeBuf",
-                "url": "http://www.freebuf.com/"
-            },
-            {
-                "name": "开发者头条",
-                "url": "https://toutiao.io/latest"
-            },
-            {
-                "name": "掘金",
-                "url": "http://gold.xitu.io/"
-            },
-            {
-                "name": "极客公园",
-                "url": "http://www.geekpark.net/"
-            },
-            {
-                "name": "InfoQ",
-                "url": "http://www.infoq.com/cn/"
-            },
-            {
-                "name": "V2EX",
-                "url": "http://v2ex.com/"
-            },
-            {
-                "name": "程序师",
-                "url": "http://www.techug.com/"
-            },
-            {
-                "name": "酷壳",
-                "url": "http://coolshell.cn/"
-            },
-            {
-                "name": "推酷",
-                "url": "http://www.tuicool.com/"
-            },
-            {
-                "name": "互联网的那点事",
-                "url": "http://www.alibuybuy.com/"
-            },
-            {
-                "name": "36氪",
-                "url": "http://36kr.com/"
-            },
-            {
-                "name": "Next-36氪",
-                "url": "http://next.36kr.com/posts"
-            },
-            {
-                "name": "IT之家",
-                "url": "http://www.ithome.com/"
-            },
-            {
-                "name": "与非网",
-                "url": "http://www.eefocus.com/"
-            },
-            {
-                "name": "TechCrunch",
-                "url": "https://techcrunch.com/"
-            },
-            {
-                "name": "中关村在线",
-                "url": "http://www.zol.com.cn/"
-            },
-            {
-                "name": "51CTO",
-                "url": "http://www.51cto.com/"
-            },
-            {
-                "name": "WEB云端/研究所",
-                "url": "https://www.yhspy.com/"
-            },
-            {
-                "name": "NEWSBTC",
-                "url": "http://www.newsbtc.com/"
-            },
-            {
-            },
-            {
-                "name": "DarkwebNews",
-                "url": "https://darkwebnews.com/"
-            }
-        ],
         "Code": [
             {
                 "name": "Github",
@@ -451,36 +363,6 @@ var bookmarks = {
                 "url": "https://help.ubuntu.com/"
             }
         ],
-        "ITBlog": [
-            {
-                "name": "CSDN",
-                "url": "http://www.csdn.net/"
-            },
-            {
-                "name": "博客园",
-                "url": "http://www.cnblogs.com/"
-            },
-            {
-                "name": "阮一峰的网络日志",
-                "url": "http://www.ruanyifeng.com/blog/"
-            },
-            {
-                "name": "独自等待信息安全博客",
-                "url": "http://www.waitalone.cn/"
-            },
-            {
-                "name": "Google Online Security Blog",
-                "url": "https://security.googleblog.com/"
-            },
-            {
-                "name": "羡辙杂俎",
-                "url": "http://zhangwenli.com/blog/"
-            },
-            {
-                "name": "看海的狐狸的后花园",
-                "url": "https://ccfox.info/"
-            }
-        ],
         "Program": [
             {
                 "name": "Android Developer",
@@ -687,6 +569,92 @@ var bookmarks = {
         ]
     },
     "新闻": {
+        "ITNEWS": [
+            {
+                "name": "HackerNews",
+                "url": "https://news.ycombinator.com/"
+            },
+            {
+                "name": "FreeBuf",
+                "url": "http://www.freebuf.com/"
+            },
+            {
+                "name": "开发者头条",
+                "url": "https://toutiao.io/latest"
+            },
+            {
+                "name": "掘金",
+                "url": "http://gold.xitu.io/"
+            },
+            {
+                "name": "极客公园",
+                "url": "http://www.geekpark.net/"
+            },
+            {
+                "name": "InfoQ",
+                "url": "http://www.infoq.com/cn/"
+            },
+            {
+                "name": "V2EX",
+                "url": "http://v2ex.com/"
+            },
+            {
+                "name": "程序师",
+                "url": "http://www.techug.com/"
+            },
+            {
+                "name": "酷壳",
+                "url": "http://coolshell.cn/"
+            },
+            {
+                "name": "推酷",
+                "url": "http://www.tuicool.com/"
+            },
+            {
+                "name": "互联网的那点事",
+                "url": "http://www.alibuybuy.com/"
+            },
+            {
+                "name": "36氪",
+                "url": "http://36kr.com/"
+            },
+            {
+                "name": "Next-36氪",
+                "url": "http://next.36kr.com/posts"
+            },
+            {
+                "name": "IT之家",
+                "url": "http://www.ithome.com/"
+            },
+            {
+                "name": "与非网",
+                "url": "http://www.eefocus.com/"
+            },
+            {
+                "name": "TechCrunch",
+                "url": "https://techcrunch.com/"
+            },
+            {
+                "name": "中关村在线",
+                "url": "http://www.zol.com.cn/"
+            },
+            {
+                "name": "51CTO",
+                "url": "http://www.51cto.com/"
+            },
+            {
+                "name": "WEB云端/研究所",
+                "url": "https://www.yhspy.com/"
+            },
+            {
+                "name": "NEWSBTC",
+                "url": "http://www.newsbtc.com/"
+            },
+            {
+                "name": "DarkwebNews",
+                "url": "https://darkwebnews.com/"
+            }
+        ],
         "International": [
             {
                 "name": "YahooNews",
@@ -1153,6 +1121,44 @@ var bookmarks = {
             {
                 "name": "THEOI GREEK MYTHOLOGY",
                 "url": "http://www.theoi.com/"
+            }
+        ],
+        "ITBlog": [
+            {
+                "name": "CSDN",
+                "url": "http://www.csdn.net/"
+            },
+            {
+                "name": "博客园",
+                "url": "http://www.cnblogs.com/"
+            },
+            {
+                "name": "阮一峰的网络日志",
+                "url": "http://www.ruanyifeng.com/blog/"
+            },
+            {
+                "name": "独自等待信息安全博客",
+                "url": "http://www.waitalone.cn/"
+            },
+            {
+                "name": "Google Online Security Blog",
+                "url": "https://security.googleblog.com/"
+            },
+            {
+                "name": "羡辙杂俎",
+                "url": "http://zhangwenli.com/blog/"
+            },
+            {
+                "name": "看海的狐狸的后花园",
+                "url": "https://ccfox.info/"
+            },
+            {
+                "name": "Penetration Testing Lab",
+                "url": "https://pentestlab.blog/"
+            },
+            {
+                "name": "文章列表 | 离别歌",
+                "url": "https://www.leavesongs.com/list/"
             }
         ]
     },
