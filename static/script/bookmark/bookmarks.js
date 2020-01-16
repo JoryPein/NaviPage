@@ -1,5 +1,5 @@
 var bookmarks = {
-    "IT": {
+    "Program": {
         "Code": [
             {
                 "name": "Github",
@@ -419,8 +419,10 @@ var bookmarks = {
             {
                 "name": "字符画生成",
                 "url": "http://y.qq.com/m/demo/ctools/charimg.html"
-            }
+            },
         ],
+    },
+    "IT": {
         "Script": [
             {
                 "name": "脚本之家",
@@ -531,6 +533,10 @@ var bookmarks = {
             {
                 "name": "量产工具下载站",
                 "url": "http://www.liangchan.net/"
+            },
+            {
+                "name": "腾讯软件中心",
+                "url": "https://pc.qq.com/"
             }
         ],
         "host": [
@@ -653,7 +659,12 @@ var bookmarks = {
             {
                 "name": "DarkwebNews",
                 "url": "https://darkwebnews.com/"
+            },
+            {
+                "name": "ZDNet",
+                "url": "https://www.zdnet.com/"
             }
+
         ],
         "International": [
             {
@@ -1160,6 +1171,12 @@ var bookmarks = {
                 "name": "文章列表 | 离别歌",
                 "url": "https://www.leavesongs.com/list/"
             }
+        ],
+        "IT Aritcle": [
+            {
+                "name": "『外文翻译』-看雪安全论坛",
+                "url": "https://bbs.pediy.com/forum-32.htm"
+            }
         ]
     },
     "导航": {
@@ -1253,6 +1270,10 @@ var bookmarks = {
             {
                 "name": "程序导航",
                 "url": "http://google.59note.com/"
+            },
+            {
+                "name": "码农网导航",
+                "url": "https://www.codercto.com/sitemap.html"
             },
         ],
         "Course": [

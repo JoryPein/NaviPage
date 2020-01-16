@@ -10,10 +10,12 @@ var search_form = {
         "Yahoo Japan": ["yahoojp","824dfe","https://search.yahoo.co.jp/search?p="],
         "Naver": ["naver","03CF5D","https://search.naver.com/search.naver?query="],
         "搜狗": ["sogou","fd6853","https://www.sogou.com/web?query="],
-        "搜索360": ["so360","19b955","https://www.so.com/s?q="],
+        " 360": ["so360","19b955","https://www.so.com/s?q="],
         "Magi": ["magi","14A2F5","https://magi.com/search?q="],
         "Ahmia": ["ahmia","303030","http://msydqstlz2kzerdg.onion/search/?q="],
-        "not Evil": ["notEvil","303030","http://hss3uro2hsxfogfq.onion/index.php?q="]
+        "not Evil": ["notEvil","303030","http://hss3uro2hsxfogfq.onion/index.php?q="],
+        "AioSearch": ["aiosearch", "FF4DA9", "https://www.aiosearch.com/search/4/Torrents/"],
+        "OneSearch": ["onesearch", "424246", "https://www.onesearch.com/?q="]
     },
     "Code": {
     	"GitHub Resp": ["githubresp","81d364","https://github.com/search?q="],
@@ -24,8 +26,9 @@ var search_form = {
         "Pudn": ["pudn", "1ab394", "http://search.pudn.com/Read/index?content_type=read&keyword="],
         "Nuget": ["nuget", "BC6D00", "https://www.nuget.org/packages?q="],
         "NPM": ["npmjs", "FB3E44", "https://www.npmjs.com/search?q="],
-        "Rubygems": ["rubygems", "E9573F", "https://rubygems.org/search?utf8=✓&query="],
     	"PyPi": ["pypi","0073B7","https://pypi.org/search/?q="],
+        "RubyGems": ["rubygems", "E9573F", "https://rubygems.org/search?utf8=✓&query="],
+        "RubyGemsCN": ["gemsrubychina", "E9573F", "https://gems.ruby-china.com/search?query="],
     },
     "参考": {
         "StackOverflow": ["stackoverflow","f48024","http://stackoverflow.com/search?q="],
@@ -69,7 +72,8 @@ var search_form = {
         "果壳": ["guokr","a5d92e","http://www.guokr.com/search/all/?wd="],
         "简书": ["jianshu","ea6f5a","http://www.jianshu.com/search?q="],
         "酷安": ["cookapk","57C65C","https://www.coolapk.com/search?q="],
-        "Livedoor": ["livedoor","da0b16","http://search.livedoor.com/search?q="]
+        "Livedoor": ["livedoor","da0b16","http://search.livedoor.com/search?q="],
+        "看雪论坛": ["bbspediy","1CA4F0","https://bbs.pediy.com/search.htm?keyword="],
     },
     "百科": {
         "Wikipedia": ["wikien","3963cd","https://en.wikipedia.org/w/index.php?search="],
@@ -87,9 +91,11 @@ var search_form = {
         "Readthedocs": ["readthedocs", "7C8F99", "https://readthedocs.org/search/?q="],
         "英文名911": ["yingwenming911cha", "00A8F9", "https://yingwenming.911cha.com/", ".html"]
     },
-    "图书": {
+    "文档": {
     	"Enbookfi": ["enbookfi", "8ECD51", "http://en.bookfi.net/s/?q=", "&t=0"],
         "PDF": ["pdfSearchEngine","FA7575","http://pdf-downloads.net/", "-pdf.html"],
+        "OfficeView": ["officeapps", "2B579A", "https://view.officeapps.live.com/op/view.aspx?src="]
+
     },
     "词典": {
         "Google Translate": ["googletranslate","000","https://translate.google.cn/#view=home&op=translate&sl=auto&tl=zh-CN&text="],

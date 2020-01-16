@@ -649,6 +649,9 @@ var collections = {
             },{
                 "name": "Learn Python (Programming Tutorial for Beginners)",
                 "url": "https://www.programiz.com/python-programming"
+            },{
+                "name": "介绍 - 《Python 3.8 标准库参考》 - 书栈网 · BookStack",
+                "url": "https://www.bookstack.cn/read/python-stdlib-3.8/bf0cf5e404de4874.md"
             }
         ],
         "PythonAbout": [{
