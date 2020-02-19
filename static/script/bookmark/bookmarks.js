@@ -441,20 +441,12 @@ var bookmarks = {
                 "url": "http://www.pythontip.com/"
             },
             {
-                "name": "玩蛇网",
-                "url": "http://www.iplaypython.com/"
-            },
-            {
                 "name": "Python伯乐在线",
                 "url": "http://python.jobbole.com/"
             },
             {
                 "name": "Excel学习网",
                 "url": "http://www.excelcn.com/"
-            },
-            {
-                "name": "PythonPIP",
-                "url": "https://pypi.python.org/pypi/pip"
             },
             {
                 "name": "pythonlibs",

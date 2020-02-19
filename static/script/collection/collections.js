@@ -52,7 +52,7 @@ var collections = {
             }
         ]
     },
-    "Server": {
+    "Web": {
         "Nginx": [{
                 "name": "nginx 1.15 | nginx文档 : Code Examples",
                 "url": "https://code-examples.net/zh-CN/docs/nginx/index"
@@ -106,6 +106,9 @@ var collections = {
             },{
             "name": "Flask 扩展文档汇总",
             "url": "https://wizardforcel.gitbooks.io/flask-extension-docs/content/"
+            },{
+            "name": "Flask-SocketIO  documentation",
+            "url": "https://flask-socketio.readthedocs.io/en/latest/"
             }
         ],
         "Javascript": [{
@@ -141,6 +144,11 @@ var collections = {
                 "url": "https://www.yiibai.com/nodejs/"
             }
         ],
+        "Websocket": [{
+                "name": "socket.io 快速入门教程",
+                "url": "https://www.w3cschool.cn/socket/socket-ulbj2eii.html"
+            }
+        ],
         "Webpack": [{
                 "name": "webpack",
                 "url": "https://webpack.js.org/concepts/"
@@ -169,6 +177,11 @@ var collections = {
             },{
                 "name": "layuiAdmin std - 通用后台管理模板系统（iframe标准版）",
                 "url": "https://www.layui.com/admin/std/dist/views/"
+            }
+        ],
+        "Bulma": [{
+                "name": "Documentation | Bulma",
+                "url": "https://bulma.io/documentation/"
             }
         ],
         "Docker": [{
@@ -738,6 +751,9 @@ var collections = {
             },{
                 "name": "CTF-All-In-One 《CTF 竞赛入门指南》",
                 "url": "https://firmianay.gitbooks.io/ctf-all-in-one/content/"
+            },{
+                "name": "Summary - 《CTF 竞赛入门指南(CTF All In One)》 - 书栈网 · BookStack",
+                "url": "https://www.bookstack.cn/read/CTF-All-In-One/SUMMARY.md"
             },{
                 "name": "CTF Field Guide",
                 "url": "https://trailofbits.github.io/ctf/"

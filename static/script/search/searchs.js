@@ -15,7 +15,8 @@ var search_form = {
         "Ahmia": ["ahmia","303030","http://msydqstlz2kzerdg.onion/search/?q="],
         "not Evil": ["notEvil","303030","http://hss3uro2hsxfogfq.onion/index.php?q="],
         "AioSearch": ["aiosearch", "FF4DA9", "https://www.aiosearch.com/search/4/Torrents/"],
-        "OneSearch": ["onesearch", "424246", "https://www.onesearch.com/?q="]
+        "OneSearch": ["onesearch", "424246", "https://www.onesearch.com/?q="],
+        "BTfan": ["btfan", "F30A0D", "http://btfan.com/key/"]
     },
     "Code": {
     	"GitHub Resp": ["githubresp","81d364","https://github.com/search?q="],
@@ -56,10 +57,12 @@ var search_form = {
         "ZoomEye": ["Zoomeye","01acfe","https://www.zoomeye.org/searchResult?q="],
         "Censys": ["censys","4688F1","https://censys.io/domain?q="],
         "FOFA": ["fofa","28FEFC","https://fofa.so/result?q="],
+        "微盘": ["vdisk","347AAA","https://vdisk.weibo.com/search/?type=public&keyword="],
     },
     "社区": {
         "经验": ["jingyan","43bf0f","http://jingyan.baidu.com/search?word="],
         "知道": ["zhidao","2bb453","http://zhidao.baidu.com/search?word="],
+        "知道2": ["zhidao2","2bb453","http://zhidao.baidu.com/search?word=","是什么意思"],
         "Quora": ["quora","b92b27","https://www.quora.com/?q="],
         "知乎": ["zhihu","137ad5","https://www.zhihu.com/search?q="],
         "Reddit": ["reddit", "FF4500", "https://www.reddit.com/search?q="],
@@ -112,12 +115,14 @@ var search_form = {
         "爱词霸": ["Iciba","1596f5","http://www.iciba.com/"],
         "沪江法语": ["HJFR","8bc71a","https://dict.hjenglish.com/fr/"],
         "沪江日语": ["HJJP","8bc71a","https://dict.hjenglish.com/jp/jc/"],
+        "KotobankJP": ["kotobankjp","1a1a1a","https://kotobank.jp/word/"],
+        "小楠日语": ["xiaocidian","333333","http://o-oo.net.cn/xiaocidian/"],
         "漢字辞典": ["kjjt","000000","http://kanji.jitenon.jp/cat/search.php?getdata="],
         "汉典": ["zdic","c5a17f","http://www.zdic.net/search/?c=1&q="],
         "象形字典": ["vividict","3482c9","http://www.vividict.com/Word.aspx?ie=utf8&wd="],
         "字源": ["cnetymology","F18BF3","http://www.chineseetymology.org/CharacterEtymology.aspx?characterInput="],
         "潮州音": ["Teochow","896E5D","http://www.mogher.com/"],
-        "潮州音字典": ["czyzd","003366","http://www.czyzd.com/"]
+        "潮州音字典": ["czyzd","003366","http://www.czyzd.com/"],
     },
     "视频": {
         "YouTube": ["youtube","cc181e","https://www.youtube.com/results?search_query="],
