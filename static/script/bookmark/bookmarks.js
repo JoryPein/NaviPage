@@ -2460,6 +2460,14 @@ var bookmarks = {
             {
                 "name": "美团",
                 "url": "https://www.meituan.com/"
+            },
+            {
+                "name": "草料二维码生成器",
+                "url": "https://cli.im/"
+            },
+            {
+                "name": "老黄历",
+                "url": "http://www.laohuangli.net/"
             }
         ],
         "Map": [

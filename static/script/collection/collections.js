@@ -101,14 +101,17 @@ var collections = {
             }
         ],
         "Flask": [{
-            "name": "Flask 0.10.1 文档",
-            "url": "http://docs.jinkan.org/docs/flask/"
+                "name": "Flask 0.10.1 文档",
+                "url": "http://docs.jinkan.org/docs/flask/"
             },{
-            "name": "Flask 扩展文档汇总",
-            "url": "https://wizardforcel.gitbooks.io/flask-extension-docs/content/"
+                "name": "Flask 扩展文档汇总",
+                "url": "https://wizardforcel.gitbooks.io/flask-extension-docs/content/"
             },{
-            "name": "Flask-SocketIO  documentation",
-            "url": "https://flask-socketio.readthedocs.io/en/latest/"
+                "name": "Flask-SocketIO  documentation",
+                "url": "https://flask-socketio.readthedocs.io/en/latest/"
+            },{
+                "name": "使用 Python 和 Flask 设计 RESTful API",
+                "url": "http://www.pythondoc.com/flask-restful/first.html"
             }
         ],
         "Javascript": [{

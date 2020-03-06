@@ -14,9 +14,7 @@ var search_form = {
         "Magi": ["magi","14A2F5","https://magi.com/search?q="],
         "Ahmia": ["ahmia","303030","http://msydqstlz2kzerdg.onion/search/?q="],
         "not Evil": ["notEvil","303030","http://hss3uro2hsxfogfq.onion/index.php?q="],
-        "AioSearch": ["aiosearch", "FF4DA9", "https://www.aiosearch.com/search/4/Torrents/"],
-        "OneSearch": ["onesearch", "424246", "https://www.onesearch.com/?q="],
-        "BTfan": ["btfan", "F30A0D", "http://btfan.com/key/"]
+        "OneSearch": ["onesearch", "424246", "https://www.onesearch.com/?q="]
     },
     "Code": {
     	"GitHub Resp": ["githubresp","81d364","https://github.com/search?q="],
@@ -58,6 +56,12 @@ var search_form = {
         "Censys": ["censys","4688F1","https://censys.io/domain?q="],
         "FOFA": ["fofa","28FEFC","https://fofa.so/result?q="],
         "微盘": ["vdisk","347AAA","https://vdisk.weibo.com/search/?type=public&keyword="],
+        "BTfan": ["btfan", "F30A0D", "http://btfan.com/key/"],
+        "AioSearch": ["aiosearch", "FF4DA9", "https://www.aiosearch.com/search/4/Torrents/"],
+        "Kickass Torrents": ["kickasstorrents", "594C2D", "https://kat.sx/search.php?q="],
+        "Torrent Download": ["torrentdownload", "175588", "https://www.torrentdownload.info/search?q="],
+        "搜百度盘": ["sobaidupan", "286090", "https://www.sobaidupan.com/search.asp?wd="],
+        "云铺子": ["yunpz", "888888", "https://www.yunpz.net/all/s-", ".html"],
     },
     "社区": {
         "经验": ["jingyan","43bf0f","http://jingyan.baidu.com/search?word="],
@@ -77,13 +81,13 @@ var search_form = {
         "酷安": ["cookapk","57C65C","https://www.coolapk.com/search?q="],
         "Livedoor": ["livedoor","da0b16","http://search.livedoor.com/search?q="],
         "看雪论坛": ["bbspediy","1CA4F0","https://bbs.pediy.com/search.htm?keyword="],
+        "SoV2ex": ["sov2ex","03A9F4","https://www.sov2ex.com/?q="],
     },
     "百科": {
         "Wikipedia": ["wikien","3963cd","https://en.wikipedia.org/w/index.php?search="],
         "维基百科": ["wikizh","3963cd","https://zh.wikipedia.org/w/index.php?search="],
         "百度百科": ["baidubaike","3388ff","http://baike.baidu.com/search?word="],
         "互动百科": ["HudongBaike","ff9423","http://www.baike.com/wiki/?kw="],
-        "百度文库": ["baiduwenku","21BB8B","http://wenku.baidu.com/search?word="],
         "Wikileaks": ["wikileaks","4D5F69","https://search.wikileaks.org/?q="],
         "伪基百科": ["uncyclopedia","110f1d","http://cn.uncyclopedia.wikia.com/wiki/?kw="],
         "萌娘百科": ["moegirl","222222","https://zh.moegirl.org/index.php?search="],
@@ -94,11 +98,13 @@ var search_form = {
         "Readthedocs": ["readthedocs", "7C8F99", "https://readthedocs.org/search/?q="],
         "英文名911": ["yingwenming911cha", "00A8F9", "https://yingwenming.911cha.com/", ".html"]
     },
-    "文档": {
+    "阅读": {
+        "百度文库": ["baiduwenku","21BB8B","http://wenku.baidu.com/search?word="],
     	"Enbookfi": ["enbookfi", "8ECD51", "http://en.bookfi.net/s/?q=", "&t=0"],
         "PDF": ["pdfSearchEngine","FA7575","http://pdf-downloads.net/", "-pdf.html"],
-        "OfficeView": ["officeapps", "2B579A", "https://view.officeapps.live.com/op/view.aspx?src="]
-
+        "OfficeView": ["officeapps", "2B579A", "https://view.officeapps.live.com/op/view.aspx?src="],
+        "豆瓣读书": ["readdouban", "389EAC", "https://read.douban.com/search?q="],
+        "网易云读书": ["yuedu163", "C9483C", "https://yuedu.163.com/search.do?key="]
     },
     "词典": {
         "Google Translate": ["googletranslate","000","https://translate.google.cn/#view=home&op=translate&sl=auto&tl=zh-CN&text="],
