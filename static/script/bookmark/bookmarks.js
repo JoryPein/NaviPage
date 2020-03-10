@@ -1124,6 +1124,10 @@ var bookmarks = {
             {
                 "name": "THEOI GREEK MYTHOLOGY",
                 "url": "http://www.theoi.com/"
+            },
+            {
+                "name": "介绍 | RSSHub",
+                "url": "https://docs.rsshub.app/"
             }
         ],
         "ITBlog": [

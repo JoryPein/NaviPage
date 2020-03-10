@@ -42,6 +42,8 @@ var search_form = {
         "MSDN-ZH": ["msdnzh", "000", "https://social.msdn.microsoft.com/Search/zh-CN?query="],
         "Python3 Doc": ["python3documentation", "0073B7", "https://docs.python.org/3/search.html?q="],
         "Mozilla Dev": ["MozillaDev","000","https://developer.mozilla.org/en-US/search?q="],
+        "Ubuntu": ["ubuntu", "DD6D41", "https://ubuntu.com/search?q="],
+        "Ubuntu Manuals": ["manpagesubuntu", "DD6D41", "http://manpages.ubuntu.com/cgi-bin/search.py?q="],
     },
     "资源": {
         "Source Forge": ["sourceforge", "ff6600", "https://sourceforge.net/directory/?q="],

@@ -283,7 +283,7 @@ var collections = {
                 "url": "https://www.yiibai.com/uml"
             }
         ],
-        "版本控制": [{
+        "Git": [{
                 "name": "Pro Git book",
                 "url": "https://docs.pythontab.com/github/gitbook/"
             },{
@@ -295,12 +295,17 @@ var collections = {
             },{
                 "name": "Git教程&trade;",
                 "url": "https://www.yiibai.com/git"
-            },{
+            }
+        ],
+        "SVN": [{
                 "name": "SVN教程 - 菜鸟教程",
                 "url": "https://www.runoob.com/svn/svn-tutorial.html"
             },{
                 "name": "TortoiseSVN教程&trade;",
                 "url": "https://www.yiibai.com/svn"
+            },{
+                "name": "svn handbook",
+                "url": "http://shouce.jb51.net/svn/index.html"
             }
         ],
         "数据库": [{
@@ -483,15 +488,22 @@ var collections = {
                 "name": "shell教程&trade;",
                 "url": "https://www.yiibai.com/shell"
             },{
-                "name": "PowerShell Scripting | Microsoft Docs",
-                "url": "https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-6"
-            },{
-                "name": "DOS命令学习手册_w3cschool",
-                "url": "https://www.w3cschool.cn/dosmlxxsc1/"
-            },{
                 "name": "Shell 编程范例_w3cschool",
                 "url": "https://www.w3cschool.cn/shellbook/"
+            },{
+                "name": "shell在线中文手册abs,shell中文教程,shell中文教程 - 脚本之家",
+                "url": "http://shouce.jb51.net/shell/index.html"
             },
+        ],
+        "PowerShell": [{
+                "name": "PowerShell Scripting | Microsoft Docs",
+                "url": "https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-6"
+            }
+        ],
+        "dos": [{
+                "name": "DOS命令学习手册_w3cschool",
+                "url": "https://www.w3cschool.cn/dosmlxxsc1/"
+            }
         ],
         "DotNet": [{
                 "name": "Download .NET Framework | Free official downloads",
@@ -524,6 +536,9 @@ var collections = {
             },{
                 "name": "C# (CSharp) Code Examples - HotExamples",
                 "url": "https://csharp.hotexamples.com/"
+            },{
+                "name": "c# .net,中文手册,在线手册 - 脚本之家",
+                "url": "http://shouce.jb51.net/net/index.html"
             }
         ],
         "Go": [{
@@ -606,6 +621,15 @@ var collections = {
             },{
                 "name": "Ruby用户指南,Ruby中文文档",
                 "url": "https://www.php.cn/manual/view/20139.html"
+            },{
+                "name": "ruby,中文手册,在线手册 - 脚本之家",
+                "url": "http://shouce.jb51.net/ruby/"
+            },{
+                "name": "pack (Array) - APIdock Ruby",
+                "url": "https://apidock.com/ruby/Array/pack"
+            },{
+                "name": "Ruby参考手册 - pack模板字符串",
+                "url": "http://shouce.jb51.net/ruby/90.html"
             }
         ],
         "Python": [{
@@ -668,6 +692,9 @@ var collections = {
             },{
                 "name": "介绍 - 《Python 3.8 标准库参考》 - 书栈网 · BookStack",
                 "url": "https://www.bookstack.cn/read/python-stdlib-3.8/bf0cf5e404de4874.md"
+            },{
+                "name": "python,中文手册,在线手册 - 脚本之家",
+                "url": "http://shouce.jb51.net/python/index.html"
             }
         ],
         "PythonAbout": [{
@@ -727,6 +754,12 @@ var collections = {
         "密码学": [{
             "name": "PyCryptodome 3.9a0 documentation",
             "url": "https://pycryptodome.readthedocs.io/en/latest/index.html"
+        },{
+            "name": "pyca/cryptography &mdash; Cryptography 2.9.dev1 documentation",
+            "url": "https://cryptography.io/en/latest/"
+        },{
+            "name": "pyOpenSSL’s documentation",
+            "url": "https://www.pyopenssl.org/en/stable/"
         }],
         "工具": [{
             "name": "HashKiller.co.uk - Huge Online Hash Database and Community, Free Hash Cracker, Online Hash Cracking",
