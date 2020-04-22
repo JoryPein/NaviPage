@@ -563,6 +563,10 @@ var bookmarks = {
             {
                 "name": "CA App Synthetic Monitor",
                 "url": "https://asm.ca.com/zh_cn/traceroute.php"
+            },
+            {
+                "name": "ICANN Lookup",
+                "url": "https://lookup.icann.org/"
             }
         ]
     },

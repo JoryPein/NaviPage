@@ -314,7 +314,9 @@ var collections = {
             },{
                 "name": "SQL教程 - 廖雪峰的官方网站",
                 "url": "https://www.liaoxuefeng.com/wiki/1177760294764384"
-            },{
+            }
+        ],
+        "MySQL": [{
                 "name": "MySQL教程 - 菜鸟教程",
                 "url": "https://www.runoob.com/mysql/mysql-tutorial.html"
             },{
@@ -323,10 +325,9 @@ var collections = {
             },{
                 "name": "MySQL Connector/NET 8.0 API Reference",
                 "url": "https://dev.mysql.com/doc/dev/connector-net/8.0/html/connector-net-x-devapi-reference.htm"
-            },{
-                "name": "PostgreSQL教程&trade;",
-                "url": "https://www.yiibai.com/postgresql/"
-            },{
+            }
+        ],
+        "MongoDB": [{
                 "name": "MongoDB教程 - 菜鸟教程",
                 "url": "https://www.runoob.com/mongodb/mongodb-tutorial.html"
             },{
@@ -338,16 +339,30 @@ var collections = {
             },{
                 "name": "MongoDB .NET Driver API Documentation",
                 "url": "http://mongodb.github.io/mongo-csharp-driver/2.8/apidocs/html/R_Project_CSharpDriverDocs.htm"
+            }
+        ],
+        "PostgreSQL": [{
+                "name": "PostgreSQL教程&trade;",
+                "url": "https://www.yiibai.com/postgresql/"
             },{
+                "name": "PostgreSQL: Documentation",
+                "url": "https://www.postgresql.org/docs/"
+            }
+        ],
+        "Redis": [{
                 "name": "Redis教程 - 菜鸟教程",
                 "url": "https://www.runoob.com/redis/redis-tutorial.html"
             },{
                 "name": "Redis 设计与实现",
                 "url": "https://docs.pythontab.com/redis/redisbook/"
-            },{
+            }
+        ],
+        "Elasticsearch": [{
                 "name": "Elasticsearch 权威指南（中文版）",
                 "url": "http://wiki.jikexueyuan.com/project/elasticsearch-definitive-guide-cn/"
-            },{
+            }
+        ],
+        "SQLite": [{
                 "name": "SQLite教程",
                 "url": "http://wiki.jikexueyuan.com/project/sqlite/"
             },{
@@ -554,8 +569,8 @@ var collections = {
                 "name": "Go 1.11 | 去编程语言 : Code Examples",
                 "url": "https://code-examples.net/zh-CN/docs/go/index"
             },{
-                "name": "Go语言圣经（中文版）",
-                "url": "https://books.studygolang.com/gopl-zh/index.html"
+                "name": "Go 语言中文开源图书、资料或文档",
+                "url": "https://books.studygolang.com/"
             }
         ],
         "Java": [{

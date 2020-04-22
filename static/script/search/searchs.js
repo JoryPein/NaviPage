@@ -14,7 +14,9 @@ var search_form = {
         "Magi": ["magi","14A2F5","https://magi.com/search?q="],
         "Ahmia": ["ahmia","303030","http://msydqstlz2kzerdg.onion/search/?q="],
         "not Evil": ["notEvil","303030","http://hss3uro2hsxfogfq.onion/index.php?q="],
-        "OneSearch": ["onesearch", "424246", "https://www.onesearch.com/?q="]
+        "OneSearch": ["onesearch", "424246", "https://www.onesearch.com/?q="],
+        "Teoma": ["teoma", "A64131", "https://www.teoma.co.uk/web?q="],
+        "Izito": ["izito", "592260", "https://www.izito.ws/?q="]
     },
     "Code": {
     	"GitHub Resp": ["githubresp","81d364","https://github.com/search?q="],
@@ -44,6 +46,8 @@ var search_form = {
         "Mozilla Dev": ["MozillaDev","000","https://developer.mozilla.org/en-US/search?q="],
         "Ubuntu": ["ubuntu", "DD6D41", "https://ubuntu.com/search?q="],
         "Ubuntu Manuals": ["manpagesubuntu", "DD6D41", "http://manpages.ubuntu.com/cgi-bin/search.py?q="],
+        "Stackoom": ["stackoom","FF7F27","https://stackoom.com/search?q="],
+
     },
     "资源": {
         "Source Forge": ["sourceforge", "ff6600", "https://sourceforge.net/directory/?q="],
@@ -52,6 +56,7 @@ var search_form = {
         "Sublime Package": ["packagecontrol", "FC9701", "https://packagecontrol.io/search/"],
         "DockerHub": ["dockerhub", "099CEC", "https://hub.docker.com/search/?q="],
         "Tor Relay": ["TorRelay", "7C4597", "https://metrics.torproject.org/rs.html#search/"],
+        "WikiDll": ["wikidll", "3496E0", "https://wikidll.com/search?name="],
     	"脚本之家": ["jbzj-bd", "A24937", "https://www.baidu.com/s?wd=", " inurl:www.jb51.net"],
         "Shodan": ["Shodan","c61612","https://www.shodan.io/search?query="],
         "ZoomEye": ["Zoomeye","01acfe","https://www.zoomeye.org/searchResult?q="],
@@ -64,6 +69,7 @@ var search_form = {
         "Torrent Download": ["torrentdownload", "175588", "https://www.torrentdownload.info/search?q="],
         "搜百度盘": ["sobaidupan", "286090", "https://www.sobaidupan.com/search.asp?wd="],
         "云铺子": ["yunpz", "888888", "https://www.yunpz.net/all/s-", ".html"],
+        "搜漫": ["soman", "FE254F", "https://www.soman.com/search.html?keyword="],
     },
     "社区": {
         "经验": ["jingyan","43bf0f","http://jingyan.baidu.com/search?word="],
