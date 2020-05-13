@@ -185,6 +185,10 @@ var bookmarks = {
             {
                 "name": "石墨文档",
                 "url": "https://shimo.im/"
+            },
+            {
+                "name": "Convert cURL command syntax",
+                "url": "https://curl.trillworks.com/"
             }
         ],
         "Network": [
@@ -2164,6 +2168,10 @@ var bookmarks = {
             {
                 "name": "瘦金体吧",
                 "url": "http://tieba.baidu.com/f?ie=utf-8&kw=瘦金体"
+            },
+            {
+                "name": "书法字典",
+                "url": "http://www.shufazidian.com/"
             }
         ],
         "Language": [

@@ -710,6 +710,9 @@ var collections = {
             },{
                 "name": "python,中文手册,在线手册 - 脚本之家",
                 "url": "http://shouce.jb51.net/python/index.html"
+            },{
+                "name": "Python 资源大全中文版 - 云+社区 - 腾讯云",
+                "url": "https://cloud.tencent.com/developer/article/1108114"
             }
         ],
         "PythonAbout": [{
