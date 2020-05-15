@@ -508,6 +508,9 @@ var collections = {
             },{
                 "name": "shell在线中文手册abs,shell中文教程,shell中文教程 - 脚本之家",
                 "url": "http://shouce.jb51.net/shell/index.html"
+            },{
+                "name": "Bash 脚本教程",
+                "url": "https://wangdoc.com/bash/index.html"
             },
         ],
         "PowerShell": [{
@@ -566,11 +569,14 @@ var collections = {
                 "name": "Go 中文开发手册 - 开发者手册 - 云+社区 - 腾讯云",
                 "url": "https://cloud.tencent.com/developer/doc/1101"
             },{
-                "name": "Go 1.11 | 去编程语言 : Code Examples",
+                "name": "Go 1.11 | G编程语言 : Code Examples",
                 "url": "https://code-examples.net/zh-CN/docs/go/index"
             },{
                 "name": "Go 语言中文开源图书、资料或文档",
                 "url": "https://books.studygolang.com/"
+            },{
+                "name": "Go语言标准库",
+                "url": "https://books.studygolang.com/The-Golang-Standard-Library-by-Example/"
             }
         ],
         "Java": [{
