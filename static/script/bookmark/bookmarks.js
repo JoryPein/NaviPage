@@ -1224,7 +1224,7 @@ var bookmarks = {
             {
                 "name": "遨寰宇",
                 "url": "http://aohuanyu.com/"
-            },
+            }
         ],
         "Hacker Navigator": [
             {

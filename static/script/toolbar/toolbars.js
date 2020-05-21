@@ -7,7 +7,7 @@
 	5: ["Ping奇云测", "http://ce.cloud.360.cn/"],
 	6: ["MyIp", "http://tools.add0n.com/what-is-my-ip.php"],
 	7: ["ScribblerToo", "http://www.zefrank.com/scribbler/scribblertoo/"],
-	8: ["五笔在线", "http://www.52wubi.com/uploads/userup/52wubi.swf"],
+	8: ["uuidgenerator", "https://www.uuidgenerator.net/"],
 	9: ["Regexper", "https://regexper.com/"],
 	10: ["Dillinger", "http://dillinger.io/"],
 	11: ["参考对照表", "http://tools.jb51.net/table"],
@@ -20,6 +20,5 @@
 	18: ["haoIP", "https://haoip.cn/"],
 	19: ["md_pandao", "http://pandao.github.io/editor.md/"],
 	20: ["de4js", "https://lelinhtinh.github.io/de4js/"],
-	21: ["uuidgenerator", "https://www.uuidgenerator.net/"]
 	
 };

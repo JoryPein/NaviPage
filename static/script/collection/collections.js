@@ -212,6 +212,9 @@ var collections = {
                 },{
                     "name": "python高级与网络编程",
                     "url": "https://aceld.gitbooks.io/python/content/"
+                },{
+                    "name": "Network Programming in Python Tutorial | Studytonight",
+                    "url": "https://www.studytonight.com/network-programming-in-python/"
                 }
             ],
         "区块链": [{
@@ -450,6 +453,9 @@ var collections = {
             },{
                 "name": "介绍 | 手把手教你做一个 C 语言编译器",
                 "url": "https://www.ctolib.com/docs//sfile/diy-c-compiler/index.html"
+            },{
+                "name": "Learn C Programming Language | C Tutorial | Studytonight",
+                "url": "https://www.studytonight.com/c/"
             }
         ],
         "C++": [{
@@ -491,6 +497,9 @@ var collections = {
             },{
                 "name": "C/C++语言和标准库参考",
                 "url": "https://docs.microsoft.com/zh-cn/cpp/cpp/c-cpp-language-and-standard-libraries"
+            },{
+                "name": "C++ Tutorial | Studytonight",
+                "url": "https://www.studytonight.com/cpp/"
             },
         ],
         "Shell": [{
@@ -719,6 +728,9 @@ var collections = {
             },{
                 "name": "Python 资源大全中文版 - 云+社区 - 腾讯云",
                 "url": "https://cloud.tencent.com/developer/article/1108114"
+            },{
+                "name": "Python Tutorial | Studytonight",
+                "url": "https://www.studytonight.com/python/"
             }
         ],
         "PythonAbout": [{
@@ -754,12 +766,17 @@ var collections = {
             
         ],
         "Scrapy": [{
-                "name": "Scrapy 1.6 documentation &mdash; Scrapy 1.6.0 documentation",
+                "name": "Scrapy 1.6.0 documentation",
                 "url": "https://docs.scrapy.org/en/latest/"
             },{
-                "name": "Scrapy 0.24 文档 &mdash; Scrapy 0.24.6 文档",
+                "name": "Scrapy 0.24.6 文档",
                 "url": "https://scrapy-chs.readthedocs.io/zh_CN/0.24/index.html"
             },
+        ],
+        "Scapy": [{
+                "name": "Scapy 2.4.3 documentation",
+                "url": "https://scapy.readthedocs.io/en/latest/"
+            }
         ],
         "Image": [{
             "name": "Pillow &mdash; Pillow (PIL Fork) 6.1.0.dev0 documentation",
@@ -792,8 +809,11 @@ var collections = {
     },
     "安全": {
         "语言": [{
-            "name": "python安全编程教程",
+            "name": "Python安全编程教程",
             "url": "https://wizardforcel.gitbooks.io/py-sec-tutorial/content/index.html"
+        },{
+            "name": "Hacking-With-Golang",
+            "url": "https://github.com/re4lity/Hacking-With-Golang/blob/master/README.md"
         }],
         "CVE": [{
             "name": "CVE - Download CVE List",
@@ -831,7 +851,7 @@ var collections = {
         }],
         "Pwn": [{
                 "name": "binjitsu &mdash; binjitsu 2.2.0 documentation",
-                "url": "https://binjitsu.readthedocs.io/s"
+                "url": "https://binjitsu.readthedocs.io"
             },{
                 "name": "pwntools &mdash; pwntools 3.12.1 documentation",
                 "url": "https://pwntools.readthedocs.io/en/stable/"

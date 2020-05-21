@@ -16,7 +16,8 @@ var search_form = {
         "not Evil": ["notEvil","303030","http://hss3uro2hsxfogfq.onion/index.php?q="],
         "OneSearch": ["onesearch", "424246", "https://www.onesearch.com/?q="],
         "Teoma": ["teoma", "A64131", "https://www.teoma.co.uk/web?q="],
-        "Izito": ["izito", "592260", "https://www.izito.ws/?q="]
+        "Izito": ["izito", "592260", "https://www.izito.ws/?q="],
+        "Zapmeta": ["zapmeta", "F4B438", "https://www.zapmeta.ws/?q="]
     },
     "Code": {
     	"GitHub Resp": ["githubresp","81d364","https://github.com/search?q="],
@@ -95,6 +96,7 @@ var search_form = {
     },
     "百科": {
         "Wikipedia": ["wikien","3963cd","https://en.wikipedia.org/w/index.php?search="],
+        "维基百科[日]": ["wikipediajp","3963cd","https://ja.m.wikipedia.org/wiki/"],
         "维基百科": ["wikizh","3963cd","https://zh.wikipedia.org/w/index.php?search="],
         "百度百科": ["baidubaike","3388ff","http://baike.baidu.com/search?word="],
         "互动百科": ["HudongBaike","ff9423","http://www.baike.com/wiki/?kw="],
@@ -106,7 +108,8 @@ var search_form = {
         "殆知阁": ["fanren8","337ab7","http://122.200.75.13/result.php"],
         "搜神": ["soshen","359a34","http://m.soshen.cn/spring/soshen/search?canshu="],
         "Readthedocs": ["readthedocs", "7C8F99", "https://readthedocs.org/search/?q="],
-        "英文名911": ["yingwenming911cha", "00A8F9", "https://yingwenming.911cha.com/", ".html"]
+        "英文名911": ["yingwenming911cha", "00A8F9", "https://yingwenming.911cha.com/", ".html"],
+        "Wikidiff": ["wikidiff", "FF0000", "https://wikidiff.com/"]
     },
     "阅读": {
         "百度文库": ["baiduwenku","21BB8B","http://wenku.baidu.com/search?word="],
@@ -114,7 +117,8 @@ var search_form = {
         "PDF": ["pdfSearchEngine","FA7575","http://pdf-downloads.net/", "-pdf.html"],
         "OfficeView": ["officeapps", "2B579A", "https://view.officeapps.live.com/op/view.aspx?src="],
         "豆瓣读书": ["readdouban", "389EAC", "https://read.douban.com/search?q="],
-        "网易云读书": ["yuedu163", "C9483C", "https://yuedu.163.com/search.do?key="]
+        "网易云读书": ["yuedu163", "C9483C", "https://yuedu.163.com/search.do?key="],
+    	"GooglePDF": ["googlepdf", "4285f4", "https://www.google.com/search?safe=off&q=", "%20filetype:pdf"]
     },
     "词典": {
         "Google Translate": ["googletranslate","000","https://translate.google.cn/#view=home&op=translate&sl=auto&tl=zh-CN&text="],
