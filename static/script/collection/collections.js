@@ -731,6 +731,9 @@ var collections = {
             },{
                 "name": "Python Tutorial | Studytonight",
                 "url": "https://www.studytonight.com/python/"
+            },{
+                "name": "Python Tutorial - JournalDev",
+                "url": "https://www.journaldev.com/python-tutorial"
             }
         ],
         "PythonAbout": [{
@@ -877,6 +880,9 @@ var collections = {
         "教程": [{
                 "name": "专注 APT 攻击与防御 - Micro8 系列教程",
                 "url": "https://www.bookstack.cn/read/Micro8/README.md"
+            }, {
+                "name": "Red Teaming Experiments",
+                "url": "https://ired.team/"
             }
         ],
     },
