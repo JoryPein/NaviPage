@@ -14,7 +14,7 @@ $(function(){
                 let ci_link = ci[link];
                 name = ci_link['name'];
                 url = ci_link['url'];
-                cols_html += "<li><a href=\""+url+"\" target=\"_blank\" style=\"color:"+font_color+";\">"+name+"</a></li>";
+                cols_html += "<li><a href=\""+url+"\" name=\""+name+"\" target=\"_blank\" style=\"color:"+font_color+";\">"+name+"</a></li>";
             }
             cols_html += "</ul></div></li>";
         }

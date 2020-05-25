@@ -406,6 +406,17 @@ var collections = {
                 "url": "https://maicss.gitbooks.io/pyqt5/content/"
             }
         ],
+        "编译": [{
+                "name": "CMake Tutorial",
+                "url": "https://cmake.org/cmake/help/latest/guide/tutorial/index.html"
+            },{
+                "name": "GNU make",
+                "url": "https://www.gnu.org/software/make/manual/make.html"
+            },{
+                "name": "Unix Makefile Tutorial - Tutorialspoint",
+                "url": "https://www.tutorialspoint.com/makefile/index.htm"
+            }
+        ],
         "汇编": [{
                 "name": "Assembly/汇编教程&trade;",
                 "url": "https://www.yiibai.com/html/assembly/"
