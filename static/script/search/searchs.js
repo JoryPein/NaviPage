@@ -49,6 +49,7 @@ var search_form = {
         "Ubuntu Manuals": ["manpagesubuntu", "DD6D41", "http://manpages.ubuntu.com/cgi-bin/search.py?q="],
         "Stackoom": ["stackoom","FF7F27","https://stackoom.com/search?q="],
         "GoDoc": ["godoc","375EAB","https://godoc.org/?q="],
+        "GoDev": ["pkggodev","007D9C","https://pkg.go.dev/search?q="],
 
     },
     "资源": {
@@ -118,7 +119,8 @@ var search_form = {
         "OfficeView": ["officeapps", "2B579A", "https://view.officeapps.live.com/op/view.aspx?src="],
         "豆瓣读书": ["readdouban", "389EAC", "https://read.douban.com/search?q="],
         "网易云读书": ["yuedu163", "C9483C", "https://yuedu.163.com/search.do?key="],
-    	"GooglePDF": ["googlepdf", "4285f4", "https://www.google.com/search?safe=off&q=", "%20filetype:pdf"]
+    	"GooglePDF": ["googlepdf", "4285f4", "https://www.google.com/search?safe=off&q=", "%20filetype:pdf"],
+        "EbookPDF": ["ebookpdf", "C9483C", "https://ebookpdf.com/"],
     },
     "词典": {
         "Google Translate": ["googletranslate","000","https://translate.google.cn/#view=home&op=translate&sl=auto&tl=zh-CN&text="],

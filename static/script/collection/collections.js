@@ -393,6 +393,12 @@ var collections = {
             }
         ],
         "GUI": [{
+                "name": "Qt Documentation",
+                "url": "https://doc.qt.io/"
+            },{
+                "name": "Qt Reference Pages | Qt 5.14 | CPP",
+                "url": "https://doc.qt.io/qt-5/reference-overview.html"
+            },{
                 "name": "PyQt5 tutorial - learn GUI programming with Python and PyQt5",
                 "url": "http://zetcode.com/gui/pyqt5/"
             },{
@@ -426,6 +432,11 @@ var collections = {
             },{
                 "name": "汇编语言入门教程：汇编语言程序设计指南（精讲版）",
                 "url": "http://c.biancheng.net/asm/"
+            }
+        ],
+        "Autoit": [{
+                "name": "autoit 在线手册中文版_脚本之家",
+                "url": "https://www.jb51.net/shouce/autoit/"
             }
         ],
         "C": [{
@@ -538,7 +549,7 @@ var collections = {
                 "url": "https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-6"
             }
         ],
-        "dos": [{
+        "Dos": [{
                 "name": "DOS命令学习手册_w3cschool",
                 "url": "https://www.w3cschool.cn/dosmlxxsc1/"
             }
@@ -597,6 +608,9 @@ var collections = {
             },{
                 "name": "Go语言标准库",
                 "url": "https://books.studygolang.com/The-Golang-Standard-Library-by-Example/"
+            },{
+                "name": "Documentation - The Go Programming Language",
+                "url": "https://golang.org/doc/"
             }
         ],
         "Java": [{

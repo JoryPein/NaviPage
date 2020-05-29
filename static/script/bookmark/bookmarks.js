@@ -718,7 +718,9 @@ var bookmarks = {
             {
                 "name": "The Sunday Times",
                 "url": "https://www.thetimes.co.uk"
-            },
+            }
+        ],
+        "Japan": [
             {
                 "name": "NHK WORLD",
                 "url": "https://www3.nhk.or.jp/nhkworld/"
@@ -730,6 +732,14 @@ var bookmarks = {
             {
                 "name": "NHK News",
                 "url": "http://www3.nhk.or.jp/news/"
+            },
+            {
+                "name": "読売新聞オンライン",
+                "url": "https://www.yomiuri.co.jp/"
+            },
+            {
+                "name": "NAVER まとめ",
+                "url": "https://matome.naver.jp/"
             }
         ],
         "China": [
