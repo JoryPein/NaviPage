@@ -91,6 +91,9 @@ var bookmarks = {
             },{
                 "name": "80x86汇编小站",
                 "url": "http://www.x86asm.com/#"
+            },{
+                "name": "Golang playground",
+                "url": "https://play.golang.org/"
             }
         ],
         "Web": [

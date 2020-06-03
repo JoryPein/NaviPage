@@ -759,6 +759,9 @@ var collections = {
             },{
                 "name": "Python Tutorial - JournalDev",
                 "url": "https://www.journaldev.com/python-tutorial"
+            },{
+                "name": "Practical Python Programming | practical-python",
+                "url": "https://dabeaz-course.github.io/practical-python/Notes/Contents.html"
             }
         ],
         "PythonAbout": [{

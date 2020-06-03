@@ -102,7 +102,6 @@ var search_form = {
         "百度百科": ["baidubaike","3388ff","http://baike.baidu.com/search?word="],
         "互动百科": ["HudongBaike","ff9423","http://www.baike.com/wiki/?kw="],
         "Wikileaks": ["wikileaks","4D5F69","https://search.wikileaks.org/?q="],
-        "伪基百科": ["uncyclopedia","110f1d","http://cn.uncyclopedia.wikia.com/wiki/?kw="],
         "萌娘百科": ["moegirl","222222","https://zh.moegirl.org/index.php?search="],
         "GOT Wiki": ["GOTWiki","222222","http://gameofthrones.wikia.com/wiki/Special:Search?search="],
         "煮酒论史": ["tianya","0084c4","http://search.tianya.cn/bbs?q="],
