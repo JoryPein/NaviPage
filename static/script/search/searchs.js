@@ -34,6 +34,7 @@ var search_form = {
     },
     "参考": {
         "StackOverflow": ["stackoverflow","f48024","http://stackoverflow.com/search?q="],
+        "Teratail": ["teratail","12C74B","https://teratail.com/search?q="],
         "菜鸟教程": ["runoob","96B97D","http://www.runoob.com/?s="],
     	"OutOfMemory": ["outofmemory","244eb1","http://outofmemory.cn/search?q="],
         "Android Devs": ["AndroidDevelopers","6ab344","https://developer.android.com/index.html#q="],
@@ -65,6 +66,7 @@ var search_form = {
         "ZoomEye": ["Zoomeye","01acfe","https://www.zoomeye.org/searchResult?q="],
         "Censys": ["censys","4688F1","https://censys.io/domain?q="],
         "FOFA": ["fofa","28FEFC","https://fofa.so/result?q="],
+        "VirusTotal": ["virustotal", "4758E4", "https://www.virustotal.com/gui/search/"],
         "微盘": ["vdisk","347AAA","https://vdisk.weibo.com/search/?type=public&keyword="],
         "BTfan": ["btfan", "F30A0D", "http://btfan.com/key/"],
         "AioSearch": ["aiosearch", "FF4DA9", "https://www.aiosearch.com/search/4/Torrents/"],

@@ -49,8 +49,18 @@ var collections = {
             },{
                 "name": "PyWin32 Documentation",
                 "url": "http://timgolden.me.uk/pywin32-docs/contents.html"
+            },{
+                "name": "SDK教程 | C语言教程系列",
+                "url": "http://www.quanxue.cn/QT_XiaoYa/SdkIndex.html"
             }
-        ]
+        ],
+        "MFC": [{
+        	"name": "MFC 桌面应用程序 | Microsoft Docs",
+        	"url": "https://docs.microsoft.com/zh-cn/cpp/mfc/mfc-desktop-applications?view=vs-2019"
+        },{
+        	"name": "Windows32(MFC)教程",
+        	"url": "http://www.quanxue.cn/QT_XiaoYa/MfcIndex.html"
+        }],
     },
     "Web": {
         "Nginx": [{
@@ -392,24 +402,29 @@ var collections = {
                 "url": "http://www.liujiangblog.com/course/data/"
             }
         ],
-        "GUI": [{
+        "GUI_Qt": [{
                 "name": "Qt Documentation",
                 "url": "https://doc.qt.io/"
             },{
                 "name": "Qt Reference Pages | Qt 5.14 | CPP",
                 "url": "https://doc.qt.io/qt-5/reference-overview.html"
             },{
-                "name": "PyQt5 tutorial - learn GUI programming with Python and PyQt5",
-                "url": "http://zetcode.com/gui/pyqt5/"
+                "name": "Index of / Qt",
+                "url": "http://77.86.229.90/",
             },{
                 "name": "Qt 学习之路",
                 "url": "http://wiki.jikexueyuan.com/project/learn-road-qt/"
-            },{
+            }
+        ],
+        "GUI_PyQt": [{
                 "name": "Qt for Python",
                 "url": "https://doc.qt.io/qtforpython/index.html"
             },{
                 "name": "PyQt5 中文教程",
                 "url": "https://maicss.gitbooks.io/pyqt5/content/"
+            },{
+                "name": "PyQt5 tutorial - learn GUI programming with Python and PyQt5",
+                "url": "http://zetcode.com/gui/pyqt5/"
             }
         ],
         "编译": [{
@@ -423,7 +438,16 @@ var collections = {
                 "url": "https://www.tutorialspoint.com/makefile/index.htm"
             }
         ],
-        "汇编": [{
+        "Assembly": [{
+                "name": "Introduction to x64 Assembly",
+                "url": "https://software.intel.com/content/www/us/en/develop/articles/introduction-to-x64-assembly.html"
+            },{
+                "name": "Microsoft Macro Assembler reference",
+                "url": "https://docs.microsoft.com/en-us/cpp/assembler/masm/microsoft-macro-assembler-reference?view=vs-2019"
+            },{
+                "name": "NASM - The Netwide Assembler",
+                "url": "https://www.nasm.us/xdoc/2.14.02/html/nasmdoc0.html"
+            },{
                 "name": "Assembly/汇编教程&trade;",
                 "url": "https://www.yiibai.com/html/assembly/"
             },{
@@ -432,11 +456,18 @@ var collections = {
             },{
                 "name": "汇编语言入门教程：汇编语言程序设计指南（精讲版）",
                 "url": "http://c.biancheng.net/asm/"
-            }
-        ],
-        "Autoit": [{
-                "name": "autoit 在线手册中文版_脚本之家",
-                "url": "https://www.jb51.net/shouce/autoit/"
+            },{
+                "name": "x86 and amd64 instruction reference",
+                "url": "https://www.felixcloutier.com/x86/index.html"
+            },{
+                "name": "Mirror of: Into the Void: x86 Instruction Set Reference",
+                "url": "https://c9x.me/x86/"
+            },{
+                "name": "80x86 instruction set",
+                "url": "http://linuxcompressed.sourceforge.net/linux24-cc/intel/intel.html"
+            },{
+                "name": "i386-manual Table of Contents",
+                "url": "https://nju-projectn.github.io/i386-manual/toc.htm"
             }
         ],
         "C": [{
@@ -478,6 +509,9 @@ var collections = {
             },{
                 "name": "Learn C Programming Language | C Tutorial | Studytonight",
                 "url": "https://www.studytonight.com/c/"
+            },{
+                "name": "C语言教程 | C语言教程系列",
+                "url": "http://www.quanxue.cn/QT_XiaoYa/CLangIndex.html"
             }
         ],
         "C++": [{
@@ -522,7 +556,15 @@ var collections = {
             },{
                 "name": "C++ Tutorial | Studytonight",
                 "url": "https://www.studytonight.com/cpp/"
-            },
+            },{
+                "name": "C++语言教程 | C语言教程系列",
+                "url": "http://www.quanxue.cn/QT_XiaoYa/CppIndex.html"
+            }
+        ],
+        "Autoit": [{
+                "name": "autoit 在线手册中文版_脚本之家",
+                "url": "https://www.jb51.net/shouce/autoit/"
+            }
         ],
         "Shell": [{
                 "name": "Shell教程_Shell开发中文手册 - 极客学院Wiki",
@@ -549,7 +591,7 @@ var collections = {
                 "url": "https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-6"
             }
         ],
-        "Dos": [{
+        "DOS": [{
                 "name": "DOS命令学习手册_w3cschool",
                 "url": "https://www.w3cschool.cn/dosmlxxsc1/"
             }
@@ -590,7 +632,7 @@ var collections = {
                 "url": "http://shouce.jb51.net/net/index.html"
             }
         ],
-        "Go": [{
+        "GoLang": [{
                 "name": "Go教程 - 菜鸟教程",
                 "url": "https://www.runoob.com/go/go-tutorial.html"
             },{
@@ -611,6 +653,9 @@ var collections = {
             },{
                 "name": "Documentation - The Go Programming Language",
                 "url": "https://golang.org/doc/"
+            },{
+                "name": "Downloads - The Go Programming Language",
+                "url": "https://golang.org/dl/"
             }
         ],
         "Java": [{
@@ -641,6 +686,9 @@ var collections = {
         "PHP": [{
                 "name": "PHP: PHP Manual - Manual",
                 "url": "https://www.runoob.com/w3cnote/android-tutorial-intro.html"
+            },{
+                "name": "windows.php.net - /downloads/releases/archives/",
+                "url": "https://windows.php.net/downloads/releases/archives/"
             }
         ],
         "Ruby": [{
@@ -762,6 +810,9 @@ var collections = {
             },{
                 "name": "Practical Python Programming | practical-python",
                 "url": "https://dabeaz-course.github.io/practical-python/Notes/Contents.html"
+            },{
+                "name": "Download Python | Python.org",
+                "url": "https://www.python.org/downloads/"
             }
         ],
         "PythonAbout": [{
@@ -918,6 +969,13 @@ var collections = {
         "Chrome": [{
             "name": "Chrome 开发工具指南_w3cschool",
             "url": "https://www.w3cschool.cn/chromedevtools/"
+        },{
+            "name": "Google Chrome Older Versions Download (Windows, Linux & Mac)",
+            "url": "https://www.slimjet.com/chrome/google-chrome-old-version.php"
+        }],
+        "Firefox": [{
+            "name": "Index of /pub/firefox/releases/",
+            "url": "http://ftp.mozilla.org/pub/firefox/releases/"
         }],
         "Format": [{
             "name": "Markdown 语法说明_w3cschool",
