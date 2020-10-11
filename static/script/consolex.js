@@ -40,4 +40,5 @@ $(function(){
 	console.log("Bookmark Number: " + bmCount);
 	console.log("Provider: " + athr);
 	console.log("Contact with me: "+ url);
+	console.log("Download code: "+ "https://codeload.github.com/JoryPein/NaviPage/zip/master");
 });

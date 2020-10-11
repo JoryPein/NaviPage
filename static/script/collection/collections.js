@@ -448,6 +448,9 @@ var collections = {
                 "name": "NASM - The Netwide Assembler",
                 "url": "https://www.nasm.us/xdoc/2.14.02/html/nasmdoc0.html"
             },{
+                "name": "NASM 示例 - cee.github.io",
+                "url": "http://cee.github.io/NASM-Tutorial/"
+            },{
                 "name": "Assembly/汇编教程&trade;",
                 "url": "https://www.yiibai.com/html/assembly/"
             },{
@@ -468,6 +471,9 @@ var collections = {
             },{
                 "name": "i386-manual Table of Contents",
                 "url": "https://nju-projectn.github.io/i386-manual/toc.htm"
+            },{
+                "name": "geek edition | X86 Opcode and Instruction Reference 1.12",
+                "url": "http://ref.x86asm.net/geek.html#x68"
             }
         ],
         "C": [{
@@ -512,6 +518,9 @@ var collections = {
             },{
                 "name": "C语言教程 | C语言教程系列",
                 "url": "http://www.quanxue.cn/QT_XiaoYa/CLangIndex.html"
+            },{
+                "name": "Category:C (programming language) libraries",
+                "url": "https://en.wikipedia.org/wiki/Category:C_(programming_language)_libraries"
             }
         ],
         "C++": [{

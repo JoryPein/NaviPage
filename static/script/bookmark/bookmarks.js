@@ -192,6 +192,10 @@ var bookmarks = {
             {
                 "name": "Convert cURL command syntax",
                 "url": "https://curl.trillworks.com/"
+            },
+            {
+            	"name": "Online JavaScript Beautifier",
+            	"url": "https://beautifier.io/"
             }
         ],
         "Network": [
@@ -1533,6 +1537,10 @@ var bookmarks = {
                 "url": "https://scholar.google.com.hk/"
             },
             {
+                "name": "谷歌学术镜像_Google镜像站",
+                "url": "http://scholar.hedasudi.com/"
+            },
+            {
                 "name": "知网",
                 "url": "http://www.cnki.net/"
             },
@@ -2501,6 +2509,18 @@ var bookmarks = {
             {
                 "name": "老黄历",
                 "url": "http://www.laohuangli.net/"
+            },
+            {
+                "name": "Draw",
+                "url": "./page/draw.html"
+            },
+            {
+                "name": "PocketList",
+                "url": "https://getpocket.com/a/"
+            },
+            {
+                "name": "GoogleActivity",
+                "url": "https://myactivity.google.com/myactivity"
             }
         ],
         "Map": [
@@ -2521,32 +2541,9 @@ var bookmarks = {
                 "url": "http://map.qq.com"
             }
         ],
-        "Help": [{
+        "Doc": [{
                 "name": "Collections",
                 "url": "./page/collections.html"
-            },{
-                "name": "Collections - Github",
-                "url": "https://jorypein.github.io/NaviPage/page/collections.html"
-            },
-            {
-                "name": "PocketList",
-                "url": "https://getpocket.com/a/"
-            },
-            {
-                "name": "Draw",
-                "url": "./page/draw.html"
-            },
-            {
-                "name": "GoogleActivity",
-                "url": "https://myactivity.google.com/myactivity"
-            },
-            {
-                "name": "Code-Download",
-                "url": "https://codeload.github.com/JoryPein/NaviPage/zip/master"
-            },
-            {
-                "name": "Code-History",
-                "url": "./history.md"
             }
         ],
         "友情链接": [{
