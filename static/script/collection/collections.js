@@ -157,6 +157,14 @@ var collections = {
                 "url": "https://www.yiibai.com/nodejs/"
             }
         ],
+        "ElectronJs": [{
+                "name": "Electron Documentation",
+                "url": "https://www.electronjs.org/docs"
+            },{
+                "name": "Electron 中文文档_w3cschool",
+                "url": "https://www.w3cschool.cn/electronmanual/"
+            }
+        ],
         "Websocket": [{
                 "name": "socket.io 快速入门教程",
                 "url": "https://www.w3cschool.cn/socket/socket-ulbj2eii.html"
@@ -1000,6 +1008,13 @@ var collections = {
         "Software": [{
             "name": "Package Control Download",
             "url": "https://github.com/wbond/package_control/releases"
+        }],
+        "Snippet": [{
+            "name": "Linux Snippet",
+            "url": "../static/doc/linux_snippet.md"
+        },{
+            "name": "Windows Snippet",
+            "url": "../static/doc/windows_snippet.md"
         }],
         "Github": [{
             "name": "关于 | RSSHub",
