@@ -112,3 +112,11 @@ tar -zxvf FoxitReader2.1.0805_Server_x64_enu_Setup.run.tar.gz
 ./FoxitReader2.1.0805_Server_x64_enu_Setup.run
 ```
 
+### 4.markdown reader typora
+
+```shell
+wget -qO - https://typora.io/linux/public-key.asc | sudo apt-key add -
+sudo add-apt-repository 'deb https://typora.io/linux ./'
+sudo apt-get update
+sudo apt-get install typora
+```
