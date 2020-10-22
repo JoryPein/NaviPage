@@ -14,6 +14,11 @@ ls |wc -w
 du filename
 ```
 
+### 3.search files by keyword
+```shell
+grep keyword ./ -r -n
+```
+
 ## Network config
 
 ### 1.Fixing Net-Manager
