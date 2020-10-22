@@ -446,6 +446,11 @@ var collections = {
                 "url": "https://www.tutorialspoint.com/makefile/index.htm"
             }
         ],
+        "DEBUG": [{
+                "name": "Top (Debugging with GDB)",
+                "url": "https://sourceware.org/gdb/onlinedocs/gdb/"
+            }
+        ],
         "Assembly": [{
                 "name": "Introduction to x64 Assembly",
                 "url": "https://software.intel.com/content/www/us/en/develop/articles/introduction-to-x64-assembly.html"

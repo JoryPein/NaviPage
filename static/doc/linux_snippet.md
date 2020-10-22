@@ -112,9 +112,10 @@ df -hl
 ### 3.pdf reader
 
 ```shell
+sudo bash
 wget http://cdn07.foxitsoftware.cn/pub/foxit/reader/desktop/linux/2.x/2.1/en_us/FoxitReader2.1.0805_Server_x64_enu_Setup.run.tar.gz
 tar -zxvf FoxitReader2.1.0805_Server_x64_enu_Setup.run.tar.gz
-./FoxitReader2.1.0805_Server_x64_enu_Setup.run
+./'FoxitReader.enu.setup.2.1.0805(r225432).x64.run'
 ```
 
 ### 4.markdown reader typora
@@ -124,4 +125,22 @@ wget -qO - https://typora.io/linux/public-key.asc | sudo apt-key add -
 sudo add-apt-repository 'deb https://typora.io/linux ./'
 sudo apt-get update
 sudo apt-get install typora
+```
+
+## dev
+
+### 1.golang
+```shell
+wget https://golang.google.cn/dl/go1.14.10.linux-amd64.tar.gz
+tar -zxvf go1.14.10.linux-amd64.tar.gz -C /usr/local/
+export PATH=$PATH:/usr/local/go/bin
+rm -rf ./go1.14.10.linux-amd64.tar.gz
+go version
+go env -w GO111MODULE=on
+go env -w GOPROXY=https://goproxy.io,direct
+```
+
+### 2.docker
+```shell
+sudo apt install docker.io
 ```
