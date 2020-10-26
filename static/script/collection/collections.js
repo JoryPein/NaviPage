@@ -930,11 +930,14 @@ var collections = {
             "url": "https://www.seebug.org/vuldb/vulnerabilities"
         }],
         "CTF": [{
-                "name": "CTF Test - szysec/ctftest",
-                "url": "https://github.com/szysec/ctftest/blob/master/readme.md"
+                "name": "CTFtime.org / All about CTF (Capture The Flag)",
+                "url": "https://ctftime.org/event/list/"
             },{
                 "name": "CTF-All-In-One 《CTF 竞赛入门指南》",
                 "url": "https://firmianay.gitbooks.io/ctf-all-in-one/content/"
+            },{
+                "name": "CTF Test - szysec/ctftest",
+                "url": "https://github.com/szysec/ctftest/blob/master/readme.md"
             },{
                 "name": "Summary - 《CTF 竞赛入门指南(CTF All In One)》 - 书栈网 · BookStack",
                 "url": "https://www.bookstack.cn/read/CTF-All-In-One/SUMMARY.md"
