@@ -449,6 +449,9 @@ var collections = {
         "DEBUG": [{
                 "name": "Top (Debugging with GDB)",
                 "url": "https://sourceware.org/gdb/onlinedocs/gdb/"
+            },{
+                "name": "Introduction &#xB7; Radare2 Book",
+                "url": "https://radare.gitbooks.io/radare2book/content/"
             }
         ],
         "Assembly": [{

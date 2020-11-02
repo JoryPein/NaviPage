@@ -52,7 +52,7 @@ $(document).ready(function(){
 	$("#search_box").keyup(function(){
 		if(event.which==13){
 			var keyword = $(this).val();
-			var url = "https://www.baidu.com/s?wd=";
+			var url = "https://www.bing.com/search?q=";
 			keyword = process_keyword(keyword);
 			window.open(url+keyword);
 		};
