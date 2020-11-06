@@ -701,6 +701,9 @@ var collections = {
             }
         ],
         "Android": [{
+                "name": "探索 Android Studio | Android 开发者 | Android Developers",
+                "url": "https://developer.android.google.cn/studio/intro?hl=zh-cn"
+            },{
                 "name": "Android基础入门教程 - 菜鸟教程",
                 "url": "https://www.php.net/manual/en/index.php"
             },{
