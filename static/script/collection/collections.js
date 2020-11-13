@@ -422,6 +422,9 @@ var collections = {
             },{
                 "name": "Qt 学习之路",
                 "url": "http://wiki.jikexueyuan.com/project/learn-road-qt/"
+            },{
+                "name": "Qt编程指南，Qt新手教程，Qt Programming Guide",
+                "url": "https://qtguide.ustclug.org/"
             }
         ],
         "GUI_PyQt": [{
@@ -584,6 +587,9 @@ var collections = {
             },{
                 "name": "C++语言教程 | C语言教程系列",
                 "url": "http://www.quanxue.cn/QT_XiaoYa/CppIndex.html"
+            },{
+                "name": "Developing C and C++ applications in RHEL 8",
+                "url": "https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/developing_c_and_cpp_applications_in_rhel_8/index"
             }
         ],
         "Autoit": [{
@@ -900,6 +906,12 @@ var collections = {
                 "url": "http://docs.jinkan.org/docs/celery/"
             },
         ]
+    },
+    "Protocol": {
+        "Samba": [{
+            "name": "Implementing CIFS: SMB",
+            "url": "http://ubiqx.org/cifs/SMB.html"
+        }]
     },
     "编码": {
         "密码学": [{
