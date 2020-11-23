@@ -247,6 +247,20 @@ var collections = {
                 "name": "Tor Documentation - Tor Project",
                 "url": "https://www.torproject.org/docs/documentation.html.en"
             }],
+        "Samba": [{
+            "name": "Implementing CIFS: SMB",
+            "url": "http://ubiqx.org/cifs/SMB.html"
+        },{
+            "name": "SMB协议分析_ljmwork的专栏-CSDN博客",
+            "url": "https://blog.csdn.net/ljmwork/article/details/9021717"
+        }],
+        "Socks": [{
+                "name": "RFC 1928 - SOCKS Protocol Version 5",
+                "url": "https://tools.ietf.org/html/rfc1928"
+            },{
+                "name": "RFC 1928 - SOCKS 5 协议中文文档「译」 - 光韵流转",
+                "url": "https://www.quarkay.com/code/383/socks5-protocol-rfc-chinese-traslation"
+            }],
         "Tools": [{
                 "name": "Windows Sysinternals - Windows Sysinternals | Microsoft Docs",
                 "url": "https://docs.microsoft.com/en-us/sysinternals/"
@@ -371,6 +385,9 @@ var collections = {
             }
         ],
         "Redis": [{
+                "name": "Redis Protocol specification – Redis",
+                "url": "https://redis.io/topics/protocol"
+            },{
                 "name": "Redis教程 - 菜鸟教程",
                 "url": "https://www.runoob.com/redis/redis-tutorial.html"
             },{
@@ -906,12 +923,6 @@ var collections = {
                 "url": "http://docs.jinkan.org/docs/celery/"
             },
         ]
-    },
-    "Protocol": {
-        "Samba": [{
-            "name": "Implementing CIFS: SMB",
-            "url": "http://ubiqx.org/cifs/SMB.html"
-        }]
     },
     "编码": {
         "密码学": [{
