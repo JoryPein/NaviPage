@@ -382,6 +382,9 @@ var collections = {
             },{
                 "name": "PostgreSQL: Documentation",
                 "url": "https://www.postgresql.org/docs/"
+            },{
+                "name": "PostgREST Documentation &mdash; PostgREST 7.0.1 documentation",
+                "url": "http://postgrest.org/en/v7.0.0/index.html"
             }
         ],
         "Redis": [{
