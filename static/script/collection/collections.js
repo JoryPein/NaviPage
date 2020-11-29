@@ -149,6 +149,11 @@ var collections = {
                 "url": "https://www.runoob.com/jquery/jquery-tutorial.html"
             }
         ],
+        "Websocket": [{
+                "name": "socket.io 快速入门教程",
+                "url": "https://www.w3cschool.cn/socket/socket-ulbj2eii.html"
+            }
+        ],
         "NodeJs": [{
                 "name": "nodejs中文手册",
                 "url": "https://docs.pythontab.com/nodejs/"
@@ -157,25 +162,20 @@ var collections = {
                 "url": "https://www.yiibai.com/nodejs/"
             }
         ],
-        "ElectronJs": [{
-                "name": "Electron Documentation",
-                "url": "https://www.electronjs.org/docs"
-            },{
-                "name": "Electron 中文文档_w3cschool",
-                "url": "https://www.w3cschool.cn/electronmanual/"
-            }
-        ],
-        "Websocket": [{
-                "name": "socket.io 快速入门教程",
-                "url": "https://www.w3cschool.cn/socket/socket-ulbj2eii.html"
-            }
-        ],
         "Webpack": [{
                 "name": "webpack",
                 "url": "https://webpack.js.org/concepts/"
             },{
                 "name": "webpack 中文文档(v4.15.1)",
                 "url": "http://webpack.html.cn/"
+            }
+        ],
+        "ElectronJs": [{
+                "name": "Electron Documentation",
+                "url": "https://www.electronjs.org/docs"
+            },{
+                "name": "Electron 中文文档_w3cschool",
+                "url": "https://www.w3cschool.cn/electronmanual/"
             }
         ],
         "Vue.js": [{
@@ -192,6 +192,15 @@ var collections = {
                 "url": "https://www.w3cschool.cn/aekdgs/"
             }
         ],
+        "Electron-vue": [{
+                "name": "Introduction &#xB7; electron-vue",
+                "url": "https://simulatedgreg.gitbooks.io/electron-vue/content/en/"
+            }
+        ],
+        "Element-ui": [{
+        	"name": "Element - The world's most popular Vue UI framework",
+        	"url": "https://element.eleme.io/#/en-US/component/installation"
+        }],
         "Layui": [{
                 "name": "layui开发使用文档 - 入门指南",
                 "url": "https://www.layui.com/doc/"
