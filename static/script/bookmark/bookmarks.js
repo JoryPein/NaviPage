@@ -431,6 +431,10 @@ var bookmarks = {
                 "name": "字符画生成",
                 "url": "http://y.qq.com/m/demo/ctools/charimg.html"
             },
+            {
+                "name": "suncalc",
+                "url": "https://www.suncalc.org/l"
+            }
         ],
     },
     "IT": {
