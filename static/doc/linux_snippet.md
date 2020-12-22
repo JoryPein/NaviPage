@@ -137,7 +137,7 @@ export PATH=$PATH:/usr/local/go/bin
 rm -rf ./go1.14.10.linux-amd64.tar.gz
 go version
 go env -w GO111MODULE=on
-go env -w GOPROXY=https://goproxy.io,direct
+go env -w GOPROXY=https://goproxy.cn,direct
 ```
 
 ### 2.docker
