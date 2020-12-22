@@ -716,6 +716,9 @@ var collections = {
             },{
                 "name": "Downloads - The Go Programming Language",
                 "url": "https://golang.org/dl/"
+            },{
+                "name": "GoLand documentation—GoLand",
+                "url": "https://www.jetbrains.com/help/go/meet-the-product.html"
             }
         ],
         "Java": [{
