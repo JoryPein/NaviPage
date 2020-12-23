@@ -143,6 +143,12 @@ go env -w GOPROXY=https://goproxy.cn,direct
 ### 2.docker
 ```shell
 sudo apt install docker.io
+echo '{ 
+"registry-mirrors": ["https://alzgoonw.mirror.aliyuncs.com"] 
+}' > /etc/docker/daemon.json
+systemctl daemon-reload
+systemctl restart docker
+systemctl status docker
 ```
 
 #### run dockerfile
