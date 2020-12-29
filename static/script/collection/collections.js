@@ -176,6 +176,9 @@ var collections = {
             },{
                 "name": "Electron 中文文档_w3cschool",
                 "url": "https://www.w3cschool.cn/electronmanual/"
+            },{
+                "name": "Quick Start | Vue CLI Plugin Electron Builder",
+                "url": "https://nklayman.github.io/vue-cli-plugin-electron-builder/guide/#to-start-a-development-server"
             }
         ],
         "Vue.js": [{
