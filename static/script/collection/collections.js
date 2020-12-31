@@ -722,6 +722,9 @@ var collections = {
             },{
                 "name": "GoLand documentation—GoLand",
                 "url": "https://www.jetbrains.com/help/go/meet-the-product.html"
+            },{
+                "name": "archive - [ Go 中文开发手册 ] - 在线原生手册",
+                "url": "https://www.php.cn/manual/view/35126.html"
             }
         ],
         "Java": [{
