@@ -1065,6 +1065,9 @@ var collections = {
         },{
             "name": "Python Telegram Bot 11.1.0 documentation",
             "url": "https://python-telegram-bot.readthedocs.io/en/stable/"
+        },{
+            "name": "微信官方文档 | 微信开放文档",
+            "url": "https://developers.weixin.qq.com/doc/"
         }],
         "Software": [{
             "name": "Package Control Download",
