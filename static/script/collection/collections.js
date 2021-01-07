@@ -1066,6 +1066,9 @@ var collections = {
         "Software": [{
             "name": "Package Control Download",
             "url": "https://github.com/wbond/package_control/releases"
+        },{
+            "name": "钉钉开放平台开发文档",
+            "url": "https://ding-doc.dingtalk.com/doc#/bgb96b/ok9au2"
         }],
         "Snippet": [{
             "name": "Linux Snippet",
