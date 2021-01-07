@@ -193,6 +193,9 @@ var collections = {
             },{
                 "name": "vue 手册_w3cschool",
                 "url": "https://www.w3cschool.cn/aekdgs/"
+            },{
+                "name": "Vue.js开源项目速查表 - JavaScript开发社区 | CTOLib码库",
+                "url": "https://www.ctolib.com/cheatsheets-vuejs.html"
             }
         ],
         "Electron-vue": [{
