@@ -178,3 +178,21 @@ sudo apt install openjdk-11-jre-headless
 chmod +x gidraRun
 ./ghidraRun
 ```
+
+### 4.electron-vue
+```shell
+# node v14.15.1
+# npm v6.14.8
+
+npm config edit
+# registry=https://registry.npm.taobao.org/
+# electron_mirror=https://npm.taobao.org/mirrors/electron/
+
+npm install @vue/cli          # @vue/cli 4.5.9
+vue create vue-electron-notes # vue 2
+
+npm install electron --save-dev
+vue add electron-builder
+
+npm run serve
+```
