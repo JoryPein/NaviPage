@@ -196,6 +196,9 @@ var collections = {
             },{
                 "name": "Vue.js开源项目速查表 - JavaScript开发社区 | CTOLib码库",
                 "url": "https://www.ctolib.com/cheatsheets-vuejs.html"
+            },{
+                "name": "Vuex 是什么？",
+                "url": "https://vuex.vuejs.org/zh/"
             }
         ],
         "Electron-vue": [{
