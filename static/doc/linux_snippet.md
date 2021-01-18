@@ -196,3 +196,10 @@ vue add electron-builder
 
 npm run serve
 ```
+
+### 5.oracle-jdk8
+```shell
+sudo add-apt-repository ppa:ts.sch.gr/ppa
+sudo apt-get update
+sudo apt-get install oracle-java8-installer
+```
