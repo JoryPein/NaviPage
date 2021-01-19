@@ -635,6 +635,11 @@ var collections = {
                 "url": "https://www.jb51.net/shouce/autoit/"
             }
         ],
+        "Cobaltstrike": [{
+                "name": "Aggressor Script Tutorial and Reference",
+                "url": "https://cobaltstrike.com/aggressor-script/index.html"
+            }
+        ],
         "Shell": [{
                 "name": "Shell教程_Shell开发中文手册 - 极客学院Wiki",
                 "url": "http://wiki.jikexueyuan.com/project/shell-tutorial/"
