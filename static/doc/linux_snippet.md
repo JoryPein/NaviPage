@@ -14,9 +14,15 @@ ls |wc -w
 du filename
 ```
 
-### 3.search files by keyword
+### 3.search files by contain keyword
 ```shell
 grep keyword ./ -r -n
+```
+
+
+### 4.search files by filename keyword
+```shell
+find / -type f -name *keyword*
 ```
 
 ## Network config
