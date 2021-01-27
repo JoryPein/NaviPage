@@ -209,3 +209,12 @@ sudo add-apt-repository ppa:ts.sch.gr/ppa
 sudo apt-get update
 sudo apt-get install oracle-java8-installer
 ```
+
+### 6.xshell
+```shell
+yum -y install lrzsz
+apt install lrzsz
+ll
+rz # upload
+sz # download
+```
