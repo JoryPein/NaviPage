@@ -139,7 +139,7 @@ sudo apt-get install typora
 ```shell
 wget https://golang.google.cn/dl/go1.14.10.linux-amd64.tar.gz
 tar -zxvf go1.14.10.linux-amd64.tar.gz -C /usr/local/
-export PATH=$PATH:/usr/local/go/bin
+echo "export PATH=\$PATH:/usr/local/go/bin/" >> ~/.bashrc
 rm -rf ./go1.14.10.linux-amd64.tar.gz
 go version
 go env -w GO111MODULE=on
