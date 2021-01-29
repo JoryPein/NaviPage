@@ -38,6 +38,9 @@ var collections = {
             },{
                 "name": "Linux命令教程&trade;",
                 "url": "https://www.yiibai.com/linux"
+            },{
+                "name": "Linux系列基础教程-嗨客网",
+                "url": "https://haicoder.net/linux/linux-tutorial.html"
             }
         ],
         "Windows": [{
@@ -232,6 +235,9 @@ var collections = {
             },{
                 "name": "Docker从入门到实践_w3cschool",
                 "url": "https://www.w3cschool.cn/reqsgr/"
+            },{
+                "name": "docker入门实战-docker教程-嗨客网",
+                "url": "https://haicoder.net/docker/docker-course.html"
             }
         ],
     },
@@ -329,6 +335,9 @@ var collections = {
             },{
                 "name": "Java设计模式详解 - 微学苑",
                 "url": "http://www.weixueyuan.net/java/shejimoshi/"
+            },{
+                "name": "设计模式-软件设计模式-嗨客网",
+                "url": "https://haicoder.net/designpattern/design-pattern.html"
             }
         ],
         "设计": [{
@@ -502,12 +511,6 @@ var collections = {
                 "name": "Microsoft Macro Assembler reference",
                 "url": "https://docs.microsoft.com/en-us/cpp/assembler/masm/microsoft-macro-assembler-reference?view=vs-2019"
             },{
-                "name": "NASM - The Netwide Assembler",
-                "url": "https://www.nasm.us/xdoc/2.14.02/html/nasmdoc0.html"
-            },{
-                "name": "NASM 示例 - cee.github.io",
-                "url": "http://cee.github.io/NASM-Tutorial/"
-            },{
                 "name": "Assembly/汇编教程&trade;",
                 "url": "https://www.yiibai.com/html/assembly/"
             },{
@@ -532,6 +535,14 @@ var collections = {
                 "name": "geek edition | X86 Opcode and Instruction Reference 1.12",
                 "url": "http://ref.x86asm.net/geek.html#x68"
             }
+        ],
+        "Asm-Nasm": [{
+                "name": "NASM - The Netwide Assembler",
+                "url": "https://www.nasm.us/xdoc/2.14.02/html/nasmdoc0.html"
+            },{
+                "name": "NASM 示例 - cee.github.io",
+                "url": "http://cee.github.io/NASM-Tutorial/"
+            },
         ],
         "C": [{
                 "name": "C语言入门教程 - C语言中文网",
@@ -578,6 +589,9 @@ var collections = {
             },{
                 "name": "Category:C (programming language) libraries",
                 "url": "https://en.wikipedia.org/wiki/Category:C_(programming_language)_libraries"
+            },{
+                "name": "C语言入门教程-嗨客网",
+                "url": "https://haicoder.net/c/c-tutorial.html"
             }
         ],
         "C++": [{
@@ -628,6 +642,14 @@ var collections = {
             },{
                 "name": "Developing C and C++ applications in RHEL 8",
                 "url": "https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/developing_c_and_cpp_applications_in_rhel_8/index"
+            },{
+                "name": "C++教程-C++学习-嗨客网",
+                "url": "https://haicoder.net/cpp/cpp-tutorial.html"
+            }
+        ],
+        "STL": [{
+                "name": "STL教程-C&#43;&#43; STL教程-嗨客网",
+                "url": "https://haicoder.net/stl/stl-tutorial.html"
             }
         ],
         "Autoit": [{
@@ -662,7 +684,7 @@ var collections = {
         ],
         "PowerShell": [{
                 "name": "PowerShell Scripting | Microsoft Docs",
-                "url": "https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-6"
+                "url": "https://docs.microsoft.com/en-us/powershell/scripting"
             }
         ],
         "DOS": [{
@@ -736,6 +758,9 @@ var collections = {
             },{
                 "name": "archive - [ Go 中文开发手册 ] - 在线原生手册",
                 "url": "https://www.php.cn/manual/view/35126.html"
+            },{
+                "name": "go语言开发-嗨客网",
+                "url": "https://haicoder.net/golang/golang-tutorial.html"
             }
         ],
         "Java": [{
@@ -753,6 +778,9 @@ var collections = {
             },{
                 "name": "Learn Java (Introduction and Tutorials to Java Programming)",
                 "url": "https://www.programiz.com/java-programming"
+            },{
+                "name": "java 语言-嗨客网",
+                "url": "https://haicoder.net/java/java-development.html"
             }
         ],
         "Android": [{
@@ -772,6 +800,9 @@ var collections = {
             },{
                 "name": "windows.php.net - /downloads/releases/archives/",
                 "url": "https://windows.php.net/downloads/releases/archives/"
+            },{
+                "name": "PHP语言教程-嗨客网",
+                "url": "https://haicoder.net/php/php-tutorial.html"
             }
         ],
         "Ruby": [{
@@ -893,9 +924,6 @@ var collections = {
             },{
                 "name": "Practical Python Programming | practical-python",
                 "url": "https://dabeaz-course.github.io/practical-python/Notes/Contents.html"
-            },{
-                "name": "Download Python | Python.org",
-                "url": "https://www.python.org/downloads/"
             }
         ],
         "PythonAbout": [{
@@ -916,6 +944,9 @@ var collections = {
             },{
                 "name": "灰帽 Python 之旅",
                 "url": "https://wizardforcel.gitbooks.io/grey-hat-python/content/"
+            },{
+                "name": "Download Python | Python.org",
+                "url": "https://www.python.org/downloads/"
             }
         ],
         "Spider": [{
@@ -1028,7 +1059,25 @@ var collections = {
                 "url": "https://pwntools-docs-zh.readthedocs.io/zh_CN/dev/index.html"
             }
         ],
-        "工具": [{
+        "hashcat": [{
+                "name": "hashcat [hashcat wiki]",
+                "url": "https://hashcat.net/wiki/doku.php?id=hashcat"
+            }
+        ],
+        "aircrack": [{
+                "name": "tutorial [Aircrack-ng]",
+                "url": "https://www.aircrack-ng.org/doku.php?id=tutorial"
+            }
+        ],
+        "apt": [{
+                "name": "专注 APT 攻击与防御 - Micro8 系列教程",
+                "url": "https://www.bookstack.cn/read/Micro8/README.md"
+            }, {
+                "name": "Red Teaming Experiments",
+                "url": "https://ired.team/"
+            }
+        ],
+        "ToolsPackage": [{
                 "name": "看雪知识库 - 看雪学院",
                 "url": "https://www.kanxue.com/chm.htm"
             }, {
@@ -1040,14 +1089,6 @@ var collections = {
             }, {
                 "name": "exelab ::: Download cracker tools, disassemblers, debuggers",
                 "url": "https://exelab.ru/download.php"
-            }
-        ],
-        "教程": [{
-                "name": "专注 APT 攻击与防御 - Micro8 系列教程",
-                "url": "https://www.bookstack.cn/read/Micro8/README.md"
-            }, {
-                "name": "Red Teaming Experiments",
-                "url": "https://ired.team/"
             }
         ],
     },
