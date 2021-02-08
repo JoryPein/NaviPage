@@ -17,7 +17,8 @@ var search_form = {
         "OneSearch": ["onesearch", "424246", "https://www.onesearch.com/?q="],
         "Teoma": ["teoma", "A64131", "https://www.teoma.co.uk/web?q="],
         "Izito": ["izito", "592260", "https://www.izito.ws/?q="],
-        "Zapmeta": ["zapmeta", "F4B438", "https://www.zapmeta.ws/?q="]
+        "Zapmeta": ["zapmeta", "F4B438", "https://www.zapmeta.ws/?q="],
+        "DarkSearch": ["darksearch", "2a2f35", "https://darksearch.io/search?query="]
     },
     "Code": {
     	"GitHub Resp": ["githubresp","81d364","https://github.com/search?q="],
