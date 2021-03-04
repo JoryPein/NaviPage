@@ -218,3 +218,19 @@ ll
 rz # upload
 sz # download
 ```
+
+### 7.firewall centos
+```shell
+# allow tcp 80
+firewall-cmd --zone=public --add-port=80/tcp --permanent
+firewall-cmd --reload
+```
+
+### 8.nmap
+```shell
+# show all open port
+nmap -sS 192.168.88.43
+
+# test is port open
+nmap 192.168.88.43 -p 80
+```
