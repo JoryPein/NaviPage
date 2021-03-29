@@ -15,6 +15,9 @@ var collections = {
             },{
                 "name": "进程间通信&trade;",
                 "url": "https://www.yiibai.com/ipc"
+            },{
+                "name": "Operating System Tutorial - Studytonight",
+                "url": "https://www.studytonight.com/operating-system/"
             }
         ],
         "Linux": [{
@@ -257,6 +260,9 @@ var collections = {
                 },{
                     "name": "Network Programming in Python Tutorial | Studytonight",
                     "url": "https://www.studytonight.com/network-programming-in-python/"
+                },{
+                    "name": "Computer Networks Tutorial - Studytonight",
+                    "url": "https://www.studytonight.com/computer-networks/"
                 }
             ],
         "区块链": [{
