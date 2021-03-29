@@ -645,6 +645,9 @@ var collections = {
             },{
                 "name": "C++教程-C++学习-嗨客网",
                 "url": "https://haicoder.net/cpp/cpp-tutorial.html"
+            },{
+                "name": "游戏蛮牛 - C++中文翻译用户手册",
+                "url": "http://docs.manew.com/cpp/"
             }
         ],
         "STL": [{
