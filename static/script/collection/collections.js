@@ -30,9 +30,6 @@ var collections = {
                 "name": "Linux入门教程 - C语言中文网",
                 "url": "http://c.biancheng.net/cpp/linux/"
             },{
-                "name": "Official Ubuntu Documentation",
-                "url": "https://help.ubuntu.com/"
-            },{
                 "name": "Unix中文教程&trade;",
                 "url": "https://www.yiibai.com/unix"
             },{
@@ -44,6 +41,14 @@ var collections = {
             },{
                 "name": "Linux系列基础教程-嗨客网",
                 "url": "https://haicoder.net/linux/linux-tutorial.html"
+            }
+        ],
+        "Linux-Ubuntu": [{
+                "name": "Official Ubuntu Documentation",
+                "url": "https://help.ubuntu.com/"
+            },{
+                "name": "TechExpert - Ubuntu Tutorials Category List",
+                "url": "https://techexpert.tips/category/ubuntu/"
             }
         ],
         "Windows": [{
@@ -58,14 +63,17 @@ var collections = {
             },{
                 "name": "SDK教程 | C语言教程系列",
                 "url": "http://www.quanxue.cn/QT_XiaoYa/SdkIndex.html"
+            },{
+                "name": "TechExpert - Windows Tutorials Category List",
+                "url": "https://techexpert.tips/category/windows/"
             }
         ],
         "MFC": [{
-        	"name": "MFC 桌面应用程序 | Microsoft Docs",
-        	"url": "https://docs.microsoft.com/zh-cn/cpp/mfc/mfc-desktop-applications?view=vs-2019"
+            "name": "MFC 桌面应用程序 | Microsoft Docs",
+            "url": "https://docs.microsoft.com/zh-cn/cpp/mfc/mfc-desktop-applications?view=vs-2019"
         },{
-        	"name": "Windows32(MFC)教程",
-        	"url": "http://www.quanxue.cn/QT_XiaoYa/MfcIndex.html"
+            "name": "Windows32(MFC)教程",
+            "url": "http://www.quanxue.cn/QT_XiaoYa/MfcIndex.html"
         }],
     },
     "Web": {
@@ -213,8 +221,8 @@ var collections = {
             }
         ],
         "Element-ui": [{
-        	"name": "Element - The world's most popular Vue UI framework",
-        	"url": "https://element.eleme.io/#/en-US/component/installation"
+            "name": "Element - The world's most popular Vue UI framework",
+            "url": "https://element.eleme.io/#/en-US/component/installation"
         }],
         "Layui": [{
                 "name": "layui开发使用文档 - 入门指南",
@@ -434,6 +442,9 @@ var collections = {
         "Elasticsearch": [{
                 "name": "Elasticsearch 权威指南（中文版）",
                 "url": "http://wiki.jikexueyuan.com/project/elasticsearch-definitive-guide-cn/"
+            },{
+                "name": "ElasticSearch Archives - TechExpert",
+                "url": "https://techexpert.tips/category/elasticsearch/"
             }
         ],
         "SQLite": [{
@@ -694,6 +705,9 @@ var collections = {
         "PowerShell": [{
                 "name": "PowerShell Scripting | Microsoft Docs",
                 "url": "https://docs.microsoft.com/en-us/powershell/scripting"
+            },{
+                "name": "PowerShell Archives - TechExpert",
+                "url": "https://techexpert.tips/powershell/"
             }
         ],
         "DOS": [{
