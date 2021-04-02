@@ -234,3 +234,10 @@ nmap -sS 192.168.88.43
 # test is port open
 nmap 192.168.88.43 -p 80
 ```
+
+
+### 9.base64
+```shell
+echo test|base64
+echo dGVzdAo=|base64 -d
+```
