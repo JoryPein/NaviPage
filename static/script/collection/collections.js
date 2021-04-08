@@ -445,6 +445,9 @@ var collections = {
             },{
                 "name": "ElasticSearch Archives - TechExpert",
                 "url": "https://techexpert.tips/category/elasticsearch/"
+            },{
+                "name": "elasticsearch中文文档",
+                "url": "http://doc.codingdict.com/elasticsearch/"
             }
         ],
         "SQLite": [{
